@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, SafeAreaView } from 'react-native';
 import RandomPicker from './src/components/RandomPicker';
+import { theme } from './src/styles/theme';
 
 export default function App() {
   return (
@@ -14,6 +15,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f8fafc'
+    backgroundColor: theme.colors.background
   }
 });

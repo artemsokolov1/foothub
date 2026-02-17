@@ -44,7 +44,7 @@ export default function RandomPicker() {
         }),
         Animated.spring(scaleAnim, {
           toValue: 1,
-          friction: 5,
+          friction: 8,
           tension: 40,
           useNativeDriver: true
         })
