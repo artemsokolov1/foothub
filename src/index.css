@@ -112,7 +112,7 @@ body {
 }
 
 .siuuu-btn {
-  touch-action: none;
+  touch-action: manipulation;
   -webkit-user-select: none;
   user-select: none;
   -webkit-touch-callout: none;
@@ -121,18 +121,21 @@ body {
 
 @keyframes siuuu-yell {
   0% {
-    transform: rotate(0deg);
+    transform: scale(1) rotate(0deg);
   }
-  40% {
-    transform: rotate(-7deg);
+  35% {
+    transform: scale(1.22) rotate(-8deg);
+  }
+  70% {
+    transform: scale(1.08) rotate(6deg);
   }
   100% {
-    transform: rotate(0deg);
+    transform: scale(1) rotate(0deg);
   }
 }
 
 .siuuu-yell {
-  animation: siuuu-yell 0.28s ease-out;
+  animation: siuuu-yell 0.7s ease-out;
 }
 
 /* Горизонтальные разделы в шапке: скролл, без полосы. */

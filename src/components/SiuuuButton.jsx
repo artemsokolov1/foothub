@@ -1,66 +1,49 @@
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-const SRC = "/sfx/siuuu.mp3";
-
-let shot = null;
-
-function getShot() {
-  if (!shot) {
-    shot = new Audio(SRC);
-    shot.preload = "auto";
-    shot.playsInline = true;
-    shot.load();
-  }
-  return shot;
-}
-
 /**
- * Один крик, новый тап обрывает старый.
- * preventDefault — иначе iOS при серии тапов зумит страницу.
+ * Как в начале: один файл, клик — SIUUU.
+ * Серию перезапусков и Web Audio на телефоне Safari ломает — не трогаем.
  */
 export default function SiuuuButton() {
   const { pathname } = useLocation();
-  const btnRef = useRef(null);
-  const lastTap = useRef(0);
+  const audioRef = useRef(null);
+  const [yelling, setYelling] = useState(false);
   const hideOnGame = /^\/games\/.+/.test(pathname);
+
+  useEffect(() => {
+    const audio = new Audio("/sfx/siuuu.mp3");
+    audio.preload = "auto";
+    audioRef.current = audio;
+    return () => {
+      audio.pause();
+      audioRef.current = null;
+    };
+  }, []);
 
   if (hideOnGame) return null;
 
-  function kickAnimation() {
-    const el = btnRef.current;
-    if (!el) return;
-    el.classList.remove("siuuu-yell");
-    void el.offsetWidth;
-    el.classList.add("siuuu-yell");
-  }
-
-  function yell(event) {
-    event.preventDefault();
-    event.stopPropagation();
-    const now = performance.now();
-    if (now - lastTap.current < 40) return;
-    lastTap.current = now;
-    const audio = getShot();
-    audio.pause();
+  async function yell() {
+    const audio = audioRef.current;
+    if (!audio) return;
     try {
       audio.currentTime = 0;
+      await audio.play();
     } catch {
-      /* iOS до первого play */
+      /* без жеста браузер может зажать звук — повторный тап пройдёт. */
     }
-    const playing = audio.play();
-    if (playing && typeof playing.catch === "function") playing.catch(() => {});
-    kickAnimation();
+    setYelling(true);
+    window.setTimeout(() => setYelling(false), 700);
   }
 
   return (
     <button
-      ref={btnRef}
       type="button"
-      onPointerDown={yell}
-      onTouchStart={yell}
+      onClick={yell}
       aria-label="SIUUU"
-      className="siuuu-btn fixed z-40 flex h-20 w-20 items-end justify-center sm:h-24 sm:w-24"
+      className={`siuuu-btn fixed z-40 flex h-20 w-20 items-end justify-center sm:h-24 sm:w-24 ${
+        yelling ? "siuuu-yell" : ""
+      }`}
       style={{
         right: "max(0.75rem, env(safe-area-inset-right))",
         bottom: "max(0.75rem, env(safe-area-inset-bottom))",
@@ -72,7 +55,7 @@ export default function SiuuuButton() {
         width="96"
         height="98"
         draggable="false"
-        className="pointer-events-none h-full w-full object-contain drop-shadow-[0_8px_18px_rgba(0,0,0,0.65)]"
+        className="h-full w-full object-contain drop-shadow-[0_8px_18px_rgba(0,0,0,0.65)]"
       />
     </button>
   );
