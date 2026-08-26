@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+/* Палитра и шрифт объявлены здесь, а не в конфиге: в Tailwind 4 тема живёт
+   в CSS, и все токены сразу доступны как классы вида bg-ink-900, text-neon. */
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, sans-serif;
+
+  --color-ink-950: #050608;
+  --color-ink-900: #0a0c10;
+  --color-ink-800: #12151c;
+  --color-ink-700: #1b202a;
+  --color-ink-600: #2a3140;
+
+  /* Неон — цвет действия. Им красится только то, что нажимают. */
+  --color-neon: #b6ff3c;
+  --color-neon-dim: #8fd420;
+  /* Оранжевый — цвет выгоды: суммы бонусов и промокоды. */
+  --color-flame: #ff7a1a;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Тёмная тема здесь не выбор пользователя, а часть оформления:
+     сообщаем браузеру, чтобы он не подкрашивал поля ввода в светлое. */
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-ink-950);
+  color: #eef1f6;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Фоновое свечение: два мягких пятна вместо тяжёлой графики.
+   fixed — чтобы при прокрутке фон оставался на месте. */
+.glow-field::before,
+.glow-field::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  width: 60vmax;
+  height: 60vmax;
+  border-radius: 9999px;
+  filter: blur(90px);
+  opacity: 0.16;
+  pointer-events: none;
+}
+
+.glow-field::before {
+  top: -22vmax;
+  left: -18vmax;
+  background: var(--color-neon);
+}
+
+.glow-field::after {
+  bottom: -26vmax;
+  right: -20vmax;
+  background: var(--color-flame);
+}
+
+/* Тонкая светящаяся рамка карточки. Обычным border такого не сделать:
+   нужен градиент по контуру. */
+.edge-glow {
+  position: relative;
+}
+
+.edge-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    140deg,
+    color-mix(in srgb, var(--color-neon) 55%, transparent),
+    transparent 45%,
+    color-mix(in srgb, var(--color-flame) 35%, transparent)
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.edge-glow:hover::before,
+.edge-glow:focus-within::before {
+  opacity: 1;
+}
+
+/* Канвас игры: жесты не должны скроллить страницу и вызывать pull-to-refresh. */
+.game-stage {
+  display: block;
+  background: #050608;
+  touch-action: none;
+  overscroll-behavior: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.game-lock,
+.game-lock body {
+  overflow: hidden;
+  overscroll-behavior: none;
+  height: 100%;
+}
+
+@keyframes siuuu-yell {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  35% {
+    transform: scale(1.22) rotate(-8deg);
+  }
+  70% {
+    transform: scale(1.08) rotate(6deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.siuuu-yell {
+  animation: siuuu-yell 0.7s ease-out;
+}
+
+/* Кому анимации мешают — тому их не показываем. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
