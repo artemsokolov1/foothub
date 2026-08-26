@@ -3,17 +3,26 @@ import { useLocation } from "react-router-dom";
 
 const SRC = "/sfx/siuuu.mp3";
 
+let shot = null;
+
+function getShot() {
+  if (!shot) {
+    shot = new Audio(SRC);
+    shot.preload = "auto";
+    shot.playsInline = true;
+    shot.load();
+  }
+  return shot;
+}
+
 /**
- * Два <audio> по очереди: играем заранее заряженный, предыдущий стопаем.
- * Web Audio на телефоне снова остался немым — не используем.
+ * Один крик, новый тап обрывает старый.
+ * preventDefault — иначе iOS при серии тапов зумит страницу.
  */
 export default function SiuuuButton() {
   const { pathname } = useLocation();
-  const aRef = useRef(null);
-  const bRef = useRef(null);
-  const useA = useRef(true);
-  const lastTap = useRef(0);
   const btnRef = useRef(null);
+  const lastTap = useRef(0);
   const hideOnGame = /^\/games\/.+/.test(pathname);
 
   if (hideOnGame) return null;
@@ -27,61 +36,44 @@ export default function SiuuuButton() {
   }
 
   function yell(event) {
-    if (event.pointerType === "mouse" && event.button !== 0) return;
+    event.preventDefault();
+    event.stopPropagation();
     const now = performance.now();
-    // pointerdown + click на одном тапе не должны сыграть дважды
-    if (now - lastTap.current < 50) return;
+    if (now - lastTap.current < 40) return;
     lastTap.current = now;
-
-    const next = useA.current ? aRef.current : bRef.current;
-    const prev = useA.current ? bRef.current : aRef.current;
-    useA.current = !useA.current;
-
-    if (prev) {
-      prev.pause();
-      try {
-        prev.currentTime = 0;
-      } catch {
-        /* iOS */
-      }
-    }
-    if (!next) return;
+    const audio = getShot();
+    audio.pause();
     try {
-      next.currentTime = 0;
+      audio.currentTime = 0;
     } catch {
-      /* iOS */
+      /* iOS до первого play */
     }
-    const playing = next.play();
+    const playing = audio.play();
     if (playing && typeof playing.catch === "function") playing.catch(() => {});
     kickAnimation();
   }
 
   return (
-    <>
-      <audio ref={aRef} src={SRC} preload="auto" playsInline className="hidden" />
-      <audio ref={bRef} src={SRC} preload="auto" playsInline className="hidden" />
-      <button
-        ref={btnRef}
-        type="button"
-        onPointerDown={yell}
-        onClick={yell}
-        aria-label="SIUUU"
-        className="fixed z-40 flex h-20 w-20 touch-manipulation items-end justify-center select-none sm:h-24 sm:w-24"
-        style={{
-          right: "max(0.75rem, env(safe-area-inset-right))",
-          bottom: "max(0.75rem, env(safe-area-inset-bottom))",
-          WebkitTapHighlightColor: "transparent",
-        }}
-      >
-        <img
-          src="/ronaldo-siuuu.png"
-          alt=""
-          width="96"
-          height="98"
-          draggable="false"
-          className="pointer-events-none h-full w-full object-contain drop-shadow-[0_8px_18px_rgba(0,0,0,0.65)]"
-        />
-      </button>
-    </>
+    <button
+      ref={btnRef}
+      type="button"
+      onPointerDown={yell}
+      onTouchStart={yell}
+      aria-label="SIUUU"
+      className="siuuu-btn fixed z-40 flex h-20 w-20 items-end justify-center sm:h-24 sm:w-24"
+      style={{
+        right: "max(0.75rem, env(safe-area-inset-right))",
+        bottom: "max(0.75rem, env(safe-area-inset-bottom))",
+      }}
+    >
+      <img
+        src="/ronaldo-siuuu.png"
+        alt=""
+        width="96"
+        height="98"
+        draggable="false"
+        className="pointer-events-none h-full w-full object-contain drop-shadow-[0_8px_18px_rgba(0,0,0,0.65)]"
+      />
+    </button>
   );
 }
