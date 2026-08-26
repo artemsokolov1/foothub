@@ -137,7 +137,7 @@ export default function ExpressOfDay({
           className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-3 rounded-2xl bg-gradient-to-b from-neon to-neon-dim px-6 py-3.5 text-base font-extrabold text-ink-950 shadow-[0_8px_0_-2px_#4f7a10] transition-transform duration-150 active:translate-y-[3px] active:shadow-[0_5px_0_-2px_#4f7a10] focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-neon sm:w-auto sm:px-8"
         >
           <Send className="h-5 w-5 shrink-0" strokeWidth={2.5} aria-hidden="true" />
-          Собрать в Телеграм
+          Телеграм канал
         </a>
       ) : null}
 
