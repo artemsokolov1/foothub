@@ -34,26 +34,6 @@ function Brand({ compact }) {
   );
 }
 
-function Avatar({ compact }) {
-  return (
-    <div className="relative shrink-0">
-      <div
-        aria-hidden="true"
-        className="absolute -inset-1 rounded-full bg-gradient-to-br from-neon/40 to-flame/30 blur-md"
-      />
-      <img
-        src="/avatar.jpg"
-        alt="Аватар канала"
-        width="48"
-        height="48"
-        className={`relative rounded-full object-cover ring-2 ring-white/15 shadow-[0_10px_24px_-8px_rgba(0,0,0,0.9)] ${
-          compact ? "h-9 w-9 sm:h-10 sm:w-10" : "h-10 w-10 sm:h-11 sm:w-11"
-        }`}
-      />
-    </div>
-  );
-}
-
 function SportNav() {
   const { pathname, hash } = useLocation();
   const bonuses = hash === "#bonuses";
@@ -109,7 +89,6 @@ export default function Header({ compact = false }) {
           <div className="hidden min-w-0 flex-1 sm:block">
             {compact ? null : <SportNav />}
           </div>
-          <Avatar compact={compact} />
         </div>
         {compact ? null : (
           <div className="mt-1 sm:hidden">
