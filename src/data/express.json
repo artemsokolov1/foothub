@@ -63,6 +63,72 @@
           }
         ]
       }
+    ],
+    "matches": [
+      {
+        "home": "Лион",
+        "away": "Фенербахче",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
+        "game": "Футбол",
+        "slug": "26-08-2026-olympique-lyon-fenerbahce-istanbul"
+      },
+      {
+        "home": "Викинг",
+        "away": "Динамо Загреб",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
+        "game": "Футбол",
+        "slug": "26-08-2026-viking-dinamo-zagreb"
+      },
+      {
+        "home": "Целе",
+        "away": "Слован Братислава",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
+        "game": "Футбол",
+        "slug": "26-08-2026-celje-slovan-bratislava"
+      },
+      {
+        "home": "Реал Мадрид",
+        "away": "Реал Сосьедад",
+        "kickoff": "22:00",
+        "league": "Ла Лига",
+        "game": "Футбол",
+        "slug": "26-08-2026-real-madrid-real-sociedad"
+      },
+      {
+        "home": "АЕК Афины",
+        "away": "Левски София",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
+        "game": "Футбол",
+        "slug": "26-08-2026-aek-athens-levski-sofia"
+      },
+      {
+        "home": "Тоттенхэм",
+        "away": "Чарльтон",
+        "kickoff": "21:45",
+        "league": "Кубок лиги",
+        "game": "Футбол",
+        "slug": "26-08-2026-tottenham-hotspur-charlton"
+      },
+      {
+        "home": "Брэдфорд Сити",
+        "away": "Бернли",
+        "kickoff": "21:45",
+        "league": "Кубок лиги",
+        "game": "Футбол",
+        "slug": "26-08-2026-bradford-city-burnley"
+      },
+      {
+        "home": "Престон Норт Энд",
+        "away": "Эвертон",
+        "kickoff": "22:00",
+        "league": "Кубок лиги",
+        "game": "Футбол",
+        "slug": "26-08-2026-preston-north-end-everton"
+      }
     ]
   },
   "hockey": {
@@ -100,6 +166,32 @@
           }
         ]
       }
+    ],
+    "matches": [
+      {
+        "home": "Локомотив",
+        "away": "Нефтехимик",
+        "kickoff": "12:00",
+        "league": "",
+        "game": "Хоккей",
+        "slug": ""
+      },
+      {
+        "home": "Авангард",
+        "away": "Сибирь",
+        "kickoff": "16:30",
+        "league": "",
+        "game": "Хоккей",
+        "slug": ""
+      },
+      {
+        "home": "Металлург Магнитогорск",
+        "away": "Трактор",
+        "kickoff": "17:00",
+        "league": "",
+        "game": "Хоккей",
+        "slug": ""
+      }
     ]
   },
   "esports": {
@@ -113,7 +205,7 @@
       {
         "home": "FURIA",
         "away": "paiN",
-        "kickoff": "20:30",
+        "kickoff": "20:55",
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "26-08-2026-furia-pain"

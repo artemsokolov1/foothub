@@ -127,7 +127,17 @@ body {
 }
 
 .siuuu-yell {
-  animation: siuuu-yell 0.7s ease-out;
+  animation: siuuu-yell 0.45s ease-out;
+}
+
+/* Горизонтальные разделы в шапке: скролл, без полосы. */
+.nav-scroll {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.nav-scroll::-webkit-scrollbar {
+  display: none;
 }
 
 /* Кому анимации мешают — тому их не показываем. */

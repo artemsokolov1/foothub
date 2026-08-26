@@ -12,7 +12,7 @@ export const SPORTS = [
     path: "/hockey",
     title: "Хоккей",
     accent: "КХЛ",
-    blurb: "Хоккейный экспресс дня по клубам КХЛ.",
+    blurb: "Матчи КХЛ и хоккейный экспресс дня.",
   },
   {
     id: "esports",
