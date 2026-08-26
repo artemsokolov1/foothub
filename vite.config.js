@@ -44,7 +44,7 @@ function spaFallbacks() {
     closeBundle() {
       const index = "dist/index.html";
       copyFileSync(index, "dist/404.html");
-      for (const rel of ["games", "games/penalty", "games/keepyup", "games/keeper", "football", "hockey", "esports"]) {
+      for (const rel of ["games", "games/yesno", "games/dice", "games/winner", "football", "hockey", "esports"]) {
         mkdirSync(join("dist", rel), { recursive: true });
         copyFileSync(index, join("dist", rel, "index.html"));
       }

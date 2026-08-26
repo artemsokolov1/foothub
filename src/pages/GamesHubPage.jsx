@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Goal, Hand, Shield } from "lucide-react";
+import { Dices, HelpCircle, Swords } from "lucide-react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
@@ -8,14 +8,14 @@ import TiltCard from "../components/TiltCard";
 import { GAMES } from "../games/catalog";
 
 const ICONS = {
-  penalty: Goal,
-  keepyup: Hand,
-  keeper: Shield,
+  yesno: HelpCircle,
+  dice: Dices,
+  winner: Swords,
 };
 
 export default function GamesHubPage() {
   useEffect(() => {
-    document.title = "Футбольные игры — FootHub";
+    document.title = "Игры — FootHub";
     return () => {
       document.title = "FootHub — бонусы букмекеров и прогнозы на спорт";
     };
@@ -31,7 +31,7 @@ export default function GamesHubPage() {
           className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-neon/25 bg-neon/10 px-3.5 py-1.5 text-xs font-bold tracking-wide text-neon uppercase"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-neon" />
-          Нажал — и всё, 15–40 секунд
+          18+. Для развлечения, не ставка
         </motion.p>
         <motion.h1
           initial={{ y: 18, opacity: 0 }}
@@ -39,9 +39,9 @@ export default function GamesHubPage() {
           transition={{ delay: 0.05 }}
           className="max-w-3xl text-4xl font-extrabold tracking-tight sm:text-6xl"
         >
-          Футбольные{" "}
+          Игры на{" "}
           <span className="bg-gradient-to-br from-neon via-neon to-flame bg-clip-text text-transparent">
-            игры
+            удачу
           </span>
         </motion.h1>
         <motion.p
@@ -50,13 +50,13 @@ export default function GamesHubPage() {
           transition={{ delay: 0.1 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white/65 sm:text-xl"
         >
-          Выиграй бонус у букмекера. Три короткие игры без регистрации.
-          Бонус — тот же оффер, что на главной.
+          Да или нет, кубик и кто выиграет. Без регистрации. Бонус — тот
+          же оффер, что на главной.
         </motion.p>
 
         <ul className="mt-10 grid grid-cols-1 gap-4 sm:mt-12 sm:grid-cols-3 sm:gap-5">
           {GAMES.map((game, index) => {
-            const Icon = ICONS[game.slug] ?? Goal;
+            const Icon = ICONS[game.slug] ?? HelpCircle;
             return (
               <motion.li
                 key={game.slug}

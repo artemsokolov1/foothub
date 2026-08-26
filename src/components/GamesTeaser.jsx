@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { Goal, Hand, Shield } from "lucide-react";
+import { Dices, HelpCircle, Swords } from "lucide-react";
 import { Link } from "react-router-dom";
 import { GAMES } from "../games/catalog";
 
 const ICONS = {
-  penalty: Goal,
-  keepyup: Hand,
-  keeper: Shield,
+  yesno: HelpCircle,
+  dice: Dices,
+  winner: Swords,
 };
 
 export default function GamesTeaser() {
@@ -19,14 +19,13 @@ export default function GamesTeaser() {
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         className="text-3xl leading-tight font-extrabold tracking-tight sm:text-5xl"
       >
-        Футбольные{" "}
+        Игры на{" "}
         <span className="bg-gradient-to-r from-neon to-flame bg-clip-text text-transparent">
-          игры
+          удачу
         </span>
       </motion.h2>
       <p className="mt-3 max-w-xl text-base text-white/60 sm:text-lg">
-        Выиграй бонус у букмекера — пенальти, чеканка, вратарь. С телефона,
-        одной рукой.
+        Да или нет, кубик, кто выиграет. Для развлечения, 18+.
       </p>
 
       <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4">

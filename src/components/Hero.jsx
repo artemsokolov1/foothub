@@ -117,7 +117,7 @@ export default function Hero() {
           to="/games"
           className="inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-white/45 transition-colors hover:text-neon"
         >
-          Футбольные игры — выиграй бонус
+          Игры — да/нет, кубик
         </Link>
         <a
           href="#bonuses"

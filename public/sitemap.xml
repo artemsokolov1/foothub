@@ -26,17 +26,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://foothub.ru/games/penalty</loc>
+    <loc>https://foothub.ru/games/yesno</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foothub.ru/games/keepyup</loc>
+    <loc>https://foothub.ru/games/dice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://foothub.ru/games/keeper</loc>
+    <loc>https://foothub.ru/games/winner</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
