@@ -44,8 +44,9 @@ site/
     App.jsx                  маршруты /, /games, /games/:slug
     index.css                палитра, шрифт, свечение фона, рамка карточки
     data/bookmakers.js       ЕДИНСТВЕННОЕ место с офферами и ссылками
+    data/express.json        экспресс дня, пишет парсер src/sources/express.py
     pages/
-      HomePage.jsx           шапка, герой, тизер игр, сетка БК, подвал
+      HomePage.jsx           шапка, герой, экспресс, тизер игр, сетка БК, подвал
       GamesHubPage.jsx       хаб трёх игр
       GamePage.jsx           канвас, оверлеи, экран бонуса
     games/
@@ -56,6 +57,7 @@ site/
     components/
       Header.jsx             логотип, Игры, Бонусы, аватарка
       Hero.jsx               заголовок и кнопки каналов
+      ExpressOfDay.jsx       экспресс дня №1 / №2 со stavka.tv
       GamesTeaser.jsx        три игры на главной
       BookmakerGrid.jsx      сетка 1 / 2 / 3 колонки
       BookmakerCard.jsx      карточка, промокод, кнопка «Забрать бонус»

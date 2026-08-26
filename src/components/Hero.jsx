@@ -107,6 +107,12 @@ export default function Hero() {
         custom={0.34}
         className="mt-10 flex flex-col gap-3 sm:mt-14 sm:flex-row sm:items-center sm:gap-6"
       >
+        <a
+          href="#express"
+          className="inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-white/45 transition-colors hover:text-neon"
+        >
+          Экспресс дня
+        </a>
         <Link
           to="/games"
           className="inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-white/45 transition-colors hover:text-neon"

@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-26",
+  "slug": "express-2026-august-26-football",
+  "source": "stavka",
+  "source_url": "https://stavka.tv/articles/express/express-2026-august-26-football",
+  "parlays": [
+    {
+      "number": 1,
+      "title": "Экспресс дня №1",
+      "total_odd": 4.42,
+      "legs": [
+        {
+          "home": "АЕК",
+          "away": "Левски",
+          "pick": "ТМ (2.5)",
+          "odd": 1.75,
+          "kickoff": "22:00"
+        },
+        {
+          "home": "Викинг",
+          "away": "Динамо Загреб",
+          "pick": "X2",
+          "odd": 1.61,
+          "kickoff": "22:00"
+        },
+        {
+          "home": "Целе",
+          "away": "Слован Братислава",
+          "pick": "X2",
+          "odd": 1.57,
+          "kickoff": "22:00"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Экспресс дня №2",
+      "total_odd": 5.15,
+      "legs": [
+        {
+          "home": "Ньюкасл",
+          "away": "Вест Бромвич",
+          "pick": "Ф1 (-1.5)",
+          "odd": 1.94,
+          "kickoff": "21:45"
+        },
+        {
+          "home": "Тоттенхэм",
+          "away": "Чарльтон",
+          "pick": "Ф1 (-1.5)",
+          "odd": 1.69,
+          "kickoff": "21:45"
+        },
+        {
+          "home": "Престон",
+          "away": "Эвертон",
+          "pick": "П2",
+          "odd": 1.57,
+          "kickoff": "22:00"
+        }
+      ]
+    }
+  ]
+}

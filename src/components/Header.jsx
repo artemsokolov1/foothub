@@ -3,13 +3,13 @@ import { Link, NavLink } from "react-router-dom";
 
 function navClass({ isActive }) {
   return (
-    "flex h-11 items-center rounded-xl px-3 text-sm font-extrabold tracking-tight " +
+    "flex h-11 items-center rounded-xl px-2 text-xs font-extrabold tracking-tight sm:px-3 sm:text-sm " +
     (isActive ? "bg-white/8 text-neon" : "text-white/70 hover:text-white")
   );
 }
 
 /**
- * Шапка: слева логотип с названием, справа раздел игр, бонусы, аватарка.
+ * Шапка: слева логотип, справа экспресс, игры, бонусы, аватарка.
  *
  * compact — на странице игры, чтобы канвасу осталось больше высоты.
  */
@@ -45,12 +45,18 @@ export default function Header({ compact = false }) {
         </Link>
 
         <div className="flex shrink-0 items-center gap-1 sm:gap-2">
+          <Link
+            to="/#express"
+            className="flex h-11 items-center rounded-xl px-2 text-xs font-extrabold tracking-tight text-white/70 hover:text-white sm:px-3 sm:text-sm"
+          >
+            Экспресс
+          </Link>
           <NavLink to="/games" className={navClass}>
             Игры
           </NavLink>
           <Link
             to="/#bonuses"
-            className="flex h-11 items-center rounded-xl px-3 text-sm font-extrabold tracking-tight text-white/70 hover:text-white"
+            className="flex h-11 items-center rounded-xl px-2 text-xs font-extrabold tracking-tight text-white/70 hover:text-white sm:px-3 sm:text-sm"
           >
             Бонусы
           </Link>
