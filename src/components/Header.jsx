@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import Logo from "./Logo";
 
 function itemClass(active) {
   return (
@@ -15,14 +16,10 @@ function navClass({ isActive }) {
 function Brand({ compact }) {
   return (
     <Link to="/" className="flex shrink-0 items-center gap-3">
-      <img
-        src="/logo.png"
+      <Logo
+        compact={compact}
         alt="Логотип FootHub"
-        width="44"
-        height="44"
-        className={`shrink-0 rounded-xl object-cover shadow-[0_6px_20px_-6px_rgba(182,255,60,0.55)] ${
-          compact ? "h-9 w-9 sm:h-10 sm:w-10" : "h-10 w-10 sm:h-11 sm:w-11"
-        }`}
+        className="shadow-[0_6px_20px_-6px_rgba(182,255,60,0.55)]"
       />
       <span className="text-lg font-extrabold tracking-tight whitespace-nowrap sm:text-xl">
         Foot

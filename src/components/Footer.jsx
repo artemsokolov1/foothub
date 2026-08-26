@@ -1,6 +1,7 @@
 import { MessageCircle, Send } from "lucide-react";
 import { Link } from "react-router-dom";
 import { CHANNELS } from "../data/bookmakers";
+import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -8,13 +9,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 pb-28 sm:px-6 sm:py-12 sm:pb-12">
         <div className="flex flex-col items-start justify-between gap-5 sm:flex-row sm:items-center">
           <div className="flex items-center gap-3">
-            <img
-              src="/logo.png"
-              alt=""
-              width="36"
-              height="36"
-              className="h-9 w-9 rounded-lg object-cover"
-            />
+            <Logo compact className="rounded-lg" />
             <span className="text-base font-extrabold tracking-tight">
               FootHub
             </span>
