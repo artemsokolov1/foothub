@@ -7,6 +7,13 @@ import Header from "../components/Header";
 import MatchesOfDay from "../components/MatchesOfDay";
 
 const COPY = {
+  football: {
+    badge: "Футбол",
+    title: "Футбол",
+    accent: "сегодня",
+    lead: "Матчи дня и экспресс. Ставку собирай в Телеграме.",
+    empty: "Футбольных матчей на сегодня пока нет. Как появятся — страница обновится сама.",
+  },
   hockey: {
     badge: "КХЛ",
     title: "Хоккей",
@@ -91,7 +98,7 @@ export default function SportPage({ kind }) {
               {meta.empty}
             </p>
             <Link to="/" className="mt-5 inline-flex min-h-11 items-center text-sm font-extrabold text-neon">
-              На главную — футбол
+              На главную
             </Link>
           </section>
         ) : null}

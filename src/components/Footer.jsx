@@ -22,6 +22,9 @@ export default function Footer() {
 
           <nav className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-extrabold text-white/50">
             <Link to="/" className="flex min-h-11 items-center hover:text-neon">
+              Главная
+            </Link>
+            <Link to="/football" className="flex min-h-11 items-center hover:text-neon">
               Футбол
             </Link>
             <Link to="/hockey" className="flex min-h-11 items-center hover:text-neon">

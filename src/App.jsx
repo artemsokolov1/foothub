@@ -24,6 +24,7 @@ export default function App() {
       <Suspense fallback={<PageFallback />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/football" element={<SportPage kind="football" />} />
           <Route path="/hockey" element={<SportPage kind="hockey" />} />
           <Route path="/esports" element={<SportPage kind="esports" />} />
           <Route path="/games" element={<GamesHubPage />} />

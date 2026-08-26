@@ -58,7 +58,7 @@ export default function Hero() {
         className="mb-5 inline-flex items-center gap-2 rounded-full border border-neon/25 bg-neon/10 px-3.5 py-1.5 text-xs font-bold tracking-wide text-neon uppercase sm:text-sm"
       >
         <span className="h-1.5 w-1.5 rounded-full bg-neon" />
-        Прогнозы на футбол каждый день
+        Бонусы, игры и прогнозы каждый день
       </motion.p>
 
       <motion.h1
@@ -107,18 +107,12 @@ export default function Hero() {
         custom={0.34}
         className="mt-10 flex flex-col gap-3 sm:mt-14 sm:flex-row sm:items-center sm:gap-6"
       >
-        <a
-          href="#matches"
+        <Link
+          to="/football"
           className="inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-white/45 transition-colors hover:text-neon"
         >
-          Матчи дня
-        </a>
-        <a
-          href="#express"
-          className="inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-white/45 transition-colors hover:text-neon"
-        >
-          Экспресс дня
-        </a>
+          Футбол — матчи и экспресс
+        </Link>
         <Link
           to="/games"
           className="inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-white/45 transition-colors hover:text-neon"

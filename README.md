@@ -57,7 +57,7 @@ site/
       engine.js              low-poly стадион, мяч, вратарь, свайпы
       penalty.js / keepyup.js / keeper.js
     components/
-      Header.jsx             логотип, Игры, Бонусы, аватарка
+      Header.jsx             логотип, разделы спорта, игры, бонусы
       Hero.jsx               заголовок и кнопки каналов
       ExpressOfDay.jsx       экспресс дня №1 / №2 со stavka.tv
       SportsTeaser.jsx       футбол / хоккей / кибер

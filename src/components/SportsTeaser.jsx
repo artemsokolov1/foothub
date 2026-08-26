@@ -18,8 +18,8 @@ export default function SportsTeaser() {
         </span>
       </motion.h2>
       <p className="mt-3 max-w-xl text-base text-white/60 sm:text-lg">
-        Футбол — основной. Хоккей и киберспорт — свои разделы, без отдельного
-        канала и без чужих ставок.
+        Футбол, хоккей и киберспорт — каждый в своём разделе. Бонусы и игры
+        остаются на главной.
       </p>
 
       <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4">

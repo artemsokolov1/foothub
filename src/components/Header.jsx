@@ -36,8 +36,8 @@ function Brand({ compact }) {
 
 function SportNav() {
   const { pathname, hash } = useLocation();
-  const bonuses = hash === "#bonuses";
-  const football = pathname === "/" && !bonuses;
+  const bonuses = pathname === "/" && hash === "#bonuses";
+  const home = pathname === "/" && !bonuses;
 
   return (
     <nav
@@ -47,8 +47,11 @@ function SportNav() {
       <NavLink
         to={{ pathname: "/", hash: "" }}
         end
-        className={() => itemClass(football)}
+        className={() => itemClass(home)}
       >
+        Главная
+      </NavLink>
+      <NavLink to="/football" className={navClass}>
         Футбол
       </NavLink>
       <NavLink to="/hockey" className={navClass}>
