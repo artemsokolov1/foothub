@@ -93,7 +93,7 @@ export default function Hero() {
         className="mt-9 flex flex-col gap-3 sm:mt-11 sm:flex-row sm:flex-wrap sm:gap-4"
       >
         <ChannelButton href={CHANNELS.telegram} icon={Send} primary>
-          Telegram @foothubru
+          Телеграм канал
         </ChannelButton>
         <ChannelButton href={CHANNELS.max} icon={MessageCircle}>
           Канал в MAX
