@@ -50,7 +50,7 @@ export default function GamesHubPage() {
           transition={{ delay: 0.1 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white/65 sm:text-xl"
         >
-          Да или нет, кубик и кто выиграет. Без регистрации. Бонус — тот
+          Говорящий Бен, кубик и кто выиграет. Без регистрации. Бонус — тот
           же оффер, что на главной.
         </motion.p>
 

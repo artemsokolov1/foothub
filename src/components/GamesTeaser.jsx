@@ -25,7 +25,7 @@ export default function GamesTeaser() {
         </span>
       </motion.h2>
       <p className="mt-3 max-w-xl text-base text-white/60 sm:text-lg">
-        Да или нет, кубик, кто выиграет. Для развлечения, 18+.
+        Говорящий Бен, кубик, кто выиграет. Для развлечения, 18+.
       </p>
 
       <ul className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4">
