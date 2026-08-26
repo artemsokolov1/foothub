@@ -1,11 +1,15 @@
 import { motion } from "framer-motion";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
-function navClass({ isActive }) {
+function itemClass(active) {
   return (
     "flex h-11 shrink-0 items-center rounded-xl px-3 text-sm font-extrabold tracking-tight " +
-    (isActive ? "bg-white/8 text-neon" : "text-white/70 hover:text-white")
+    (active ? "bg-white/8 text-neon" : "text-white/70 hover:text-white")
   );
+}
+
+function navClass({ isActive }) {
+  return itemClass(isActive);
 }
 
 function Brand({ compact }) {
@@ -51,12 +55,20 @@ function Avatar({ compact }) {
 }
 
 function SportNav() {
+  const { pathname, hash } = useLocation();
+  const bonuses = hash === "#bonuses";
+  const football = pathname === "/" && !bonuses;
+
   return (
     <nav
       aria-label="Разделы"
       className="nav-scroll flex items-center gap-1 overflow-x-auto sm:justify-end"
     >
-      <NavLink to="/" end className={navClass}>
+      <NavLink
+        to={{ pathname: "/", hash: "" }}
+        end
+        className={() => itemClass(football)}
+      >
         Футбол
       </NavLink>
       <NavLink to="/hockey" className={navClass}>
@@ -68,10 +80,7 @@ function SportNav() {
       <NavLink to="/games" className={navClass}>
         Игры
       </NavLink>
-      <Link
-        to="/#bonuses"
-        className="flex h-11 shrink-0 items-center rounded-xl px-3 text-sm font-extrabold tracking-tight text-white/70 hover:text-white"
-      >
+      <Link to="/#bonuses" className={itemClass(bonuses)}>
         Бонусы
       </Link>
     </nav>
