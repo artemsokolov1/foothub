@@ -4,23 +4,53 @@ import { useLocation } from "react-router-dom";
 const SRC = "/sfx/siuuu.mp3";
 
 /**
- * Один крик за раз: новый тап обрывает предыдущий, а не наслаивается.
- * Web Audio не используем — на телефоне он часто остаётся немым.
+ * Крик без паузы: буфер заранее в памяти, новый тап стопает старый источник
+ * и стартует сразу. pause()+currentTime на <audio> даёт тишину на телефоне.
  */
 export default function SiuuuButton() {
   const { pathname } = useLocation();
-  const audioRef = useRef(null);
+  const ctxRef = useRef(null);
+  const bufferRef = useRef(null);
+  const sourceRef = useRef(null);
+  const fallbackRef = useRef(null);
   const btnRef = useRef(null);
   const hideOnGame = /^\/games\/.+/.test(pathname);
 
   useEffect(() => {
-    const audio = new Audio(SRC);
-    audio.preload = "auto";
-    audio.load();
-    audioRef.current = audio;
+    const Ctx = window.AudioContext || window.webkitAudioContext;
+    if (!Ctx) {
+      const audio = new Audio(SRC);
+      audio.preload = "auto";
+      audio.load();
+      fallbackRef.current = audio;
+      return () => {
+        audio.pause();
+        fallbackRef.current = null;
+      };
+    }
+
+    const ctx = new Ctx();
+    ctxRef.current = ctx;
+    let cancelled = false;
+    fetch(SRC)
+      .then((res) => res.arrayBuffer())
+      .then((raw) => (cancelled ? null : ctx.decodeAudioData(raw)))
+      .then((buf) => {
+        if (!cancelled && buf) bufferRef.current = buf;
+      })
+      .catch(() => {});
+
     return () => {
-      audio.pause();
-      audioRef.current = null;
+      cancelled = true;
+      try {
+        sourceRef.current?.stop();
+      } catch {
+        /* уже остановлен */
+      }
+      sourceRef.current = null;
+      ctx.close().catch(() => {});
+      ctxRef.current = null;
+      bufferRef.current = null;
     };
   }, []);
 
@@ -34,19 +64,50 @@ export default function SiuuuButton() {
     el.classList.add("siuuu-yell");
   }
 
+  function startSource() {
+    const ctx = ctxRef.current;
+    const buf = bufferRef.current;
+    if (!ctx || !buf) return;
+    if (sourceRef.current) {
+      try {
+        sourceRef.current.stop(0);
+      } catch {
+        /* уже остановлен */
+      }
+      sourceRef.current = null;
+    }
+    const src = ctx.createBufferSource();
+    src.buffer = buf;
+    src.connect(ctx.destination);
+    src.start(0);
+    sourceRef.current = src;
+  }
+
   function yell(event) {
     if (event.pointerType === "mouse" && event.button !== 0) return;
-    const audio = audioRef.current;
+    kickAnimation();
+
+    const ctx = ctxRef.current;
+    if (ctx && bufferRef.current) {
+      if (ctx.state === "running") {
+        startSource();
+        return;
+      }
+      // resume обязан вызваться в том же жесте, иначе iOS молчит.
+      ctx.resume().then(startSource).catch(() => {});
+      return;
+    }
+
+    const audio = fallbackRef.current;
     if (!audio) return;
     audio.pause();
     try {
       audio.currentTime = 0;
     } catch {
-      /* iOS иногда не даёт мотать до первого play — тогда просто play. */
+      /* первый play на iOS */
     }
     const playing = audio.play();
     if (playing && typeof playing.catch === "function") playing.catch(() => {});
-    kickAnimation();
   }
 
   return (
