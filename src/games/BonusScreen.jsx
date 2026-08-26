@@ -90,7 +90,7 @@ function PromoChip({ code }) {
  * на счёт сайта» — бонус выдаёт букмекер по своей ссылке.
  */
 export default function BonusScreen({ onRetry }) {
-  const { featured, alternatives } = getBonusOffers();
+  const { featured } = getBonusOffers();
 
   return (
     <div className="flex max-h-[min(92dvh,720px)] w-full max-w-md flex-col gap-4 overflow-y-auto rounded-2xl border border-white/10 bg-ink-900/95 p-5 shadow-[0_24px_50px_-24px_rgba(0,0,0,0.9)]">
@@ -124,33 +124,6 @@ export default function BonusScreen({ onRetry }) {
       >
         Забрать бонус
       </a>
-
-      {alternatives.length > 0 ? (
-        <div>
-          <p className="mb-2 text-xs font-bold tracking-widest text-white/40 uppercase">
-            Ещё варианты
-          </p>
-          <ul className="grid grid-cols-2 gap-2">
-            {alternatives.map((bookmaker) => (
-              <li key={bookmaker.id}>
-                <a
-                  href={bookmaker.url}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  className="flex min-h-11 flex-col rounded-xl border border-white/8 bg-ink-800 px-3 py-2.5"
-                >
-                  <span className="truncate text-sm font-extrabold">
-                    {bookmaker.short}
-                  </span>
-                  <span className="truncate text-xs font-bold text-flame">
-                    {bookmaker.bonus}
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
 
       <div className="flex flex-col gap-2 sm:flex-row">
         <Link
