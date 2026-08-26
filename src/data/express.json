@@ -203,156 +203,36 @@
     "parlays": [],
     "matches": [
       {
-        "home": "INOX Division",
-        "away": "SPARTA",
-        "kickoff": "11:00",
-        "league": "NODWIN Clutch Series",
-        "game": "CS2",
-        "slug": "26-08-2026-inox-division-sparta"
-      },
-      {
-        "home": "ex-Sangal ALTERS",
-        "away": "Passion Academy",
-        "kickoff": "11:10",
-        "league": "United21",
-        "game": "CS2",
-        "slug": "26-08-2026-ex-sangal-alters-passion-academy"
-      },
-      {
-        "home": "Aurora",
-        "away": "G2",
+        "home": "Vitality",
+        "away": "Inner Circle Esports",
         "kickoff": "12:00",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "26-08-2026-aurora-gaming-g2"
+        "slug": "27-08-2026-vitality-inner-circle-esports"
       },
       {
-        "home": "Teletubisie",
-        "away": "Alliance",
-        "kickoff": "13:40",
-        "league": "United21",
-        "game": "CS2",
-        "slug": "26-08-2026-teletubisie-alliance"
-      },
-      {
-        "home": "G2 Ares",
-        "away": "Bushido Wildcats",
-        "kickoff": "14:00",
-        "league": "CCT Europe Series #7",
-        "game": "CS2",
-        "slug": "26-08-2026-g2-ares-bushido-wildcats"
-      },
-      {
-        "home": "Falcons Force",
-        "away": "Vexar",
-        "kickoff": "14:20",
-        "league": "Exort Fiesta",
-        "game": "CS2",
-        "slug": "26-08-2026-falcons-force-vexar"
-      },
-      {
-        "home": "ex-Zero Tenacity",
-        "away": "HyperSpirit",
+        "home": "MOUZ",
+        "away": "9z",
         "kickoff": "14:30",
-        "league": "NODWIN Clutch Series",
-        "game": "CS2",
-        "slug": "26-08-2026-ex-zero-tenacity-hyperspirit"
-      },
-      {
-        "home": "Spirit",
-        "away": "DENDELE",
-        "kickoff": "14:55",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "26-08-2026-spirit-dendele-cs"
+        "slug": "27-08-2026-mouz-9z"
       },
       {
-        "home": "Nuclear TigRES",
-        "away": "Bet-M 33",
-        "kickoff": "15:10",
-        "league": "Moscow Cyber Games European Qualifier",
-        "game": "CS2",
-        "slug": "26-08-2026-nuclear-tigeres-bet-m-33-"
-      },
-      {
-        "home": "Mai Tai",
-        "away": "Revise",
+        "home": "Legacy",
+        "away": "FUT Esports",
         "kickoff": "17:00",
-        "league": "Exort Fiesta",
-        "game": "CS2",
-        "slug": "26-08-2026-mai-tai-revise"
-      },
-      {
-        "home": "Black Phoenix",
-        "away": "HyperSpirit",
-        "kickoff": "17:20",
-        "league": "CCT Europe Series #7",
-        "game": "CS2",
-        "slug": "26-08-2026-black-phoenix-hyperspirit"
-      },
-      {
-        "home": "Natus Vincere",
-        "away": "M80",
-        "kickoff": "17:25",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "26-08-2026-natus-vincere-m80"
+        "slug": "27-08-2026-legacy-fut-esports"
       },
       {
-        "home": "GenOne",
-        "away": "Nordic Partners Gaming",
-        "kickoff": "17:45",
-        "league": "NODWIN Clutch Series",
-        "game": "CS2",
-        "slug": "26-08-2026-genone-nordic-partners-gaming-"
-      },
-      {
-        "home": "HOTU",
-        "away": "K27",
-        "kickoff": "18:10",
-        "league": "Moscow Cyber Games European Qualifier",
-        "game": "CS2",
-        "slug": "26-08-2026-hotu-k27"
-      },
-      {
-        "home": "Drip Too Hard",
-        "away": "UNiTY",
-        "kickoff": "20:20",
-        "league": "CCT Europe Series #7",
-        "game": "CS2",
-        "slug": "26-08-2026-drip-too-hard-unity-esports"
-      },
-      {
-        "home": "UPGRADE",
-        "away": "Bet-M 33",
-        "kickoff": "20:20",
-        "league": "NODWIN Clutch Series",
-        "game": "CS2",
-        "slug": "26-08-2026-cybershoke-prospects-bet-m-33-"
-      },
-      {
-        "home": "ex-Zero Tenacity",
-        "away": "Honvéd",
-        "kickoff": "20:35",
-        "league": "Exort Fiesta",
-        "game": "CS2",
-        "slug": "26-08-2026-ex-zero-tenacity-honv-d"
-      },
-      {
-        "home": "FURIA",
-        "away": "paiN",
-        "kickoff": "20:55",
+        "home": "Team Falcons",
+        "away": "Lynn Vision",
+        "kickoff": "19:30",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "26-08-2026-furia-pain"
-      },
-      {
-        "home": "Team Nemesis",
-        "away": "1WIN",
-        "kickoff": "21:00",
-        "league": "Moscow Cyber Games European Qualifier",
-        "game": "CS2",
-        "slug": "26-08-2026-team-nemesis-1win"
+        "slug": "27-08-2026-team-falcons-lynn-vision"
       }
     ]
   }
