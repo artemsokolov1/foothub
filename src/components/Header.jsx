@@ -13,9 +13,23 @@ function navClass({ isActive }) {
   return itemClass(isActive);
 }
 
+function scrollTop() {
+  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+}
+
 function Brand({ compact }) {
+  const { pathname, hash } = useLocation();
   return (
-    <Link to="/" className="flex shrink-0 items-center gap-3">
+    <Link
+      to={{ pathname: "/", hash: "" }}
+      className="flex shrink-0 items-center gap-3"
+      onClick={(event) => {
+        if (pathname === "/" && !hash) {
+          event.preventDefault();
+          scrollTop();
+        }
+      }}
+    >
       <Logo
         compact={compact}
         alt="Логотип FootHub"
@@ -45,22 +59,73 @@ function SportNav() {
         to={{ pathname: "/", hash: "" }}
         end
         className={() => itemClass(home)}
+        onClick={(event) => {
+          if (pathname === "/" && !hash) {
+            event.preventDefault();
+            scrollTop();
+          }
+        }}
       >
         Главная
       </NavLink>
-      <NavLink to="/football" className={navClass}>
+      <NavLink
+        to="/football"
+        className={navClass}
+        onClick={(event) => {
+          if (pathname === "/football") {
+            event.preventDefault();
+            scrollTop();
+          }
+        }}
+      >
         Футбол
       </NavLink>
-      <NavLink to="/hockey" className={navClass}>
+      <NavLink
+        to="/hockey"
+        className={navClass}
+        onClick={(event) => {
+          if (pathname === "/hockey") {
+            event.preventDefault();
+            scrollTop();
+          }
+        }}
+      >
         Хоккей
       </NavLink>
-      <NavLink to="/esports" className={navClass}>
+      <NavLink
+        to="/esports"
+        className={navClass}
+        onClick={(event) => {
+          if (pathname === "/esports") {
+            event.preventDefault();
+            scrollTop();
+          }
+        }}
+      >
         Кибер
       </NavLink>
-      <NavLink to="/games" className={navClass}>
+      <NavLink
+        to="/games"
+        className={navClass}
+        onClick={(event) => {
+          if (pathname === "/games") {
+            event.preventDefault();
+            scrollTop();
+          }
+        }}
+      >
         Игры
       </NavLink>
-      <Link to="/#bonuses" className={itemClass(bonuses)}>
+      <Link
+        to="/#bonuses"
+        className={itemClass(bonuses)}
+        onClick={(event) => {
+          if (pathname === "/" && hash === "#bonuses") {
+            event.preventDefault();
+            document.getElementById("bonuses")?.scrollIntoView({ behavior: "smooth" });
+          }
+        }}
+      >
         Бонусы
       </Link>
     </nav>
