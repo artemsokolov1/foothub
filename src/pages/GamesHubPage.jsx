@@ -31,7 +31,7 @@ export default function GamesHubPage() {
           className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-neon/25 bg-neon/10 px-3.5 py-1.5 text-xs font-bold tracking-wide text-neon uppercase"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-neon" />
-          Одна рука, 20–60 секунд
+          Нажал — и всё, 15–40 секунд
         </motion.p>
         <motion.h1
           initial={{ y: 18, opacity: 0 }}
@@ -50,7 +50,7 @@ export default function GamesHubPage() {
           transition={{ delay: 0.1 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white/65 sm:text-xl"
         >
-          Выиграй бонус у букмекера. Три короткие 3D-игры, без регистрации.
+          Выиграй бонус у букмекера. Три короткие игры без регистрации.
           Бонус — тот же оффер, что на главной.
         </motion.p>
 
