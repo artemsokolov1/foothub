@@ -1,35 +1,27 @@
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
+const SRC = "/sfx/siuuu.mp3";
+
 /**
- * Голова из мема: каждый тап сразу кричит. На телефоне один <audio>
- * не успевает перезапуститься — Web Audio играет поверх, без очереди.
+ * Каждый тап сразу орёт. Один <audio> на телефоне не успевает
+ * перемотаться — держим пул и на новый тап берём свободный или новый.
+ * Web Audio здесь не используем: контекст, созданный без жеста, на iOS
+ * остаётся немым.
  */
 export default function SiuuuButton() {
   const { pathname } = useLocation();
-  const ctxRef = useRef(null);
-  const bufferRef = useRef(null);
+  const poolRef = useRef([]);
   const btnRef = useRef(null);
   const hideOnGame = /^\/games\/.+/.test(pathname);
 
   useEffect(() => {
-    const Ctx = window.AudioContext || window.webkitAudioContext;
-    if (!Ctx) return undefined;
-    const ctx = new Ctx();
-    ctxRef.current = ctx;
-    let cancelled = false;
-    fetch("/sfx/siuuu.mp3")
-      .then((res) => res.arrayBuffer())
-      .then((raw) => ctx.decodeAudioData(raw))
-      .then((buf) => {
-        if (!cancelled) bufferRef.current = buf;
-      })
-      .catch(() => {});
+    const first = new Audio(SRC);
+    first.preload = "auto";
+    first.load();
+    poolRef.current = [first];
     return () => {
-      cancelled = true;
-      ctx.close().catch(() => {});
-      ctxRef.current = null;
-      bufferRef.current = null;
+      poolRef.current = [];
     };
   }, []);
 
@@ -43,21 +35,25 @@ export default function SiuuuButton() {
     el.classList.add("siuuu-yell");
   }
 
+  function nextShot() {
+    const pool = poolRef.current;
+    const free = pool.find((a) => a.paused || a.ended);
+    if (free) return free;
+    const extra = new Audio(SRC);
+    pool.push(extra);
+    return extra;
+  }
+
   function yell(event) {
-    if (event.button != null && event.button !== 0) return;
-    event.preventDefault();
-    const ctx = ctxRef.current;
-    const buffer = bufferRef.current;
-    if (ctx && buffer) {
-      if (ctx.state === "suspended") ctx.resume();
-      const src = ctx.createBufferSource();
-      src.buffer = buffer;
-      src.connect(ctx.destination);
-      src.start(0);
-    } else {
-      const shot = new Audio("/sfx/siuuu.mp3");
-      shot.play().catch(() => {});
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    const shot = nextShot();
+    try {
+      shot.currentTime = 0;
+    } catch {
+      /* iOS иногда не даёт мотать, пока не сыграло — тогда просто play. */
     }
+    const playing = shot.play();
+    if (playing && typeof playing.catch === "function") playing.catch(() => {});
     kickAnimation();
   }
 
@@ -66,7 +62,6 @@ export default function SiuuuButton() {
       ref={btnRef}
       type="button"
       onPointerDown={yell}
-      onClick={(event) => event.preventDefault()}
       aria-label="SIUUU"
       className="fixed z-40 flex h-20 w-20 touch-manipulation items-end justify-center select-none sm:h-24 sm:w-24"
       style={{
