@@ -21,17 +21,20 @@ export default function Footer() {
           </div>
 
           <nav className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm font-extrabold text-white/50">
-            <Link to="/#express" className="flex min-h-11 items-center hover:text-neon">
-              Экспресс
+            <Link to="/" className="flex min-h-11 items-center hover:text-neon">
+              Футбол
+            </Link>
+            <Link to="/hockey" className="flex min-h-11 items-center hover:text-neon">
+              Хоккей
+            </Link>
+            <Link to="/esports" className="flex min-h-11 items-center hover:text-neon">
+              Кибер
             </Link>
             <Link to="/games" className="flex min-h-11 items-center hover:text-neon">
               Игры
             </Link>
             <Link to="/#bonuses" className="flex min-h-11 items-center hover:text-neon">
               Бонусы
-            </Link>
-            <Link to="/#forecasts" className="flex min-h-11 items-center hover:text-neon">
-              Прогнозы
             </Link>
           </nav>
 

@@ -9,8 +9,7 @@ function navClass({ isActive }) {
 }
 
 /**
- * Шапка: слева логотип, справа экспресс, игры, бонусы, аватарка.
- *
+ * Шапка: логотип ведёт на футбол. Хоккей и кибер — отдельные разделы.
  * compact — на странице игры, чтобы канвасу осталось больше высоты.
  */
 export default function Header({ compact = false }) {
@@ -45,12 +44,16 @@ export default function Header({ compact = false }) {
         </Link>
 
         <div className="flex shrink-0 items-center gap-1 sm:gap-2">
-          <Link
-            to="/#express"
-            className="flex h-11 items-center rounded-xl px-2 text-xs font-extrabold tracking-tight text-white/70 hover:text-white sm:px-3 sm:text-sm"
-          >
-            Экспресс
-          </Link>
+          {compact ? null : (
+            <>
+              <NavLink to="/hockey" className={navClass}>
+                Хоккей
+              </NavLink>
+              <NavLink to="/esports" className={navClass}>
+                Кибер
+              </NavLink>
+            </>
+          )}
           <NavLink to="/games" className={navClass}>
             Игры
           </NavLink>

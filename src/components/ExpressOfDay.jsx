@@ -18,28 +18,43 @@ const MONTHS = [
   "декабря",
 ];
 
-function formatDate(iso) {
+export function formatDate(iso) {
   if (!iso) return "";
   const [year, month, day] = String(iso).split("-").map(Number);
   if (!year || !month || !day) return iso;
   return `${day} ${MONTHS[month - 1]}`;
 }
 
-function formatOdd(value) {
+export function formatOdd(value) {
   const n = Number(value);
   if (!Number.isFinite(n) || n <= 1) return "—";
   return n.toFixed(2);
+}
+
+export function sportBlock(kind) {
+  const nested = express?.[kind];
+  if (nested && (Array.isArray(nested.parlays) || Array.isArray(nested.matches))) {
+    return nested;
+  }
+  if (kind === "football" && Array.isArray(express?.parlays)) return express;
+  return { parlays: [], matches: [] };
 }
 
 /**
  * Сколько экспрессов пришло со stavka — столько карточек.
  * Подписи фиксированные: «Экспресс дня №1», «Экспресс дня №2».
  */
-export default function ExpressOfDay() {
-  const parlays = Array.isArray(express?.parlays) ? express.parlays : [];
+export default function ExpressOfDay({
+  data,
+  kicker = "Экспресс",
+  accent = "дня",
+  showCta = true,
+}) {
+  const source = data || sportBlock("football");
+  const parlays = Array.isArray(source?.parlays) ? source.parlays : [];
   if (!parlays.length) return null;
 
-  const dateLabel = formatDate(express.date);
+  const dateLabel = formatDate(source.date);
 
   return (
     <section
@@ -53,9 +68,9 @@ export default function ExpressOfDay() {
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         className="text-3xl leading-tight font-extrabold tracking-tight sm:text-5xl"
       >
-        Экспресс{" "}
+        {kicker}{" "}
         <span className="bg-gradient-to-r from-neon to-flame bg-clip-text text-transparent">
-          дня
+          {accent}
         </span>
       </motion.h2>
       {dateLabel ? (
@@ -114,19 +129,23 @@ export default function ExpressOfDay() {
         ))}
       </ul>
 
-      <a
-        href={CHANNELS.telegram}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-3 rounded-2xl bg-gradient-to-b from-neon to-neon-dim px-6 py-3.5 text-base font-extrabold text-ink-950 shadow-[0_8px_0_-2px_#4f7a10] transition-transform duration-150 active:translate-y-[3px] active:shadow-[0_5px_0_-2px_#4f7a10] focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-neon sm:w-auto sm:px-8"
-      >
-        <Send className="h-5 w-5 shrink-0" strokeWidth={2.5} aria-hidden="true" />
-        Собрать в Телеграм
-      </a>
+      {showCta ? (
+        <a
+          href={CHANNELS.telegram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-3 rounded-2xl bg-gradient-to-b from-neon to-neon-dim px-6 py-3.5 text-base font-extrabold text-ink-950 shadow-[0_8px_0_-2px_#4f7a10] transition-transform duration-150 active:translate-y-[3px] active:shadow-[0_5px_0_-2px_#4f7a10] focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-neon sm:w-auto sm:px-8"
+        >
+          <Send className="h-5 w-5 shrink-0" strokeWidth={2.5} aria-hidden="true" />
+          Собрать в Телеграм
+        </a>
+      ) : null}
 
-      <p className="mt-4 max-w-2xl text-xs leading-relaxed text-white/40 sm:text-sm">
-        18+. Прогноз носит информационный характер и не является призывом к ставке.
-      </p>
+      {showCta ? (
+        <p className="mt-4 max-w-2xl text-xs leading-relaxed text-white/40 sm:text-sm">
+          18+. Прогноз носит информационный характер и не является призывом к ставке.
+        </p>
+      ) : null}
     </section>
   );
 }
