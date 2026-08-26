@@ -4,24 +4,23 @@ import { useLocation } from "react-router-dom";
 const SRC = "/sfx/siuuu.mp3";
 
 /**
- * Каждый тап сразу орёт. Один <audio> на телефоне не успевает
- * перемотаться — держим пул и на новый тап берём свободный или новый.
- * Web Audio здесь не используем: контекст, созданный без жеста, на iOS
- * остаётся немым.
+ * Один крик за раз: новый тап обрывает предыдущий, а не наслаивается.
+ * Web Audio не используем — на телефоне он часто остаётся немым.
  */
 export default function SiuuuButton() {
   const { pathname } = useLocation();
-  const poolRef = useRef([]);
+  const audioRef = useRef(null);
   const btnRef = useRef(null);
   const hideOnGame = /^\/games\/.+/.test(pathname);
 
   useEffect(() => {
-    const first = new Audio(SRC);
-    first.preload = "auto";
-    first.load();
-    poolRef.current = [first];
+    const audio = new Audio(SRC);
+    audio.preload = "auto";
+    audio.load();
+    audioRef.current = audio;
     return () => {
-      poolRef.current = [];
+      audio.pause();
+      audioRef.current = null;
     };
   }, []);
 
@@ -35,24 +34,17 @@ export default function SiuuuButton() {
     el.classList.add("siuuu-yell");
   }
 
-  function nextShot() {
-    const pool = poolRef.current;
-    const free = pool.find((a) => a.paused || a.ended);
-    if (free) return free;
-    const extra = new Audio(SRC);
-    pool.push(extra);
-    return extra;
-  }
-
   function yell(event) {
     if (event.pointerType === "mouse" && event.button !== 0) return;
-    const shot = nextShot();
+    const audio = audioRef.current;
+    if (!audio) return;
+    audio.pause();
     try {
-      shot.currentTime = 0;
+      audio.currentTime = 0;
     } catch {
-      /* iOS иногда не даёт мотать, пока не сыграло — тогда просто play. */
+      /* iOS иногда не даёт мотать до первого play — тогда просто play. */
     }
-    const playing = shot.play();
+    const playing = audio.play();
     if (playing && typeof playing.catch === "function") playing.catch(() => {});
     kickAnimation();
   }
