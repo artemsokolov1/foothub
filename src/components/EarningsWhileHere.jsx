@@ -50,7 +50,7 @@ export default function EarningsWhileHere() {
         </span>
       </motion.h2>
       <p className="mt-3 max-w-xl text-base text-white/60 sm:text-lg">
-        сколько заработали известные футболисты:
+        Сколько заработали известные футболисты:
       </p>
 
       <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
