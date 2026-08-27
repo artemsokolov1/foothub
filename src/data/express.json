@@ -59,22 +59,6 @@
     ],
     "matches": [
       {
-        "home": "Барселона",
-        "away": "Атлетик",
-        "kickoff": "22:00",
-        "league": "Ла Лига",
-        "game": "Футбол",
-        "slug": "27-08-2026-barcelona-athletic-bilbao"
-      },
-      {
-        "home": "Сельта",
-        "away": "Осасуна",
-        "kickoff": "21:30",
-        "league": "Ла Лига",
-        "game": "Футбол",
-        "slug": "27-08-2026-celta-de-vigo-osasuna"
-      },
-      {
         "home": "КуПС",
         "away": "Шемрок Роверс",
         "kickoff": "18:00",
@@ -121,6 +105,22 @@
         "league": "Лига конференций",
         "game": "Футбол",
         "slug": "27-08-2026-jablonec-rangers"
+      },
+      {
+        "home": "Сельта",
+        "away": "Осасуна",
+        "kickoff": "21:30",
+        "league": "Ла Лига",
+        "game": "Футбол",
+        "slug": "27-08-2026-celta-de-vigo-osasuna"
+      },
+      {
+        "home": "Барселона",
+        "away": "Атлетик",
+        "kickoff": "22:00",
+        "league": "Ла Лига",
+        "game": "Футбол",
+        "slug": "27-08-2026-barcelona-athletic-bilbao"
       }
     ]
   },
@@ -170,20 +170,20 @@
         "slug": "27-08-2026-lokomotiv-yaroslavl-sibir-novosibirsk"
       },
       {
-        "home": "Ак Барс",
-        "away": "Динамо Минск",
-        "kickoff": "15:00",
-        "league": "Товарищеские матчи, клубы",
-        "game": "Хоккей",
-        "slug": "27-08-2026-ak-bars-kazan-dinamo-minsk"
-      },
-      {
         "home": "Амур",
         "away": "Трактор",
         "kickoff": "13:00",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
         "slug": "27-08-2026-amur-khabarovsk-traktor-chelyabinsk"
+      },
+      {
+        "home": "Ак Барс",
+        "away": "Динамо Минск",
+        "kickoff": "15:00",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "27-08-2026-ak-bars-kazan-dinamo-minsk"
       },
       {
         "home": "Лада",
@@ -212,12 +212,28 @@
     "parlays": [],
     "matches": [
       {
+        "home": "STATE",
+        "away": "GenOne",
+        "kickoff": "11:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "27-08-2026-state-genone"
+      },
+      {
         "home": "Vitality",
         "away": "Inner Circle Esports",
         "kickoff": "12:00",
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "27-08-2026-vitality-inner-circle-esports"
+      },
+      {
+        "home": "Nemiga",
+        "away": "Black Phoenix",
+        "kickoff": "14:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "27-08-2026-nemiga-black-phoenix"
       },
       {
         "home": "MOUZ",
@@ -236,6 +252,14 @@
         "slug": "27-08-2026-legacy-fut-esports"
       },
       {
+        "home": "Acend",
+        "away": "UNiTY",
+        "kickoff": "17:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "27-08-2026-acend-unity-esports"
+      },
+      {
         "home": "Team Falcons",
         "away": "Lynn Vision",
         "kickoff": "19:30",
@@ -244,36 +268,12 @@
         "slug": "27-08-2026-team-falcons-lynn-vision"
       },
       {
-        "home": "STATE",
-        "away": "GenOne",
-        "kickoff": "11:00",
-        "league": "CCT Europe Series #7",
-        "game": "CS2",
-        "slug": "27-08-2026-state-genone"
-      },
-      {
-        "home": "Nemiga",
-        "away": "Black Phoenix",
-        "kickoff": "14:00",
-        "league": "CCT Europe Series #7",
-        "game": "CS2",
-        "slug": "27-08-2026-nemiga-black-phoenix"
-      },
-      {
         "home": "INOX Division",
         "away": "Just_Players",
         "kickoff": "20:00",
         "league": "CCT Europe Series #7",
         "game": "CS2",
         "slug": "27-08-2026-inox-division-just-players"
-      },
-      {
-        "home": "Acend",
-        "away": "UNiTY",
-        "kickoff": "17:00",
-        "league": "CCT Europe Series #7",
-        "game": "CS2",
-        "slug": "27-08-2026-acend-unity-esports"
       }
     ]
   }

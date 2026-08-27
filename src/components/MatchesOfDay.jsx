@@ -3,8 +3,19 @@ import { motion } from "framer-motion";
 /**
  * Обычные матчи дня с витрины stavka — отдельно от экспресса.
  */
+function kickoffMinutes(match) {
+  const text = String(match?.kickoff || "");
+  const [hours, minutes] = text.replace(".", ":").split(":");
+  const hour = Number.parseInt(hours, 10);
+  const minute = Number.parseInt(minutes, 10);
+  if (!Number.isFinite(hour)) return 24 * 60;
+  return hour * 60 + (Number.isFinite(minute) ? minute : 0);
+}
+
 export default function MatchesOfDay({ matches, title = "Матчи дня" }) {
-  const list = Array.isArray(matches) ? matches : [];
+  const list = Array.isArray(matches)
+    ? [...matches].sort((a, b) => kickoffMinutes(a) - kickoffMinutes(b))
+    : [];
   if (!list.length) return null;
 
   return (
