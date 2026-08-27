@@ -1,64 +1,57 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "football": {
-    "date": "2026-08-26",
+    "date": "2026-08-27",
     "kind": "football",
-    "slug": "express-2026-august-26-football",
+    "slug": "express-2026-august-27-football",
     "source": "stavka",
-    "source_url": "https://stavka.tv/articles/express/express-2026-august-26-football",
+    "source_url": "https://stavka.tv/articles/express/express-2026-august-27-football",
     "parlays": [
       {
         "number": 1,
         "title": "Экспресс дня №1",
-        "total_odd": 4.42,
+        "total_odd": 5.77,
         "legs": [
           {
-            "home": "АЕК",
-            "away": "Левски",
-            "pick": "ТМ (2.5)",
-            "odd": 1.75,
-            "kickoff": "22:00"
+            "home": "Жальгирис Каунас",
+            "away": "Бешикташ",
+            "pick": "ИТ1М (0.5)",
+            "odd": 1.93,
+            "kickoff": "20:00"
           },
           {
-            "home": "Викинг",
-            "away": "Динамо Загреб",
-            "pick": "X2",
-            "odd": 1.61,
-            "kickoff": "22:00"
+            "home": "Тун",
+            "away": "Лех",
+            "pick": "ИТ1М (1.5)",
+            "odd": 1.69,
+            "kickoff": "21:00"
           },
           {
-            "home": "Целе",
-            "away": "Слован Братислава",
-            "pick": "X2",
-            "odd": 1.57,
-            "kickoff": "22:00"
+            "home": "Ференцварош",
+            "away": "Трабзонспор",
+            "pick": "ОЗ (Да)",
+            "odd": 1.77,
+            "kickoff": "21:30"
           }
         ]
       },
       {
         "number": 2,
         "title": "Экспресс дня №2",
-        "total_odd": 5.15,
+        "total_odd": 2.84,
         "legs": [
           {
-            "home": "Ньюкасл",
-            "away": "Вест Бромвич",
+            "home": "Челси",
+            "away": "Лутон",
             "pick": "Ф1 (-1.5)",
-            "odd": 1.94,
-            "kickoff": "21:45"
+            "odd": 1.55,
+            "kickoff": "21:30"
           },
           {
-            "home": "Тоттенхэм",
-            "away": "Чарльтон",
-            "pick": "Ф1 (-1.5)",
-            "odd": 1.69,
-            "kickoff": "21:45"
-          },
-          {
-            "home": "Престон",
-            "away": "Эвертон",
-            "pick": "П2",
-            "odd": 1.57,
+            "home": "Фулхэм",
+            "away": "Уимблдон",
+            "pick": "ИТ2М (0.5)",
+            "odd": 1.83,
             "kickoff": "22:00"
           }
         ]
@@ -66,103 +59,103 @@
     ],
     "matches": [
       {
-        "home": "Лион",
-        "away": "Фенербахче",
-        "kickoff": "22:00",
-        "league": "Лига чемпионов",
-        "game": "Футбол",
-        "slug": "26-08-2026-olympique-lyon-fenerbahce-istanbul"
-      },
-      {
-        "home": "Викинг",
-        "away": "Динамо Загреб",
-        "kickoff": "22:00",
-        "league": "Лига чемпионов",
-        "game": "Футбол",
-        "slug": "26-08-2026-viking-dinamo-zagreb"
-      },
-      {
-        "home": "Целе",
-        "away": "Слован Братислава",
-        "kickoff": "22:00",
-        "league": "Лига чемпионов",
-        "game": "Футбол",
-        "slug": "26-08-2026-celje-slovan-bratislava"
-      },
-      {
-        "home": "Реал Мадрид",
-        "away": "Реал Сосьедад",
+        "home": "Барселона",
+        "away": "Атлетик",
         "kickoff": "22:00",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "26-08-2026-real-madrid-real-sociedad"
+        "slug": "27-08-2026-barcelona-athletic-bilbao"
       },
       {
-        "home": "АЕК Афины",
-        "away": "Левски София",
-        "kickoff": "22:00",
-        "league": "Лига чемпионов",
+        "home": "Сельта",
+        "away": "Осасуна",
+        "kickoff": "21:30",
+        "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "26-08-2026-aek-athens-levski-sofia"
+        "slug": "27-08-2026-celta-de-vigo-osasuna"
       },
       {
-        "home": "Тоттенхэм",
-        "away": "Чарльтон",
-        "kickoff": "21:45",
-        "league": "Кубок лиги",
+        "home": "КуПС",
+        "away": "Шемрок Роверс",
+        "kickoff": "18:00",
+        "league": "Лига конференций",
         "game": "Футбол",
-        "slug": "26-08-2026-tottenham-hotspur-charlton"
+        "slug": "27-08-2026-kuopion-palloseura-shamrock-rovers"
       },
       {
-        "home": "Брэдфорд Сити",
-        "away": "Бернли",
-        "kickoff": "21:45",
-        "league": "Кубок лиги",
+        "home": "Тун",
+        "away": "Лех Познань",
+        "kickoff": "19:00",
+        "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "26-08-2026-bradford-city-burnley"
+        "slug": "27-08-2026-thun-lech-poznan"
       },
       {
-        "home": "Престон Норт Энд",
-        "away": "Эвертон",
-        "kickoff": "22:00",
-        "league": "Кубок лиги",
+        "home": "Иберия 1999",
+        "away": "Ягеллония",
+        "kickoff": "19:00",
+        "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "26-08-2026-preston-north-end-everton"
+        "slug": "27-08-2026-iberia-1999-jagiellonia-bialystok"
+      },
+      {
+        "home": "Арарат-Армения",
+        "away": "Крайова",
+        "kickoff": "19:00",
+        "league": "Лига Европы",
+        "game": "Футбол",
+        "slug": "27-08-2026-ararat-armenia-craiova"
+      },
+      {
+        "home": "Карабах",
+        "away": "Твенте",
+        "kickoff": "19:00",
+        "league": "Лига конференций",
+        "game": "Футбол",
+        "slug": "27-08-2026-qarabag-twente"
+      },
+      {
+        "home": "Яблонец",
+        "away": "Рейнджерс",
+        "kickoff": "19:00",
+        "league": "Лига конференций",
+        "game": "Футбол",
+        "slug": "27-08-2026-jablonec-rangers"
       }
     ]
   },
   "hockey": {
-    "date": "2026-08-26",
+    "date": "2026-08-27",
     "kind": "hockey",
-    "slug": "express-2026-august-26-hockey",
+    "slug": "express-2026-august-27-hockey",
     "source": "stavka",
-    "source_url": "https://stavka.tv/articles/express/express-2026-august-26-hockey",
+    "source_url": "https://stavka.tv/articles/express/express-2026-august-27-hockey",
     "parlays": [
       {
         "number": 1,
         "title": "Экспресс дня №1",
-        "total_odd": 4.63,
+        "total_odd": 4.24,
         "legs": [
           {
             "home": "Локомотив",
-            "away": "Нефтехимик",
+            "away": "Сибирь",
             "pick": "ТМ (5.5)",
             "odd": 1.65,
             "kickoff": "12:00"
           },
           {
-            "home": "Авангард",
-            "away": "Сибирь",
-            "pick": "ИТ2Б (1.5)",
-            "odd": 1.65,
-            "kickoff": "16:30"
+            "home": "Ак Барс",
+            "away": "Динамо Минск",
+            "pick": "ТБ (4.5)",
+            "odd": 1.51,
+            "kickoff": "15:00"
           },
           {
-            "home": "Металлург Магнитогорск",
-            "away": "Трактор",
-            "pick": "ТБ (5.5)",
+            "home": "СКА Санкт-Петербург",
+            "away": "Барыс",
+            "pick": "Ф1 (-1.5)",
             "odd": 1.7,
-            "kickoff": "17:00"
+            "kickoff": "19:00"
           }
         ]
       }
@@ -170,46 +163,30 @@
     "matches": [
       {
         "home": "Локомотив",
-        "away": "Нефтехимик",
-        "kickoff": "12:00",
-        "league": "",
-        "game": "Хоккей",
-        "slug": ""
-      },
-      {
-        "home": "Авангард",
         "away": "Сибирь",
-        "kickoff": "16:30",
-        "league": "",
+        "kickoff": "12:00",
+        "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": ""
+        "slug": "27-08-2026-lokomotiv-yaroslavl-sibir-novosibirsk"
       },
       {
-        "home": "Металлург Магнитогорск",
-        "away": "Трактор",
-        "kickoff": "17:00",
-        "league": "",
+        "home": "Ак Барс",
+        "away": "Динамо Минск",
+        "kickoff": "15:00",
+        "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": ""
+        "slug": "27-08-2026-ak-bars-kazan-dinamo-minsk"
       }
     ]
   },
   "esports": {
-    "date": "2026-08-26",
+    "date": "2026-08-27",
     "kind": "esports",
     "slug": "",
     "source": "stavka",
     "source_url": "",
     "parlays": [],
     "matches": [
-      {
-        "home": "Vitality",
-        "away": "Inner Circle Esports",
-        "kickoff": "12:00",
-        "league": "BLAST Open Porto",
-        "game": "CS2",
-        "slug": "27-08-2026-vitality-inner-circle-esports"
-      },
       {
         "home": "MOUZ",
         "away": "9z",
@@ -227,12 +204,44 @@
         "slug": "27-08-2026-legacy-fut-esports"
       },
       {
+        "home": "Vitality",
+        "away": "Inner Circle Esports",
+        "kickoff": "12:00",
+        "league": "BLAST Open Porto",
+        "game": "CS2",
+        "slug": "27-08-2026-vitality-inner-circle-esports"
+      },
+      {
         "home": "Team Falcons",
         "away": "Lynn Vision",
         "kickoff": "19:30",
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "27-08-2026-team-falcons-lynn-vision"
+      },
+      {
+        "home": "STATE",
+        "away": "GenOne",
+        "kickoff": "11:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "27-08-2026-state-genone"
+      },
+      {
+        "home": "PuckChamp",
+        "away": "Inner Circle",
+        "kickoff": "10:00",
+        "league": "EPL Masters Play-In",
+        "game": "Dota 2",
+        "slug": "29-08-2026-puckchamp-inner-circle-x-insanity"
+      },
+      {
+        "home": "DYNASTY",
+        "away": "Inner Circle",
+        "kickoff": "16:00",
+        "league": "EPL Masters Play-In",
+        "game": "Dota 2",
+        "slug": "29-08-2026-dynasty-inner-circle-x-insanity"
       }
     ]
   }
