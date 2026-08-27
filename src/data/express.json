@@ -67,7 +67,9 @@
         "league": "Лига конференций",
         "game": "Футбол",
         "slug": "27-08-2026-kuopion-palloseura-shamrock-rovers",
-        "page": "/football/27-08-2026-kuopion-palloseura-shamrock-rovers"
+        "page": "/football/27-08-2026-kuopion-palloseura-shamrock-rovers",
+        "pick": "Победа КуПС",
+        "odd": 1.93
       },
       {
         "home": "Тун",
@@ -76,7 +78,9 @@
         "league": "Лига Европы",
         "game": "Футбол",
         "slug": "27-08-2026-thun-lech-poznan",
-        "page": "/football/27-08-2026-thun-lech-poznan"
+        "page": "/football/27-08-2026-thun-lech-poznan",
+        "pick": "Победа Леха",
+        "odd": 2.39
       },
       {
         "home": "Иберия 1999",
@@ -85,7 +89,9 @@
         "league": "Лига Европы",
         "game": "Футбол",
         "slug": "27-08-2026-iberia-1999-jagiellonia-bialystok",
-        "page": "/football/27-08-2026-iberia-1999-jagiellonia-bialystok"
+        "page": "/football/27-08-2026-iberia-1999-jagiellonia-bialystok",
+        "pick": "Победа Ягеллонии",
+        "odd": 2.14
       },
       {
         "home": "Арарат-Армения",
@@ -94,7 +100,9 @@
         "league": "Лига Европы",
         "game": "Футбол",
         "slug": "27-08-2026-ararat-armenia-craiova",
-        "page": "/football/27-08-2026-ararat-armenia-craiova"
+        "page": "/football/27-08-2026-ararat-armenia-craiova",
+        "pick": "",
+        "odd": 0.0
       },
       {
         "home": "Карабах",
@@ -103,7 +111,9 @@
         "league": "Лига конференций",
         "game": "Футбол",
         "slug": "27-08-2026-qarabag-twente",
-        "page": "/football/27-08-2026-qarabag-twente"
+        "page": "/football/27-08-2026-qarabag-twente",
+        "pick": "Карабах не проиграет",
+        "odd": 1.69
       },
       {
         "home": "Яблонец",
@@ -112,7 +122,9 @@
         "league": "Лига конференций",
         "game": "Футбол",
         "slug": "27-08-2026-jablonec-rangers",
-        "page": "/football/27-08-2026-jablonec-rangers"
+        "page": "/football/27-08-2026-jablonec-rangers",
+        "pick": "Яблонец не проиграет",
+        "odd": 1.58
       },
       {
         "home": "Сельта",
@@ -121,7 +133,9 @@
         "league": "Ла Лига",
         "game": "Футбол",
         "slug": "27-08-2026-celta-de-vigo-osasuna",
-        "page": "/football/27-08-2026-celta-de-vigo-osasuna"
+        "page": "/football/27-08-2026-celta-de-vigo-osasuna",
+        "pick": "Победа Сельты",
+        "odd": 2.0
       },
       {
         "home": "Барселона",
@@ -130,7 +144,9 @@
         "league": "Ла Лига",
         "game": "Футбол",
         "slug": "27-08-2026-barcelona-athletic-bilbao",
-        "page": "/football/27-08-2026-barcelona-athletic-bilbao"
+        "page": "/football/27-08-2026-barcelona-athletic-bilbao",
+        "pick": "Победа Барселоны с форой (-2.5)",
+        "odd": 2.5
       }
     ]
   },
@@ -179,7 +195,9 @@
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
         "slug": "27-08-2026-lokomotiv-yaroslavl-sibir-novosibirsk",
-        "page": "/hockey/27-08-2026-lokomotiv-yaroslavl-sibir-novosibirsk"
+        "page": "/hockey/27-08-2026-lokomotiv-yaroslavl-sibir-novosibirsk",
+        "pick": "Победа Локомотива с форой (-1.5)",
+        "odd": 1.88
       },
       {
         "home": "Амур",
@@ -188,7 +206,9 @@
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
         "slug": "27-08-2026-amur-khabarovsk-traktor-chelyabinsk",
-        "page": "/hockey/27-08-2026-amur-khabarovsk-traktor-chelyabinsk"
+        "page": "/hockey/27-08-2026-amur-khabarovsk-traktor-chelyabinsk",
+        "pick": "Итоговая победа Амура",
+        "odd": 2.3
       },
       {
         "home": "Ак Барс",
@@ -197,7 +217,9 @@
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
         "slug": "27-08-2026-ak-bars-kazan-dinamo-minsk",
-        "page": "/hockey/27-08-2026-ak-bars-kazan-dinamo-minsk"
+        "page": "/hockey/27-08-2026-ak-bars-kazan-dinamo-minsk",
+        "pick": "Итоговая победа Динамо",
+        "odd": 1.9
       },
       {
         "home": "Лада",
@@ -206,7 +228,9 @@
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
         "slug": "28-08-2026-lada-salavat-yulaev-ufa",
-        "page": "/hockey/28-08-2026-lada-salavat-yulaev-ufa"
+        "page": "/hockey/28-08-2026-lada-salavat-yulaev-ufa",
+        "pick": "Победа Салавата Юлаева",
+        "odd": 1.73
       },
       {
         "home": "Авангард",
@@ -215,7 +239,9 @@
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
         "slug": "27-08-2026-avangard-omsk-severstal-cherepovets",
-        "page": "/hockey/27-08-2026-avangard-omsk-severstal-cherepovets"
+        "page": "/hockey/27-08-2026-avangard-omsk-severstal-cherepovets",
+        "pick": "Северсталь не проиграет в основное время",
+        "odd": 2.2
       }
     ]
   },
@@ -242,7 +268,9 @@
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "27-08-2026-vitality-inner-circle-esports",
-        "page": "/esports/27-08-2026-vitality-inner-circle-esports"
+        "page": "/esports/27-08-2026-vitality-inner-circle-esports",
+        "pick": "Фора Inner Circle (+1.5) по картам",
+        "odd": 2.62
       },
       {
         "home": "Nemiga",
@@ -259,7 +287,9 @@
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "27-08-2026-mouz-9z",
-        "page": "/esports/27-08-2026-mouz-9z"
+        "page": "/esports/27-08-2026-mouz-9z",
+        "pick": "Ф2 (+1.5)",
+        "odd": 1.5
       },
       {
         "home": "Legacy",
@@ -268,7 +298,9 @@
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "27-08-2026-legacy-fut-esports",
-        "page": "/esports/27-08-2026-legacy-fut-esports"
+        "page": "/esports/27-08-2026-legacy-fut-esports",
+        "pick": "Тотал больше (2.5) по картам",
+        "odd": 1.96
       },
       {
         "home": "Acend",
@@ -285,7 +317,9 @@
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "27-08-2026-team-falcons-lynn-vision",
-        "page": "/esports/27-08-2026-team-falcons-lynn-vision"
+        "page": "/esports/27-08-2026-team-falcons-lynn-vision",
+        "pick": "Тотал больше (41.5) по раундам",
+        "odd": 1.75
       },
       {
         "home": "INOX Division",
