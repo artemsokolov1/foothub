@@ -1,6 +1,6 @@
 /**
  * Отдельная шапочная иконка: мяч меньше квадрата, заливка как в файле (#0c2230).
- * Оригинал /logo.png не трогаем — он для favicon и превью.
+ * Оригинал /logo.png не трогаем — он для превью в соцсетях.
  */
 export default function Logo({ compact = false, className = "", alt = "" }) {
   const box = compact
