@@ -196,20 +196,20 @@
         "slug": "27-08-2026-mouz-9z"
       },
       {
-        "home": "Legacy",
-        "away": "FUT Esports",
-        "kickoff": "17:00",
-        "league": "BLAST Open Porto",
-        "game": "CS2",
-        "slug": "27-08-2026-legacy-fut-esports"
-      },
-      {
         "home": "Vitality",
         "away": "Inner Circle Esports",
         "kickoff": "12:00",
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "27-08-2026-vitality-inner-circle-esports"
+      },
+      {
+        "home": "Legacy",
+        "away": "FUT Esports",
+        "kickoff": "17:00",
+        "league": "BLAST Open Porto",
+        "game": "CS2",
+        "slug": "27-08-2026-legacy-fut-esports"
       },
       {
         "home": "Team Falcons",
@@ -228,20 +228,28 @@
         "slug": "27-08-2026-state-genone"
       },
       {
+        "home": "Nemiga",
+        "away": "Black Phoenix",
+        "kickoff": "14:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "27-08-2026-nemiga-black-phoenix"
+      },
+      {
+        "home": "INOX Division",
+        "away": "Just_Players",
+        "kickoff": "20:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "27-08-2026-inox-division-just-players"
+      },
+      {
         "home": "PuckChamp",
         "away": "Inner Circle",
         "kickoff": "10:00",
         "league": "EPL Masters Play-In",
         "game": "Dota 2",
         "slug": "29-08-2026-puckchamp-inner-circle-x-insanity"
-      },
-      {
-        "home": "DYNASTY",
-        "away": "Inner Circle",
-        "kickoff": "16:00",
-        "league": "EPL Masters Play-In",
-        "game": "Dota 2",
-        "slug": "29-08-2026-dynasty-inner-circle-x-insanity"
       }
     ]
   }
