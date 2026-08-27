@@ -103,13 +103,16 @@
       @media (min-width: 640px) {
         .ch-btn { width: auto; padding: 1.05rem 2rem; }
       }
+      /* Обе кнопки каналов тёмные. Зелёной Телеграм быть не может: ровно
+         тем же зелёным выше идут три «Сделать ставку», и низ страницы
+         сливался в одно пятно. Различают их иконки, а не цвет. */
       .ch-tg {
-        background: linear-gradient(#b6ff3c, #8fd420); color: #050608;
-        box-shadow: 0 10px 0 -2px #4f7a10, 0 18px 34px -12px rgba(182,255,60,.65);
+        background: #12151c; color: #fff;
+        box-shadow: 0 10px 0 -2px #0b0d12, 0 18px 34px -16px rgba(64,150,255,.5);
       }
       .ch-tg:active {
         transform: translateY(3px);
-        box-shadow: 0 6px 0 -2px #4f7a10, 0 12px 24px -14px rgba(182,255,60,.6);
+        box-shadow: 0 6px 0 -2px #0b0d12, 0 12px 24px -18px rgba(64,150,255,.45);
       }
       .ch-max {
         background: #12151c; color: #fff;
@@ -119,6 +122,15 @@
         transform: translateY(3px);
         box-shadow: 0 6px 0 -2px #0b0d12, 0 12px 24px -18px rgba(255,122,26,.45);
       }
+      /* Из поиска на страницу приходят без истории: браузерная «назад»
+         там ведёт в выдачу, а не в раздел. Поэтому возврат — ссылкой. */
+      .back {
+        display: inline-flex; align-items: center; gap: .45rem;
+        margin-bottom: .9rem; padding: .5rem .9rem; border-radius: 999px;
+        border: 1px solid #ffffff1f; background: #0a0c10;
+        color: #ffffffb3; font-size: .85rem; font-weight: 700;
+      }
+      .back:hover { border-color: #ffffff33; color: #fff; }
       footer { padding: 1.5rem 1.1rem 2.5rem; color: #ffffff59; font-size: .8rem; border-top: 1px solid #ffffff10; }
     </style>
   </head>
@@ -134,6 +146,7 @@
       </nav>
     </header>
     <main>
+      <a class="back" href="/hockey">← Хоккей</a>
       <p class="kicker">Хоккей</p>
       <h1>Экспресс дня №1</h1>
       <p class="meta">Хоккей · Экспресс дня · 27 августа</p>

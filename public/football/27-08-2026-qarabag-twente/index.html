@@ -52,6 +52,15 @@
       .pick p { margin: 0; font-weight: 800; }
       .odd { color: #b6ff3c; font-weight: 800; font-size: 1.4rem; }
       article p { line-height: 1.65; color: #ffffffc4; }
+      .legs { list-style: none; margin: 1rem 0 0; padding: 0; display: flex; flex-direction: column; gap: .7rem; }
+      .leg {
+        border: 1px solid #ffffff14; background: #0a0c10; border-radius: .9rem;
+        padding: .85rem 1rem;
+      }
+      .leg-top, .leg-bot { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+      .leg-top { font-weight: 800; }
+      .leg-bot { margin-top: .35rem; color: #ffffffb3; font-weight: 600; }
+      .leg-odd { color: #ff7a1a; font-family: ui-monospace, monospace; font-weight: 800; }
       .bets h2 { margin: 1.8rem 0 .8rem; font-size: 1.35rem; }
       .bk-row {
         display: grid; grid-template-columns: 1fr; gap: .8rem; margin-bottom: 1.2rem;
@@ -94,13 +103,16 @@
       @media (min-width: 640px) {
         .ch-btn { width: auto; padding: 1.05rem 2rem; }
       }
+      /* Обе кнопки каналов тёмные. Зелёной Телеграм быть не может: ровно
+         тем же зелёным выше идут три «Сделать ставку», и низ страницы
+         сливался в одно пятно. Различают их иконки, а не цвет. */
       .ch-tg {
-        background: linear-gradient(#b6ff3c, #8fd420); color: #050608;
-        box-shadow: 0 10px 0 -2px #4f7a10, 0 18px 34px -12px rgba(182,255,60,.65);
+        background: #12151c; color: #fff;
+        box-shadow: 0 10px 0 -2px #0b0d12, 0 18px 34px -16px rgba(64,150,255,.5);
       }
       .ch-tg:active {
         transform: translateY(3px);
-        box-shadow: 0 6px 0 -2px #4f7a10, 0 12px 24px -14px rgba(182,255,60,.6);
+        box-shadow: 0 6px 0 -2px #0b0d12, 0 12px 24px -18px rgba(64,150,255,.45);
       }
       .ch-max {
         background: #12151c; color: #fff;
@@ -110,6 +122,15 @@
         transform: translateY(3px);
         box-shadow: 0 6px 0 -2px #0b0d12, 0 12px 24px -18px rgba(255,122,26,.45);
       }
+      /* Из поиска на страницу приходят без истории: браузерная «назад»
+         там ведёт в выдачу, а не в раздел. Поэтому возврат — ссылкой. */
+      .back {
+        display: inline-flex; align-items: center; gap: .45rem;
+        margin-bottom: .9rem; padding: .5rem .9rem; border-radius: 999px;
+        border: 1px solid #ffffff1f; background: #0a0c10;
+        color: #ffffffb3; font-size: .85rem; font-weight: 700;
+      }
+      .back:hover { border-color: #ffffff33; color: #fff; }
       footer { padding: 1.5rem 1.1rem 2.5rem; color: #ffffff59; font-size: .8rem; border-top: 1px solid #ffffff10; }
     </style>
   </head>
@@ -125,6 +146,7 @@
       </nav>
     </header>
     <main>
+      <a class="back" href="/football">← Футбол</a>
       <p class="kicker">Футбол</p>
       <h1>Карабах — Твенте</h1>
       <p class="meta">Футбол · Лига конференций · 19:00 МСК · 27 августа</p>
