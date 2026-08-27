@@ -13,7 +13,7 @@ export const BOOKMAKERS = [
     bonus: "Фрибет 5.000 ₽",
     promo: "FOOTHUB",
     url: "https://clck.ru/3AkptD",
-    accent: "from-[#ff4d4d] to-[#b81d1d]",
+    accent: "from-[#22c55e] to-[#15803d]",
   },
   {
     id: "fonbet",
@@ -23,7 +23,7 @@ export const BOOKMAKERS = [
     bonus: "Фрибет до 15.000 ₽",
     promo: null,
     url: "https://clck.ru/3PMdPB",
-    accent: "from-[#2f7bff] to-[#0f3fa8]",
+    accent: "from-[#ff4d4d] to-[#b81d1d]",
   },
   {
     id: "winline",
