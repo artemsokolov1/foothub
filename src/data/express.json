@@ -64,7 +64,8 @@
         "kickoff": "18:00",
         "league": "Лига конференций",
         "game": "Футбол",
-        "slug": "27-08-2026-kuopion-palloseura-shamrock-rovers"
+        "slug": "27-08-2026-kuopion-palloseura-shamrock-rovers",
+        "page": "/football/27-08-2026-kuopion-palloseura-shamrock-rovers"
       },
       {
         "home": "Тун",
@@ -72,7 +73,8 @@
         "kickoff": "19:00",
         "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "27-08-2026-thun-lech-poznan"
+        "slug": "27-08-2026-thun-lech-poznan",
+        "page": "/football/27-08-2026-thun-lech-poznan"
       },
       {
         "home": "Иберия 1999",
@@ -80,7 +82,8 @@
         "kickoff": "19:00",
         "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "27-08-2026-iberia-1999-jagiellonia-bialystok"
+        "slug": "27-08-2026-iberia-1999-jagiellonia-bialystok",
+        "page": "/football/27-08-2026-iberia-1999-jagiellonia-bialystok"
       },
       {
         "home": "Арарат-Армения",
@@ -88,7 +91,8 @@
         "kickoff": "19:00",
         "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "27-08-2026-ararat-armenia-craiova"
+        "slug": "27-08-2026-ararat-armenia-craiova",
+        "page": "/football/27-08-2026-ararat-armenia-craiova"
       },
       {
         "home": "Карабах",
@@ -96,7 +100,8 @@
         "kickoff": "19:00",
         "league": "Лига конференций",
         "game": "Футбол",
-        "slug": "27-08-2026-qarabag-twente"
+        "slug": "27-08-2026-qarabag-twente",
+        "page": "/football/27-08-2026-qarabag-twente"
       },
       {
         "home": "Яблонец",
@@ -104,7 +109,8 @@
         "kickoff": "19:00",
         "league": "Лига конференций",
         "game": "Футбол",
-        "slug": "27-08-2026-jablonec-rangers"
+        "slug": "27-08-2026-jablonec-rangers",
+        "page": "/football/27-08-2026-jablonec-rangers"
       },
       {
         "home": "Сельта",
@@ -112,7 +118,8 @@
         "kickoff": "21:30",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "27-08-2026-celta-de-vigo-osasuna"
+        "slug": "27-08-2026-celta-de-vigo-osasuna",
+        "page": "/football/27-08-2026-celta-de-vigo-osasuna"
       },
       {
         "home": "Барселона",
@@ -120,7 +127,8 @@
         "kickoff": "22:00",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "27-08-2026-barcelona-athletic-bilbao"
+        "slug": "27-08-2026-barcelona-athletic-bilbao",
+        "page": "/football/27-08-2026-barcelona-athletic-bilbao"
       }
     ]
   },
@@ -167,7 +175,8 @@
         "kickoff": "12:00",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": "27-08-2026-lokomotiv-yaroslavl-sibir-novosibirsk"
+        "slug": "27-08-2026-lokomotiv-yaroslavl-sibir-novosibirsk",
+        "page": "/hockey/27-08-2026-lokomotiv-yaroslavl-sibir-novosibirsk"
       },
       {
         "home": "Амур",
@@ -175,7 +184,8 @@
         "kickoff": "13:00",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": "27-08-2026-amur-khabarovsk-traktor-chelyabinsk"
+        "slug": "27-08-2026-amur-khabarovsk-traktor-chelyabinsk",
+        "page": "/hockey/27-08-2026-amur-khabarovsk-traktor-chelyabinsk"
       },
       {
         "home": "Ак Барс",
@@ -183,7 +193,8 @@
         "kickoff": "15:00",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": "27-08-2026-ak-bars-kazan-dinamo-minsk"
+        "slug": "27-08-2026-ak-bars-kazan-dinamo-minsk",
+        "page": "/hockey/27-08-2026-ak-bars-kazan-dinamo-minsk"
       },
       {
         "home": "Лада",
@@ -191,7 +202,8 @@
         "kickoff": "15:00",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": "28-08-2026-lada-salavat-yulaev-ufa"
+        "slug": "28-08-2026-lada-salavat-yulaev-ufa",
+        "page": "/hockey/28-08-2026-lada-salavat-yulaev-ufa"
       },
       {
         "home": "Авангард",
@@ -199,7 +211,8 @@
         "kickoff": "16:30",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": "27-08-2026-avangard-omsk-severstal-cherepovets"
+        "slug": "27-08-2026-avangard-omsk-severstal-cherepovets",
+        "page": "/hockey/27-08-2026-avangard-omsk-severstal-cherepovets"
       }
     ]
   },
@@ -225,7 +238,8 @@
         "kickoff": "12:00",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "27-08-2026-vitality-inner-circle-esports"
+        "slug": "27-08-2026-vitality-inner-circle-esports",
+        "page": "/esports/27-08-2026-vitality-inner-circle-esports"
       },
       {
         "home": "Nemiga",
@@ -241,7 +255,8 @@
         "kickoff": "14:30",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "27-08-2026-mouz-9z"
+        "slug": "27-08-2026-mouz-9z",
+        "page": "/esports/27-08-2026-mouz-9z"
       },
       {
         "home": "Legacy",
@@ -249,7 +264,8 @@
         "kickoff": "17:00",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "27-08-2026-legacy-fut-esports"
+        "slug": "27-08-2026-legacy-fut-esports",
+        "page": "/esports/27-08-2026-legacy-fut-esports"
       },
       {
         "home": "Acend",
@@ -265,7 +281,8 @@
         "kickoff": "19:30",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "27-08-2026-team-falcons-lynn-vision"
+        "slug": "27-08-2026-team-falcons-lynn-vision",
+        "page": "/esports/27-08-2026-team-falcons-lynn-vision"
       },
       {
         "home": "INOX Division",
