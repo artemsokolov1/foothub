@@ -1,4 +1,5 @@
 import BookmakerGrid from "../components/BookmakerGrid";
+import EarningsWhileHere from "../components/EarningsWhileHere";
 import Footer from "../components/Footer";
 import GamesTeaser from "../components/GamesTeaser";
 import Header from "../components/Header";
@@ -14,6 +15,7 @@ export default function HomePage() {
         <SportsTeaser />
         <GamesTeaser />
         <BookmakerGrid />
+        <EarningsWhileHere />
       </main>
       <Footer />
     </div>
