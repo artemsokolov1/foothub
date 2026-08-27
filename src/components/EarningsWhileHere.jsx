@@ -2,20 +2,6 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { PLAYERS, rubPerSecond } from "../data/players";
 
-const STARTED_KEY = "foothub-visit-start";
-
-function visitStart() {
-  try {
-    const saved = Number(sessionStorage.getItem(STARTED_KEY));
-    if (Number.isFinite(saved) && saved > 0) return saved;
-    const now = Date.now();
-    sessionStorage.setItem(STARTED_KEY, String(now));
-    return now;
-  } catch {
-    return Date.now();
-  }
-}
-
 function formatRub(value) {
   if (value < 10) {
     return `${value.toFixed(2).replace(".", ",")} ₽`;
@@ -34,26 +20,19 @@ export default function EarningsWhileHere() {
   const [elapsed, setElapsed] = useState(0);
 
   useEffect(() => {
-    const started = visitStart();
+    let start = 0;
     let frame = 0;
-    const tick = () => {
-      setElapsed(Math.max(0, (Date.now() - started) / 1000));
-      frame = window.requestAnimationFrame(tick);
-    };
-    const onVisibility = () => {
-      if (document.hidden) {
-        window.cancelAnimationFrame(frame);
-        setElapsed(Math.max(0, (Date.now() - started) / 1000));
-        return;
+    const tick = (now) => {
+      if (!start) {
+        start = now;
+        setElapsed(0);
+      } else {
+        setElapsed((now - start) / 1000);
       }
       frame = window.requestAnimationFrame(tick);
     };
     frame = window.requestAnimationFrame(tick);
-    document.addEventListener("visibilitychange", onVisibility);
-    return () => {
-      window.cancelAnimationFrame(frame);
-      document.removeEventListener("visibilitychange", onVisibility);
-    };
+    return () => window.cancelAnimationFrame(frame);
   }, []);
 
   return (
