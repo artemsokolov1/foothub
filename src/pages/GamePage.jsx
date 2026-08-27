@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Link, Navigate, useParams } from "react-router-dom";
+import { useEffect } from "react";
+import { Navigate, useParams } from "react-router-dom";
 import Header from "../components/Header";
 import DiceGame from "../games/DiceGame";
 import WinnerGame from "../games/WinnerGame";
@@ -14,32 +14,10 @@ const GAMES = {
 
 const HOME_TITLE = "FootHub — бонусы букмекеров и прогнозы на спорт";
 
-function OverlayFrame({ children }) {
-  return (
-    <div className="absolute inset-0 z-40 flex items-end justify-center bg-ink-950/60 p-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:items-center">
-      {children}
-    </div>
-  );
-}
-
-function Panel({ children }) {
-  return (
-    <div className="w-full max-w-md rounded-2xl border border-white/10 bg-ink-900/95 p-5 shadow-[0_24px_50px_-24px_rgba(0,0,0,0.9)]">
-      {children}
-    </div>
-  );
-}
-
 export default function GamePage() {
   const { slug } = useParams();
   const game = gameBySlug(slug);
   const Game = GAMES[slug];
-
-  const [status, setStatus] = useState("start");
-
-  useEffect(() => {
-    setStatus("start");
-  }, [slug]);
 
   useEffect(() => {
     if (!game) return undefined;
@@ -71,42 +49,8 @@ export default function GamePage() {
       <Header compact />
       <div className="relative min-h-0 flex-1">
         <div className="absolute inset-0">
-          <Game status={status} />
+          <Game status="playing" />
         </div>
-
-        {status === "start" ? (
-          <OverlayFrame>
-            <Panel>
-              <p className="text-xs font-bold tracking-widest text-neon uppercase">
-                18+. Для развлечения
-              </p>
-              <h1 className="mt-1 text-3xl font-extrabold tracking-tight">
-                {game.title}
-              </h1>
-              <p className="mt-2 text-sm leading-relaxed text-white/65">
-                {game.rule}
-              </p>
-              <p className="mt-2 text-sm font-bold text-white/45">
-                Это не прогноз и не ставка. Играй сколько хочешь.
-              </p>
-              <div className="mt-5">
-                <button
-                  type="button"
-                  onClick={() => setStatus("playing")}
-                  className="flex min-h-12 w-full items-center justify-center rounded-xl bg-gradient-to-b from-neon to-neon-dim text-base font-extrabold text-ink-950"
-                >
-                  Играть
-                </button>
-              </div>
-              <Link
-                to="/games"
-                className="mt-3 flex min-h-11 items-center justify-center text-sm font-extrabold text-white/50"
-              >
-                Назад
-              </Link>
-            </Panel>
-          </OverlayFrame>
-        ) : null}
       </div>
     </div>
   );
