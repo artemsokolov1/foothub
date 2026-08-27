@@ -19,16 +19,18 @@ const SPOT = {
   br: "bottom-2.5 right-2.5",
 };
 
-export default function DiceGame({ status, onWin }) {
+export default function DiceGame({ status }) {
   const [value, setValue] = useState(1);
   const [rolling, setRolling] = useState(false);
-  const done = useRef(false);
+  const spinRef = useRef(0);
+
+  useEffect(() => () => window.clearInterval(spinRef.current), []);
 
   useEffect(() => {
     if (status !== "playing") {
+      window.clearInterval(spinRef.current);
       setValue(1);
       setRolling(false);
-      done.current = false;
     }
   }, [status]);
 
@@ -40,18 +42,14 @@ export default function DiceGame({ status, onWin }) {
     if (rolling) return;
     setRolling(true);
     let ticks = 0;
-    const spin = window.setInterval(() => {
+    window.clearInterval(spinRef.current);
+    spinRef.current = window.setInterval(() => {
       setValue(1 + Math.floor(Math.random() * 6));
       ticks += 1;
       if (ticks >= 10) {
-        window.clearInterval(spin);
-        const final = 1 + Math.floor(Math.random() * 6);
-        setValue(final);
+        window.clearInterval(spinRef.current);
+        setValue(1 + Math.floor(Math.random() * 6));
         setRolling(false);
-        if (!done.current) {
-          done.current = true;
-          window.setTimeout(() => onWin?.(), 800);
-        }
       }
     }, 70);
   }

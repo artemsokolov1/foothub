@@ -151,9 +151,18 @@ export default function Header({ compact = false }) {
       >
         <div className="flex items-center justify-between gap-3">
           <Brand compact={compact} />
-          <div className="hidden min-w-0 flex-1 sm:block">
-            {compact ? null : <SportNav />}
-          </div>
+          {compact ? (
+            <Link
+              to="/games"
+              className="flex h-11 shrink-0 items-center rounded-xl px-3 text-sm font-extrabold text-white/70 hover:text-white"
+            >
+              ← Назад
+            </Link>
+          ) : (
+            <div className="hidden min-w-0 flex-1 sm:block">
+              <SportNav />
+            </div>
+          )}
         </div>
         {compact ? null : (
           <div className="mt-1 sm:hidden">

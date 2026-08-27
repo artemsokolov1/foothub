@@ -1,7 +1,6 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import Header from "../components/Header";
-import BonusScreen from "../games/BonusScreen";
 import DiceGame from "../games/DiceGame";
 import WinnerGame from "../games/WinnerGame";
 import YesNoGame from "../games/YesNoGame";
@@ -37,8 +36,6 @@ export default function GamePage() {
   const Game = GAMES[slug];
 
   const [status, setStatus] = useState("start");
-  const [playKey, setPlayKey] = useState(0);
-  const winTimer = useRef(0);
 
   useEffect(() => {
     setStatus("start");
@@ -67,19 +64,6 @@ export default function GamePage() {
     };
   }, [game]);
 
-  useEffect(() => () => window.clearTimeout(winTimer.current), []);
-
-  const onWin = useCallback(() => {
-    window.clearTimeout(winTimer.current);
-    winTimer.current = window.setTimeout(() => setStatus("won"), 200);
-  }, []);
-
-  const retry = useCallback(() => {
-    window.clearTimeout(winTimer.current);
-    setStatus("playing");
-    setPlayKey((key) => key + 1);
-  }, []);
-
   if (!game || !Game) return <Navigate to="/games" replace />;
 
   return (
@@ -87,7 +71,7 @@ export default function GamePage() {
       <Header compact />
       <div className="relative min-h-0 flex-1">
         <div className="absolute inset-0">
-          <Game key={`${slug}-${playKey}`} status={status} onWin={onWin} />
+          <Game status={status} />
         </div>
 
         {status === "start" ? (
@@ -103,7 +87,7 @@ export default function GamePage() {
                 {game.rule}
               </p>
               <p className="mt-2 text-sm font-bold text-white/45">
-                После раунда откроется бонус с главной. Это не прогноз и не ставка.
+                Это не прогноз и не ставка. Играй сколько хочешь.
               </p>
               <div className="mt-5">
                 <button
@@ -118,15 +102,9 @@ export default function GamePage() {
                 to="/games"
                 className="mt-3 flex min-h-11 items-center justify-center text-sm font-extrabold text-white/50"
               >
-                К играм
+                Назад
               </Link>
             </Panel>
-          </OverlayFrame>
-        ) : null}
-
-        {status === "won" ? (
-          <OverlayFrame>
-            <BonusScreen onRetry={retry} />
           </OverlayFrame>
         ) : null}
       </div>

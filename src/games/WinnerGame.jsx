@@ -1,17 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function WinnerGame({ status, onWin }) {
+export default function WinnerGame({ status }) {
   const [home, setHome] = useState("");
   const [away, setAway] = useState("");
   const [busy, setBusy] = useState(false);
   const [winner, setWinner] = useState("");
-  const done = useRef(false);
+  const timer = useRef(0);
+
+  useEffect(() => () => window.clearTimeout(timer.current), []);
 
   useEffect(() => {
     if (status !== "playing") {
+      window.clearTimeout(timer.current);
       setBusy(false);
       setWinner("");
-      done.current = false;
     }
   }, [status]);
 
@@ -27,14 +29,10 @@ export default function WinnerGame({ status, onWin }) {
     if (!home.trim() || !away.trim()) return;
     setBusy(true);
     setWinner("");
-    window.setTimeout(() => {
-      const chosen = Math.random() < 0.5 ? a : b;
-      setWinner(chosen);
+    window.clearTimeout(timer.current);
+    timer.current = window.setTimeout(() => {
+      setWinner(Math.random() < 0.5 ? a : b);
       setBusy(false);
-      if (!done.current) {
-        done.current = true;
-        window.setTimeout(() => onWin?.(), 1000);
-      }
     }, 900);
   }
 

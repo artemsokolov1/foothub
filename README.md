@@ -50,12 +50,12 @@ site/
       HomePage.jsx           футбол: герой, экспресс, виды спорта, игры, БК
       SportPage.jsx          /hockey и /esports
       GamesHubPage.jsx       хаб трёх игр
-      GamePage.jsx           канвас, оверлеи, экран бонуса
+      GamePage.jsx           правила, игра без экрана бонуса, назад
     games/
       catalog.js             карточки хаба
-      offers.js              первый оффер + две альтернативы из bookmakers
-      engine.js              low-poly стадион, мяч, вратарь, свайпы
-      penalty.js / keepyup.js / keeper.js
+      YesNoGame.jsx          Говорящий Бен
+      DiceGame.jsx           кубик
+      WinnerGame.jsx         кто выиграет
     components/
       Header.jsx             логотип, разделы спорта, игры, бонусы
       Hero.jsx               заголовок и кнопки каналов

@@ -9,11 +9,11 @@ const POSTER = "/games/ben-idle.jpg";
 /**
  * Говорящий Бен: тап — ролик yes или no. Клипы без чёрных полей,
  * звук идёт из видео (жест пользователя, чтобы iOS не глушил).
+ * Играть можно сколько угодно: раунд не заканчивается бонусом.
  */
-export default function YesNoGame({ status, onWin }) {
+export default function YesNoGame({ status }) {
   const yesRef = useRef(null);
   const noRef = useRef(null);
-  const done = useRef(false);
   const failSafe = useRef(0);
   const pickRef = useRef(null);
   const [busy, setBusy] = useState(false);
@@ -28,7 +28,7 @@ export default function YesNoGame({ status, onWin }) {
     setPick(null);
     pickRef.current = null;
     setSaid(null);
-    done.current = false;
+    window.clearTimeout(failSafe.current);
     for (const el of [yesRef.current, noRef.current]) {
       if (!el) continue;
       el.pause();
@@ -38,14 +38,14 @@ export default function YesNoGame({ status, onWin }) {
   }, [status]);
 
   function finish(key) {
+    if (pickRef.current !== key) return;
     setSaid(CLIPS[key].label);
-    if (done.current) return;
-    done.current = true;
-    window.setTimeout(() => onWin?.(), 700);
+    setBusy(false);
+    window.clearTimeout(failSafe.current);
   }
 
   async function ask() {
-    if (busy || done.current || status !== "playing") return;
+    if (busy || status !== "playing") return;
     const key = Math.random() < 0.5 ? "yes" : "no";
     const el = key === "yes" ? yesRef.current : noRef.current;
     if (!el) return;
@@ -67,9 +67,7 @@ export default function YesNoGame({ status, onWin }) {
       return;
     }
     window.clearTimeout(failSafe.current);
-    failSafe.current = window.setTimeout(() => {
-      if (!done.current) finish(key);
-    }, 2500);
+    failSafe.current = window.setTimeout(() => finish(key), 2500);
   }
 
   if (status !== "playing") {

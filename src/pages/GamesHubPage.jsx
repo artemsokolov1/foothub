@@ -50,8 +50,8 @@ export default function GamesHubPage() {
           transition={{ delay: 0.1 }}
           className="mt-4 max-w-xl text-base leading-relaxed text-white/65 sm:text-xl"
         >
-          Говорящий Бен, кубик и кто выиграет. Без регистрации. Бонус — тот
-          же оффер, что на главной.
+          Говорящий Бен, кубик и кто выиграет. Без регистрации, играй
+          сколько хочешь.
         </motion.p>
 
         <ul className="mt-10 grid grid-cols-1 gap-4 sm:mt-12 sm:grid-cols-3 sm:gap-5">
