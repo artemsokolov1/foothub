@@ -22,7 +22,7 @@ export const PLAYERS = [
     name: "Килиан Мбаппе",
     club: "Реал Мадрид",
     usdPerYear: 95_000_000,
-    photo: "/players/mbappe.jpg",
+    photo: "/players/mbappe-2026.jpg",
   },
 ];
 
