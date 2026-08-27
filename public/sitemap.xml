@@ -81,6 +81,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/express-27-08-2026-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-27-08-2026-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/27-08-2026-ak-bars-kazan-dinamo-minsk</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -102,6 +112,11 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/28-08-2026-lada-salavat-yulaev-ufa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/express-27-08-2026-1</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

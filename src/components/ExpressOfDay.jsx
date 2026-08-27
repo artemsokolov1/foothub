@@ -82,9 +82,10 @@ export default function ExpressOfDay({
           parlays.length > 1 ? "lg:grid-cols-2" : ""
         }`}
       >
-        {parlays.map((parlay, index) => (
-          <li key={parlay.number ?? index}>
-            <article className="edge-glow flex h-full flex-col rounded-2xl border border-white/8 bg-ink-900/80 p-5 sm:p-6">
+        {parlays.map((parlay, index) => {
+          const href = parlay.page || "";
+          const inner = (
+            <>
               <div className="flex items-start justify-between gap-3">
                 <h3 className="text-xl font-extrabold tracking-tight sm:text-2xl">
                   {parlay.title || `Экспресс дня №${parlay.number ?? index + 1}`}
@@ -124,9 +125,28 @@ export default function ExpressOfDay({
                   </li>
                 ))}
               </ol>
-            </article>
-          </li>
-        ))}
+              {href ? (
+                <p className="mt-4 text-xs font-bold tracking-wide text-neon/80">
+                  Открыть экспресс →
+                </p>
+              ) : null}
+            </>
+          );
+          const skin =
+            "edge-glow flex h-full flex-col rounded-2xl border border-white/8 bg-ink-900/80 p-5 sm:p-6" +
+            (href ? " transition-colors hover:border-neon/35" : "");
+          return (
+            <li key={parlay.number ?? index}>
+              {href ? (
+                <a href={href} className={skin}>
+                  {inner}
+                </a>
+              ) : (
+                <article className={skin}>{inner}</article>
+              )}
+            </li>
+          );
+        })}
       </ul>
 
       {showCta ? (
