@@ -176,6 +176,30 @@
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
         "slug": "27-08-2026-ak-bars-kazan-dinamo-minsk"
+      },
+      {
+        "home": "Амур",
+        "away": "Трактор",
+        "kickoff": "13:00",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "27-08-2026-amur-khabarovsk-traktor-chelyabinsk"
+      },
+      {
+        "home": "Лада",
+        "away": "Салават Юлаев",
+        "kickoff": "15:00",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "28-08-2026-lada-salavat-yulaev-ufa"
+      },
+      {
+        "home": "Авангард",
+        "away": "Северсталь",
+        "kickoff": "16:30",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "27-08-2026-avangard-omsk-severstal-cherepovets"
       }
     ]
   },
@@ -188,20 +212,20 @@
     "parlays": [],
     "matches": [
       {
-        "home": "MOUZ",
-        "away": "9z",
-        "kickoff": "14:30",
-        "league": "BLAST Open Porto",
-        "game": "CS2",
-        "slug": "27-08-2026-mouz-9z"
-      },
-      {
         "home": "Vitality",
         "away": "Inner Circle Esports",
         "kickoff": "12:00",
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "27-08-2026-vitality-inner-circle-esports"
+      },
+      {
+        "home": "MOUZ",
+        "away": "9z",
+        "kickoff": "14:30",
+        "league": "BLAST Open Porto",
+        "game": "CS2",
+        "slug": "27-08-2026-mouz-9z"
       },
       {
         "home": "Legacy",
@@ -244,12 +268,12 @@
         "slug": "27-08-2026-inox-division-just-players"
       },
       {
-        "home": "PuckChamp",
-        "away": "Inner Circle",
-        "kickoff": "10:00",
-        "league": "EPL Masters Play-In",
-        "game": "Dota 2",
-        "slug": "29-08-2026-puckchamp-inner-circle-x-insanity"
+        "home": "Acend",
+        "away": "UNiTY",
+        "kickoff": "17:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "27-08-2026-acend-unity-esports"
       }
     ]
   }
