@@ -52,10 +52,37 @@
       .pick p { margin: 0; font-weight: 800; }
       .odd { color: #b6ff3c; font-weight: 800; font-size: 1.4rem; }
       article p { line-height: 1.65; color: #ffffffc4; }
+      .bets h2 { margin: 1.8rem 0 .8rem; font-size: 1.35rem; }
+      .bk-row {
+        display: grid; grid-template-columns: 1fr; gap: .8rem; margin-bottom: 1.2rem;
+      }
+      @media (min-width: 640px) {
+        .bk-row { grid-template-columns: 1fr 1fr 1fr; }
+      }
+      .bk {
+        display: flex; flex-direction: column; gap: .7rem; padding: .85rem;
+        border-radius: 1rem; border: 1px solid #ffffff14; background: #0a0c10;
+      }
+      .bk-head {
+        display: flex; align-items: center; gap: .55rem; min-height: 3.2rem;
+        padding: 0 .7rem; border-radius: .7rem; color: #fff; font-weight: 800;
+      }
+      .bk-head img {
+        width: 32px; height: 32px; object-fit: contain; background: #fff;
+        border-radius: 999px; padding: 3px;
+      }
+      .bk-name { margin: 0; font-size: .75rem; color: #ffffff80; font-weight: 600; }
+      .bk-bonus { margin: 0; font-weight: 800; }
+      .bk-btn {
+        display: flex; margin-top: auto; padding: .7rem .5rem; border-radius: .7rem;
+        background: linear-gradient(#b6ff3c, #8fd420); color: #050608;
+        font-weight: 800; justify-content: center; font-size: .9rem;
+        box-shadow: 0 6px 0 -2px #4f7a10;
+      }
       .cta {
-        display: flex; margin: 1.6rem 0 2rem; padding: .95rem 1.2rem;
-        border-radius: 1rem; background: linear-gradient(#b6ff3c, #8fd420);
-        color: #050608; font-weight: 800; justify-content: center;
+        display: flex; margin: .4rem 0 2rem; padding: .85rem 1.2rem;
+        border-radius: 1rem; justify-content: center;
+        font-weight: 800; color: #ffffff80;
       }
       footer { padding: 1.5rem 1.1rem 2.5rem; color: #ffffff59; font-size: .8rem; border-top: 1px solid #ffffff10; }
     </style>
@@ -76,12 +103,20 @@
       <h1>Тун — Лех Познань</h1>
       <p class="meta">Футбол · Лига Европы · 19:00 МСК · 27 августа</p>
       <p class="lead">Ответная встреча Лиги Европы между швейцарским Туном и польским Лехом превратилась в формальность после первой игры. Тем не менее гости сохраняют отличные шансы победить и на выезде.</p>
-    <aside class="pick"><p>Победа Леха Познань</p><span class="odd">2.29</span></aside>
+    <aside class="pick"><p>Победа Леха</p><span class="odd">2.32</span></aside>
     <article>
     <p>Швейцарский клуб переживает кризис на старте сезона. В первой игре Лех разгромил Тун со счетом 7:0, забив четыре мяча уже к получасу встречи. За шесть поединков в августе швейцарцы пропустили 20 голов, уступив в четырех матчах. Защита команды выглядит крайне ненадёжно как на международной арене, так и во внутреннем первенстве.</p>
     <p>Лех Познань, напротив, набрал великолепную форму. Польский чемпион одержал пять побед подряд во всех турнирах и сохраняет свои ворота в неприкосновенности на протяжении четырех последних матчей. Первая встреча показала огромное преимущество поляков в классе и реализации созданных моментов.</p>
     <p>Даже с учетом того, что гостям не требуется разгромная победа для выхода в следующий раунд, хозяева находятся в слишком угнетенном состоянии. Разница в игровой форме соперников очевидна, поэтому польский коллектив вполне способен снова забрать три очка.</p>
     </article>
+    <section class="bets">
+      <h2>Сделать ставку</h2>
+      <div class="bk-row">
+      <a class="bk" href="https://clck.ru/3AkptD" target="_blank" rel="noopener noreferrer sponsored"><div class="bk-head" style="background:linear-gradient(135deg,#ff4d4d,#b81d1d)"><img src="/bk/pari.png" alt="" width="32" height="32" />PARI</div><p class="bk-name">БК Пари</p><p class="bk-bonus">Фрибет 5.000 ₽</p><span class="bk-btn">Сделать ставку</span></a>
+      <a class="bk" href="https://clck.ru/3PMdPB" target="_blank" rel="noopener noreferrer sponsored"><div class="bk-head" style="background:linear-gradient(135deg,#2f7bff,#0f3fa8)"><img src="/bk/fonbet.png" alt="" width="32" height="32" />ФОНБЕТ</div><p class="bk-name">БК Фонбет</p><p class="bk-bonus">Фрибет до 15.000 ₽</p><span class="bk-btn">Сделать ставку</span></a>
+      <a class="bk" href="https://betsxwin.pro/click?o=5&amp;a=9120" target="_blank" rel="noopener noreferrer sponsored"><div class="bk-head" style="background:linear-gradient(135deg,#ffb020,#c76a00)"><img src="/bk/winline.png" alt="" width="32" height="32" />WINLINE</div><p class="bk-name">Winline</p><p class="bk-bonus">Фрибет 10.000 ₽</p><span class="bk-btn">Сделать ставку</span></a>
+      </div>
+    </section>
       <a class="cta" href="https://t.me/foothubru" rel="noopener noreferrer">Телеграм канал</a>
     </main>
     <footer>18+. Сайт носит информационный характер. Это не призыв к ставке.</footer>
