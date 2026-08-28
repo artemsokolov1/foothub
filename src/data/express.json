@@ -33,8 +33,7 @@
             "odd": 1.76,
             "kickoff": "21:45"
           }
-        ],
-        "page": "/football/express-28-08-2026-1"
+        ]
       },
       {
         "number": 2,
@@ -62,8 +61,7 @@
             "odd": 1.65,
             "kickoff": "22:30"
           }
-        ],
-        "page": "/football/express-28-08-2026-2"
+        ]
       }
     ],
     "matches": [
@@ -73,10 +71,7 @@
         "kickoff": "18:00",
         "league": "Премьер-лига",
         "game": "Футбол",
-        "slug": "28-08-2026-akron-tolyatti-cska-moscow",
-        "page": "/football/28-08-2026-akron-tolyatti-cska-moscow",
-        "pick": "Победу ЦСКА",
-        "odd": 1.69
+        "slug": "28-08-2026-akron-tolyatti-cska-moscow"
       },
       {
         "home": "Нефтехимик",
@@ -84,10 +79,7 @@
         "kickoff": "19:30",
         "league": "Лига PARI",
         "game": "Футбол",
-        "slug": "28-08-2026-neftekhimik-nizhnekamsk-ufa",
-        "page": "/football/28-08-2026-neftekhimik-nizhnekamsk-ufa",
-        "pick": "Победа Уфы",
-        "odd": 2.91
+        "slug": "28-08-2026-neftekhimik-nizhnekamsk-ufa"
       },
       {
         "home": "Расинг",
@@ -95,10 +87,7 @@
         "kickoff": "20:00",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "28-08-2026-racing-elche-cf",
-        "page": "/football/28-08-2026-racing-elche-cf",
-        "pick": "Победа Расинга",
-        "odd": 2.15
+        "slug": "28-08-2026-racing-elche-cf"
       },
       {
         "home": "Бавария",
@@ -106,10 +95,7 @@
         "kickoff": "21:30",
         "league": "Бундеслига",
         "game": "Футбол",
-        "slug": "28-08-2026-bayern-munich-stuttgart",
-        "page": "/football/28-08-2026-bayern-munich-stuttgart",
-        "pick": "",
-        "odd": 0.0
+        "slug": "28-08-2026-bayern-munich-stuttgart"
       },
       {
         "home": "Лилль",
@@ -117,10 +103,7 @@
         "kickoff": "21:45",
         "league": "Лига 1",
         "game": "Футбол",
-        "slug": "28-08-2026-lille-paris-saint-germain",
-        "page": "/football/28-08-2026-lille-paris-saint-germain",
-        "pick": "Лилль не проиграет",
-        "odd": 2.15
+        "slug": "28-08-2026-lille-paris-saint-germain"
       },
       {
         "home": "Милан",
@@ -128,10 +111,7 @@
         "kickoff": "21:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "28-08-2026-milan-venezia",
-        "page": "/football/28-08-2026-milan-venezia",
-        "pick": "Победа Милана с форой (-1.5)",
-        "odd": 2.05
+        "slug": "28-08-2026-milan-venezia"
       },
       {
         "home": "Кристал Пэлас",
@@ -139,10 +119,7 @@
         "kickoff": "22:00",
         "league": "Премьер-лига",
         "game": "Футбол",
-        "slug": "28-08-2026-crystal-palace-manchester-city",
-        "page": "/football/28-08-2026-crystal-palace-manchester-city",
-        "pick": "Победа Манчестер Сити",
-        "odd": 1.68
+        "slug": "28-08-2026-crystal-palace-manchester-city"
       },
       {
         "home": "Алавес",
@@ -150,10 +127,7 @@
         "kickoff": "22:30",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "28-08-2026-deportivo-alaves-villarreal",
-        "page": "/football/28-08-2026-deportivo-alaves-villarreal",
-        "pick": "Алавес не проиграет",
-        "odd": 1.66
+        "slug": "28-08-2026-deportivo-alaves-villarreal"
       }
     ]
   },
@@ -190,8 +164,7 @@
             "odd": 1.7,
             "kickoff": "19:00"
           }
-        ],
-        "page": "/hockey/express-27-08-2026-1"
+        ]
       }
     ],
     "matches": [
@@ -201,10 +174,15 @@
         "kickoff": "13:00",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": "25-08-2026-salavat-yulaev-ufa-amur-khabarovsk",
-        "page": "/hockey/25-08-2026-salavat-yulaev-ufa-amur-khabarovsk",
-        "pick": "Итоговая победа Амура",
-        "odd": 2.3
+        "slug": "25-08-2026-salavat-yulaev-ufa-amur-khabarovsk"
+      },
+      {
+        "home": "Динамо Москва",
+        "away": "Торпедо",
+        "kickoff": "15:30",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "28-08-2026-dynamo-moscow-torpedo-n-novgorod"
       },
       {
         "home": "Северсталь",
@@ -212,21 +190,7 @@
         "kickoff": "16:30",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": "28-08-2026-severstal-cherepovets-neftekhimik-nizhnekamsk",
-        "page": "/hockey/28-08-2026-severstal-cherepovets-neftekhimik-nizhnekamsk",
-        "pick": "Победа Северстали",
-        "odd": 2.1
-      },
-      {
-        "home": "Динамо Москва",
-        "away": "Торпедо",
-        "kickoff": "16:30",
-        "league": "Товарищеские матчи, клубы",
-        "game": "Хоккей",
-        "slug": "28-08-2026-dynamo-moscow-torpedo-n-novgorod",
-        "page": "/hockey/28-08-2026-dynamo-moscow-torpedo-n-novgorod",
-        "pick": "Победа Динамо",
-        "odd": 1.83
+        "slug": "28-08-2026-severstal-cherepovets-neftekhimik-nizhnekamsk"
       },
       {
         "home": "СКА",
@@ -234,10 +198,7 @@
         "kickoff": "19:00",
         "league": "Товарищеские матчи, клубы",
         "game": "Хоккей",
-        "slug": "28-08-2026-ska-st-petersburg-admiral-vladivostok",
-        "page": "/hockey/28-08-2026-ska-st-petersburg-admiral-vladivostok",
-        "pick": "Победа СКА с форой (-1.5)",
-        "odd": 2.19
+        "slug": "28-08-2026-ska-st-petersburg-admiral-vladivostok"
       }
     ]
   },
@@ -258,15 +219,20 @@
         "slug": "28-08-2026-sashi-esport-ex-rustec"
       },
       {
+        "home": "ex-RUBY",
+        "away": "GenOne",
+        "kickoff": "11:00",
+        "league": "NODWIN Clutch Series",
+        "game": "CS2",
+        "slug": "28-08-2026-ex-ruby-genone"
+      },
+      {
         "home": "Aurora",
         "away": "DENDELE",
         "kickoff": "12:00",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "28-08-2026-aurora-gaming-dendele-cs",
-        "page": "/esports/28-08-2026-aurora-gaming-dendele-cs",
-        "pick": "Тотал больше (2.5) по картам",
-        "odd": 2.38
+        "slug": "28-08-2026-aurora-gaming-dendele-cs"
       },
       {
         "home": "OG",
@@ -282,10 +248,7 @@
         "kickoff": "14:30",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "28-08-2026-g2-spirit",
-        "page": "/esports/28-08-2026-g2-spirit",
-        "pick": "Тотал меньше (2.5) по картам",
-        "odd": 1.65
+        "slug": "28-08-2026-g2-spirit"
       },
       {
         "home": "Natus Vincere",
@@ -293,10 +256,7 @@
         "kickoff": "17:00",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "28-08-2026-natus-vincere-pain",
-        "page": "/esports/28-08-2026-natus-vincere-pain",
-        "pick": "Тотал меньше (2.5) по картам",
-        "odd": 1.49
+        "slug": "28-08-2026-natus-vincere-pain"
       },
       {
         "home": "Phantom",
@@ -312,18 +272,7 @@
         "kickoff": "19:30",
         "league": "BLAST Open Porto",
         "game": "CS2",
-        "slug": "28-08-2026-m80-furia",
-        "page": "/esports/28-08-2026-m80-furia",
-        "pick": "Тотал меньше (2.5) по картам",
-        "odd": 1.52
-      },
-      {
-        "home": "Sinners",
-        "away": "Bushido Wildcats",
-        "kickoff": "20:00",
-        "league": "CCT Europe Series #7",
-        "game": "CS2",
-        "slug": "28-08-2026-sinners-bushido-wildcats"
+        "slug": "28-08-2026-m80-furia"
       }
     ]
   }
