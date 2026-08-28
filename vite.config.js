@@ -74,6 +74,31 @@ const ROUTE_META = {
  * Копия раздела получает свои title, description и canonical, а также
  * заголовок в <noscript> — краулеру без JS иначе достаётся пустой <div>.
  */
+/** Страница «не найдено» из той же оболочки: шапка, объяснение, ссылки. */
+function notFoundPage(html) {
+  const title = "Страница не найдена — FootHub";
+  const body = `
+      <main style="max-width:44rem;margin:0 auto;padding:6rem 1.25rem;font-family:system-ui,sans-serif;color:#eef1f6">
+        <p style="font-size:.8rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#b6ff3c;margin:0 0 .75rem">Ошибка 404</p>
+        <h1 style="font-size:2rem;line-height:1.15;margin:0 0 1rem">Такой страницы нет</h1>
+        <p style="color:#ffffffa6;line-height:1.6;margin:0 0 1.75rem">
+          Возможно, вы пришли по старой ссылке: раньше на этом домене был другой сайт.
+          Сейчас здесь FootHub — бесплатные прогнозы на футбол, хоккей и киберспорт.
+        </p>
+        <p style="display:flex;flex-wrap:wrap;gap:.75rem;margin:0">
+          <a href="/" style="padding:.85rem 1.4rem;border-radius:.9rem;background:#b6ff3c;color:#050608;font-weight:800;text-decoration:none">На главную</a>
+          <a href="/football" style="padding:.85rem 1.4rem;border-radius:.9rem;border:1px solid #ffffff24;color:#fff;font-weight:700;text-decoration:none">Прогнозы на футбол</a>
+          <a href="/hockey" style="padding:.85rem 1.4rem;border-radius:.9rem;border:1px solid #ffffff24;color:#fff;font-weight:700;text-decoration:none">Хоккей</a>
+        </p>
+      </main>`;
+  return html
+    .replace(/<title>[^<]*<\/title>/, `<title>${title}</title>`)
+    .replace(/<meta\s+name="description"\s+content="[^"]*"\s*\/?>/s,
+      '<meta name="robots" content="noindex, follow" />')
+    .replace(/<link rel="canonical" href="[^"]*"\s*\/?>/, "")
+    .replace(/<div id="root"><\/div>/, body);
+}
+
 function spaFallbacks() {
   const swap = (html, route, meta) => {
     const url = `https://foothub.ru/${route}`;
@@ -100,7 +125,12 @@ function spaFallbacks() {
     closeBundle() {
       const index = "dist/index.html";
       const html = readFileSync(index, "utf8");
-      copyFileSync(index, "dist/404.html");
+      // 404 — своя страница, а не копия главной. Домен раньше принадлежал
+      // сайту с онлайн-счётом матчей, и Google до сих пор шлёт людей на его
+      // адреса. Показывать им главную без объяснений — значит терять их же:
+      // человек искал счёт матча, а попал на непонятную витрину.
+      // noindex обязателен: страница не должна попасть в выдачу сама.
+      writeFileSync("dist/404.html", notFoundPage(html));
       for (const rel of ["games", "games/yesno", "games/dice", "games/winner", "football", "hockey", "esports"]) {
         mkdirSync(join("dist", rel), { recursive: true });
         const meta = ROUTE_META[rel];
