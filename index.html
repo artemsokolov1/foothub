@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#07080A" />
 
+    <script>
+      // Имя бандла содержит хэш и меняется с каждой выкладкой, а старый файл
+      // удаляется. HTML при этом кэшируется на 10 минут — и «назад» после
+      // выкладки просил уже несуществующий скрипт. React не стартовал,
+      // получался чёрный экран (замер 28.08.2026: все прежние бандлы 404).
+      //
+      // Ловим именно провал загрузки скрипта, а не пустой #root: пустой он
+      // бывает и просто до монтирования, и перезагружать из-за этого нельзя.
+      // Флаг в sessionStorage не даёт зациклиться, если файла нет по-настоящему.
+      (function () {
+        var KEY = "fh-stale-reload";
+        addEventListener(
+          "error",
+          function (event) {
+            var el = event.target;
+            if (!el || el.tagName !== "SCRIPT" || !el.src) return;
+            try {
+              if (sessionStorage.getItem(KEY)) return;
+              sessionStorage.setItem(KEY, "1");
+            } catch (e) {}
+            location.reload();
+          },
+          true
+        );
+        addEventListener("load", function () {
+          var root = document.getElementById("root");
+          if (root && root.firstChild) {
+            try { sessionStorage.removeItem(KEY); } catch (e) {}
+          }
+        });
+      })();
+    </script>
+
     <!-- Подтверждение прав в панелях вебмастеров. Живут только здесь, на
          корне: обеим системам этого достаточно, а дублировать их на каждой
          странице незачем. Удалять после проверки нельзя — права слетят. -->
