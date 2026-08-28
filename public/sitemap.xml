@@ -146,6 +146,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/26-08-2026-metallurg-magnitogorsk-lada</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/27-08-2026-ak-bars-kazan-dinamo-minsk</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -191,6 +196,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/express-28-08-2026-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/lm-28-08-2026-cska-moscow-hc-dinamo-minsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/esports/27-08-2026-legacy-fut-esports</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -202,6 +217,11 @@
   </url>
   <url>
     <loc>https://foothub.ru/esports/27-08-2026-team-falcons-lynn-vision</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/27-08-2026-upgrade-black-phoenix</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -232,6 +252,21 @@
   </url>
   <url>
     <loc>https://foothub.ru/esports/28-08-2026-natus-vincere-pain</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/28-08-2026-phantom-leo-team</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/28-08-2026-sparta-inner-circle-academy</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/29-08-2026-dynasty-inner-circle-x-insanity</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
