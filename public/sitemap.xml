@@ -81,12 +81,67 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/28-08-2026-akron-tolyatti-cska-moscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-08-2026-bayern-munich-stuttgart</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-08-2026-crystal-palace-manchester-city</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-08-2026-deportivo-alaves-villarreal</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-08-2026-lille-paris-saint-germain</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-08-2026-milan-venezia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-08-2026-neftekhimik-nizhnekamsk-ufa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-08-2026-racing-elche-cf</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/express-27-08-2026-1</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://foothub.ru/football/express-27-08-2026-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-28-08-2026-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-28-08-2026-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/25-08-2026-salavat-yulaev-ufa-amur-khabarovsk</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -111,7 +166,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/28-08-2026-dynamo-moscow-torpedo-n-novgorod</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/28-08-2026-lada-salavat-yulaev-ufa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/28-08-2026-severstal-cherepovets-neftekhimik-nizhnekamsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/28-08-2026-ska-st-petersburg-admiral-vladivostok</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -137,6 +207,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/esports/27-08-2026-vitality-inner-circle-esports</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/28-08-2026-aurora-gaming-dendele-cs</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/28-08-2026-g2-spirit</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/28-08-2026-m80-furia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/28-08-2026-natus-vincere-pain</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

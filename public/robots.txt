@@ -1,3 +1,12 @@
+# Индексируем всё: закрывать на сайте нечего, служебных разделов нет.
 User-agent: *
 Allow: /
+
+# Яндексу отдельно: параметры меток не создают новых страниц. Без этой
+# директивы ?utm_source и ?from плодят дубли одной и той же страницы,
+# и вес размазывается между ними.
+User-agent: Yandex
+Allow: /
+Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&from&yclid&gclid
+
 Sitemap: https://foothub.ru/sitemap.xml
