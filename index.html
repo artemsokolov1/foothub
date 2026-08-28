@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#07080A" />
 
+    <!-- Подтверждение прав в панелях вебмастеров. Живут только здесь, на
+         корне: обеим системам этого достаточно, а дублировать их на каждой
+         странице незачем. Удалять после проверки нельзя — права слетят. -->
+    <meta name="google-site-verification" content="ge7Qma517H-HV5dEXDcCdg-K_Hw0MOvEnsvw8hTRYBc" />
+    <meta name="yandex-verification" content="002a776c5c95d968" />
+
     <title>FootHub — бонусы букмекеров и прогнозы на спорт</title>
     <meta
       name="description"
@@ -37,8 +43,31 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Яндекс.Метрика. Для Яндекса поведенческие факторы — один из главных
+         сигналов, без счётчика он их почти не видит. Счётчик 112027049. -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments); };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) { return; }
+        }
+        k = e.createElement(t); a = e.getElementsByTagName(t)[0];
+        k.async = 1; k.src = r; a.parentNode.insertBefore(k, a);
+      })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js?id=112027049", "ym");
+
+      ym(112027049, "init", {
+        ssr: true, webvisor: true, clickmap: true, ecommerce: "dataLayer",
+        referrer: document.referrer, url: location.href,
+        accurateTrackBounce: true, trackLinks: true
+      });
+    </script>
   </head>
   <body>
+    <!-- Пиксель Метрики для посетителей без JS. В <head> он лежать не может:
+         там <noscript> допускает только link, style и meta. -->
+    <noscript><div><img src="https://mc.yandex.ru/watch/112027049" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

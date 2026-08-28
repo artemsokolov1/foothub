@@ -216,6 +216,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/esports/28-08-2026-ex-ruby-genone</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/esports/28-08-2026-g2-spirit</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
