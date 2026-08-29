@@ -121,6 +121,46 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/29-08-2026-07-elversberg-bayer-leverkusen</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-akhmat-grozny-krylya-sovetov</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-cologne-hoffenheim</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-fakel-voronezh-zenit-saint-petersburg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-krasnodar-rostov</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-leipzig-borussia-m-gladbach</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-liverpool-nottingham-forest</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-lokomotiv-moscow-dynamo-moscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/express-27-08-2026-1</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -137,6 +177,21 @@
   </url>
   <url>
     <loc>https://foothub.ru/football/express-28-08-2026-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-29-08-2026-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-29-08-2026-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-29-08-2026-3</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -197,6 +252,11 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/express-28-08-2026-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/express-29-08-2026-1</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -267,6 +327,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/esports/29-08-2026-dynasty-inner-circle-x-insanity</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/29-08-2026-fut-esports-lynn-vision</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/29-08-2026-inner-circle-esports-mouz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/29-08-2026-legacy-team-falcons</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/29-08-2026-vitality-9z</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
