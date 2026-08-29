@@ -331,6 +331,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/esports/29-08-2026-ex-zero-tenacity-sinners</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/esports/29-08-2026-fut-esports-lynn-vision</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -342,6 +347,11 @@
   </url>
   <url>
     <loc>https://foothub.ru/esports/29-08-2026-legacy-team-falcons</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/29-08-2026-sparta-honv-d</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

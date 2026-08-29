@@ -131,7 +131,7 @@ export default function YesNoGame({ status }) {
   return (
     <div className="flex h-full flex-col items-center justify-center bg-ink-950 px-4">
       <p className="mb-4 text-center text-sm font-semibold text-white/50">
-        Подумай вопрос и тапни Бена
+        Подумай вопрос — например, выиграет ли Спартак сегодня?
       </p>
       <div
         role="button"
