@@ -129,20 +129,20 @@
         "slug": "29-08-2026-leipzig-borussia-m-gladbach"
       },
       {
-        "home": "Кельн",
-        "away": "Хоффенхайм",
-        "kickoff": "16:30",
-        "league": "Бундеслига",
-        "game": "Футбол",
-        "slug": "29-08-2026-cologne-hoffenheim"
-      },
-      {
         "home": "Краснодар",
         "away": "Ростов",
         "kickoff": "17:30",
         "league": "Премьер-лига",
         "game": "Футбол",
         "slug": "29-08-2026-krasnodar-rostov"
+      },
+      {
+        "home": "Тоттенхэм",
+        "away": "Ньюкасл",
+        "kickoff": "19:30",
+        "league": "Премьер-лига",
+        "game": "Футбол",
+        "slug": "29-08-2026-tottenham-hotspur-newcastle-united"
       },
       {
         "home": "Локомотив",
@@ -218,6 +218,14 @@
         "league": "BLAST Open Porto",
         "game": "CS2",
         "slug": "29-08-2026-fut-esports-lynn-vision"
+      },
+      {
+        "home": "GenOne",
+        "away": "Acend",
+        "kickoff": "17:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "29-08-2026-genone-nemiga"
       },
       {
         "home": "SPARTA",
