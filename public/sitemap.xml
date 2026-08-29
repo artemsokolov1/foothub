@@ -131,12 +131,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/29-08-2026-borussia-dortmund-hamburger</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/29-08-2026-cologne-hoffenheim</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://foothub.ru/football/29-08-2026-fakel-voronezh-zenit-saint-petersburg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-fiorentina-frosinone-calcio</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -157,6 +167,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/football/29-08-2026-lokomotiv-moscow-dynamo-moscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-real-sociedad-espanyol-barcelona</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-sassuolo-calcio-torino</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-sevilla-atletico-madrid</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-08-2026-tottenham-hotspur-newcastle-united</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -246,6 +276,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/29-08-2026-ska-st-petersburg-ska-neva</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/express-27-08-2026-1</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -262,6 +297,11 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/lm-28-08-2026-cska-moscow-hc-dinamo-minsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/lm-29-08-2026-hc-spartak-moscow-ak-bars-kazan</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -346,12 +386,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/esports/29-08-2026-klim-sani4-spirit-academy</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/esports/29-08-2026-legacy-team-falcons</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://foothub.ru/esports/29-08-2026-sparta-honv-d</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/29-08-2026-team-synapse-puckchamp</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
