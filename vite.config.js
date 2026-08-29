@@ -99,6 +99,46 @@ function notFoundPage(html) {
     .replace(/<div id="root"><\/div>/, body);
 }
 
+/**
+ * Список матчей раздела прямо в HTML. Без него до выполнения 414 КБ JS на
+ * экране пусто: замер на дросселированном телефоне дал первый кадр 1380 мс
+ * и полную загрузку 2.2 с, и владелец справедливо назвал это долгим.
+ *
+ * React при монтировании заменит эту разметку своей — содержимое то же,
+ * данные те же самые, `express.json` собирается в бандл из этого же файла.
+ * Заодно это единственный контент раздела, который видит Яндекс: он почти
+ * не исполняет JS (ADR-143).
+ */
+function prerenderMatches(route) {
+  let data;
+  try {
+    data = JSON.parse(readFileSync("src/data/express.json", "utf8"))[route];
+  } catch {
+    return "";
+  }
+  const rows = (data && data.matches) || [];
+  if (!rows.length) return "";
+  const esc = (s) =>
+    String(s == null ? "" : s).replace(/[&<>"]/g, (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const items = rows
+    .slice(0, 12)
+    .map((m) => {
+      const title = `${esc(m.home)} — ${esc(m.away)}`;
+      const meta = [esc(m.game || ""), esc(m.league || "")].filter(Boolean).join(" · ");
+      const when = m.kickoff ? `${esc(m.kickoff)} МСК` : "";
+      const inner =
+        `<p style="margin:0 0 .25rem;font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#b6ff3c">${meta}` +
+        (when ? `<span style="float:right;color:#ffffff66;letter-spacing:0">${when}</span>` : "") +
+        `</p><p style="margin:0;font-size:1.05rem;font-weight:800">${title}</p>`;
+      return m.page
+        ? `<li><a href="${esc(m.page)}" style="display:block;padding:1rem;border-radius:1rem;border:1px solid #ffffff14;background:#0a0c10cc;color:#eef1f6;text-decoration:none">${inner}</a></li>`
+        : `<li style="padding:1rem;border-radius:1rem;border:1px solid #ffffff14;background:#0a0c10cc">${inner}</li>`;
+    })
+    .join("");
+  return `<ul style="list-style:none;margin:0;padding:0;display:grid;gap:.75rem">${items}</ul>`;
+}
+
 function spaFallbacks() {
   const swap = (html, route, meta) => {
     const url = `https://foothub.ru/${route}`;
@@ -115,8 +155,12 @@ function spaFallbacks() {
       .replace(/(<meta property="og:url" content=")[^"]*(")/, `$1${url}$2`)
       .replace(/(<meta property="og:title" content=")[^"]*(")/, `$1${meta.title}$2`)
       .replace(
-        /(<div id="root">)/,
-        `<noscript><h1>${meta.heading}</h1><p>${meta.description}</p></noscript>$1`,
+        /<div id="root"><\/div>/,
+        `<div id="root"><main style="max-width:64rem;margin:0 auto;padding:3rem 1rem;` +
+          `font-family:system-ui,sans-serif;color:#eef1f6">` +
+          `<h1 style="font-size:1.9rem;line-height:1.15;margin:0 0 .6rem">${meta.heading}</h1>` +
+          `<p style="color:#ffffffa6;margin:0 0 1.75rem">${meta.description}</p>` +
+          `${prerenderMatches(route)}</main></div>`,
       );
   };
 
