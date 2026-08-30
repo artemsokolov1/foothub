@@ -117,9 +117,7 @@
         "league": "Премьер-лига",
         "game": "Футбол",
         "slug": "30-08-2026-rodina-moscow-baltika-kaliningrad",
-        "page": "/football/30-08-2026-rodina-moscow-baltika-kaliningrad",
-        "pick": "",
-        "odd": 0.0
+        "page": "/football/30-08-2026-rodina-moscow-baltika-kaliningrad"
       },
       {
         "home": "Челси",
@@ -133,17 +131,6 @@
         "odd": 2.05
       },
       {
-        "home": "Сандерленд",
-        "away": "Фулхэм",
-        "kickoff": "16:00",
-        "league": "Премьер-лига",
-        "game": "Футбол",
-        "slug": "30-08-2026-sunderland-fulham",
-        "page": "/football/30-08-2026-sunderland-fulham",
-        "pick": "Фулхэм не проиграет",
-        "odd": 1.59
-      },
-      {
         "home": "Лидс",
         "away": "Брентфорд",
         "kickoff": "16:00",
@@ -153,6 +140,17 @@
         "page": "/football/30-08-2026-leeds-united-brentford",
         "pick": "Победа Брентфорда",
         "odd": 2.79
+      },
+      {
+        "home": "Сандерленд",
+        "away": "Фулхэм",
+        "kickoff": "16:00",
+        "league": "Премьер-лига",
+        "game": "Футбол",
+        "slug": "30-08-2026-sunderland-fulham",
+        "page": "/football/30-08-2026-sunderland-fulham",
+        "pick": "Фулхэм не проиграет",
+        "odd": 1.59
       },
       {
         "home": "Спартак",
