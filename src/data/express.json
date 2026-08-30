@@ -100,17 +100,6 @@
     ],
     "matches": [
       {
-        "home": "СКА-Хабаровск",
-        "away": "Торпедо Москва",
-        "kickoff": "08:00",
-        "league": "Лига PARI",
-        "game": "Футбол",
-        "slug": "30-08-2026-ska-khabarovsk-torpedo-moscow",
-        "page": "/football/30-08-2026-ska-khabarovsk-torpedo-moscow",
-        "pick": "Победа Торпедо",
-        "odd": 1.6
-      },
-      {
         "home": "Родина",
         "away": "Балтика",
         "kickoff": "15:00",
@@ -131,17 +120,6 @@
         "odd": 2.05
       },
       {
-        "home": "Лидс",
-        "away": "Брентфорд",
-        "kickoff": "16:00",
-        "league": "Премьер-лига",
-        "game": "Футбол",
-        "slug": "30-08-2026-leeds-united-brentford",
-        "page": "/football/30-08-2026-leeds-united-brentford",
-        "pick": "Победа Брентфорда",
-        "odd": 2.79
-      },
-      {
         "home": "Сандерленд",
         "away": "Фулхэм",
         "kickoff": "16:00",
@@ -151,6 +129,17 @@
         "page": "/football/30-08-2026-sunderland-fulham",
         "pick": "Фулхэм не проиграет",
         "odd": 1.59
+      },
+      {
+        "home": "Лидс",
+        "away": "Брентфорд",
+        "kickoff": "16:00",
+        "league": "Премьер-лига",
+        "game": "Футбол",
+        "slug": "30-08-2026-leeds-united-brentford",
+        "page": "/football/30-08-2026-leeds-united-brentford",
+        "pick": "Победа Брентфорда",
+        "odd": 2.79
       },
       {
         "home": "Спартак",
@@ -173,6 +162,14 @@
         "page": "/football/30-08-2026-real-madrid-malaga-cf",
         "pick": "Победа Реала с форой (-2.5)",
         "odd": 1.88
+      },
+      {
+        "home": "Манчестер Юнайтед",
+        "away": "Ипсвич Таун",
+        "kickoff": "18:30",
+        "league": "Премьер-лига",
+        "game": "Футбол",
+        "slug": "30-08-2026-manchester-united-ipswich-town"
       },
       {
         "home": "Рубин",
@@ -228,6 +225,14 @@
         "odd": 1.89
       },
       {
+        "home": "Inner Circle",
+        "away": "Team Synapse",
+        "kickoff": "12:00",
+        "league": "EPL Masters",
+        "game": "Dota 2",
+        "slug": "30-08-2026-inner-circle-x-insanity-team-synapse"
+      },
+      {
         "home": "INOX Division",
         "away": "GenOne",
         "kickoff": "13:00",
@@ -245,6 +250,14 @@
         "page": "/esports/30-08-2026-m80-aurora-gaming",
         "pick": "Тотал меньше (2.5) по картам",
         "odd": 1.63
+      },
+      {
+        "home": "Team Lynx",
+        "away": "RE.Arise",
+        "kickoff": "15:00",
+        "league": "EPL Masters",
+        "game": "Dota 2",
+        "slug": "30-08-2026-team-lynx-re-arise"
       },
       {
         "home": "Inner Circle Esports",
