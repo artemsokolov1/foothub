@@ -106,7 +106,9 @@
         "league": "Премьер-лига",
         "game": "Футбол",
         "slug": "30-08-2026-rodina-moscow-baltika-kaliningrad",
-        "page": "/football/30-08-2026-rodina-moscow-baltika-kaliningrad"
+        "page": "/football/30-08-2026-rodina-moscow-baltika-kaliningrad",
+        "pick": "",
+        "odd": 0.0
       },
       {
         "home": "Челси",
@@ -117,7 +119,18 @@
         "slug": "30-08-2026-chelsea-brighton-hove-albion",
         "page": "/football/30-08-2026-chelsea-brighton-hove-albion",
         "pick": "Брайтон не проиграет",
-        "odd": 2.05
+        "odd": 1.92
+      },
+      {
+        "home": "Лидс",
+        "away": "Брентфорд",
+        "kickoff": "16:00",
+        "league": "Премьер-лига",
+        "game": "Футбол",
+        "slug": "30-08-2026-leeds-united-brentford",
+        "page": "/football/30-08-2026-leeds-united-brentford",
+        "pick": "Победа Брентфорда",
+        "odd": 2.78
       },
       {
         "home": "Сандерленд",
@@ -131,15 +144,15 @@
         "odd": 1.59
       },
       {
-        "home": "Лидс",
-        "away": "Брентфорд",
-        "kickoff": "16:00",
-        "league": "Премьер-лига",
+        "home": "Фрайбург",
+        "away": "Вердер",
+        "kickoff": "16:30",
+        "league": "Бундеслига",
         "game": "Футбол",
-        "slug": "30-08-2026-leeds-united-brentford",
-        "page": "/football/30-08-2026-leeds-united-brentford",
-        "pick": "Победа Брентфорда",
-        "odd": 2.79
+        "slug": "30-08-2026-freiburg-werder-bremen",
+        "page": "/football/30-08-2026-freiburg-werder-bremen",
+        "pick": "Индивидуальный тотал “Фрайбурга” больше 1.5",
+        "odd": 1.82
       },
       {
         "home": "Спартак",
@@ -150,7 +163,7 @@
         "slug": "30-08-2026-spartak-moscow-orenburg",
         "page": "/football/30-08-2026-spartak-moscow-orenburg",
         "pick": "Победа Спартака с форой (-1.5)",
-        "odd": 2.02
+        "odd": 2.04
       },
       {
         "home": "Реал Мадрид",
@@ -160,16 +173,8 @@
         "game": "Футбол",
         "slug": "30-08-2026-real-madrid-malaga-cf",
         "page": "/football/30-08-2026-real-madrid-malaga-cf",
-        "pick": "Победа Реала с форой (-2.5)",
-        "odd": 1.88
-      },
-      {
-        "home": "Манчестер Юнайтед",
-        "away": "Ипсвич Таун",
-        "kickoff": "18:30",
-        "league": "Премьер-лига",
-        "game": "Футбол",
-        "slug": "30-08-2026-manchester-united-ipswich-town"
+        "pick": "Победа Реала с форой (-3.5)",
+        "odd": 2.59
       },
       {
         "home": "Рубин",
@@ -180,7 +185,7 @@
         "slug": "30-08-2026-rubin-kazan-dynamo-makhachkala",
         "page": "/football/30-08-2026-rubin-kazan-dynamo-makhachkala",
         "pick": "Обе забьют – да",
-        "odd": 2.05
+        "odd": 2.11
       }
     ]
   },
@@ -193,6 +198,28 @@
     "parlays": [],
     "matches": [
       {
+        "home": "Локомотив",
+        "away": "Северсталь",
+        "kickoff": "12:00",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "30-08-2026-lokomotiv-yaroslavl-severstal-cherepovets",
+        "page": "/hockey/30-08-2026-lokomotiv-yaroslavl-severstal-cherepovets",
+        "pick": "Победа Локомотива",
+        "odd": 1.9
+      },
+      {
+        "home": "Ак Барс",
+        "away": "Шанхайские Драконы",
+        "kickoff": "12:00",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "lm-30-08-2026-ak-bars-kazan-red-star-kunlun",
+        "page": "/hockey/lm-30-08-2026-ak-bars-kazan-red-star-kunlun",
+        "pick": "Итоговая победа Ак Барса",
+        "odd": 1.71
+      },
+      {
         "home": "Барыс",
         "away": "Адмирал",
         "kickoff": "14:00",
@@ -201,7 +228,51 @@
         "slug": "30-08-2026-barys-astana-admiral-vladivostok",
         "page": "/hockey/30-08-2026-barys-astana-admiral-vladivostok",
         "pick": "Победа Адмирала",
-        "odd": 2.1
+        "odd": 2.09
+      },
+      {
+        "home": "Спартак",
+        "away": "Торпедо",
+        "kickoff": "14:00",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "lm-30-08-2026-hc-spartak-moscow-torpedo-n-novgorod",
+        "page": "/hockey/lm-30-08-2026-hc-spartak-moscow-torpedo-n-novgorod",
+        "pick": "Победа Спартака",
+        "odd": 1.9
+      },
+      {
+        "home": "ЦСКА",
+        "away": "Автомобилист",
+        "kickoff": "15:30",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "lm-30-08-2026-cska-moscow-avtomobilist-yekaterinburg",
+        "page": "/hockey/lm-30-08-2026-cska-moscow-avtomobilist-yekaterinburg",
+        "pick": "Итоговая победа ЦСКА",
+        "odd": 1.75
+      },
+      {
+        "home": "Авангард",
+        "away": "Нефтехимик",
+        "kickoff": "16:30",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "30-08-2026-avangard-omsk-neftekhimik-nizhnekamsk",
+        "page": "/hockey/30-08-2026-avangard-omsk-neftekhimik-nizhnekamsk",
+        "pick": "Победа Авангарда с форой (-1.5)",
+        "odd": 2.15
+      },
+      {
+        "home": "Динамо Минск",
+        "away": "Динамо Москва",
+        "kickoff": "19:30",
+        "league": "Товарищеские матчи, клубы",
+        "game": "Хоккей",
+        "slug": "lm-30-08-2026-hc-dinamo-minsk-hc-dynamo-moscow",
+        "page": "/hockey/lm-30-08-2026-hc-dinamo-minsk-hc-dynamo-moscow",
+        "pick": "Динамо Минск не проиграет в основное время",
+        "odd": 1.71
       }
     ]
   },
@@ -222,15 +293,7 @@
         "slug": "30-08-2026-g2-natus-vincere",
         "page": "/esports/30-08-2026-g2-natus-vincere",
         "pick": "Тотал больше (2.5) по картам",
-        "odd": 1.89
-      },
-      {
-        "home": "Inner Circle",
-        "away": "Team Synapse",
-        "kickoff": "12:00",
-        "league": "EPL Masters",
-        "game": "Dota 2",
-        "slug": "30-08-2026-inner-circle-x-insanity-team-synapse"
+        "odd": 1.97
       },
       {
         "home": "INOX Division",
@@ -249,7 +312,7 @@
         "slug": "30-08-2026-m80-aurora-gaming",
         "page": "/esports/30-08-2026-m80-aurora-gaming",
         "pick": "Тотал меньше (2.5) по картам",
-        "odd": 1.63
+        "odd": 1.61
       },
       {
         "home": "Team Lynx",
@@ -257,7 +320,18 @@
         "kickoff": "15:00",
         "league": "EPL Masters",
         "game": "Dota 2",
-        "slug": "30-08-2026-team-lynx-re-arise"
+        "slug": "30-08-2026-team-lynx-re-arise",
+        "page": "/esports/30-08-2026-team-lynx-re-arise",
+        "pick": "Победу Team Lynx",
+        "odd": 1.55
+      },
+      {
+        "home": "ex-Zero Tenacity",
+        "away": "Phantom",
+        "kickoff": "16:00",
+        "league": "CCT Europe Series #7",
+        "game": "CS2",
+        "slug": "30-08-2026-ex-zero-tenacity-phantom"
       },
       {
         "home": "Inner Circle Esports",
@@ -268,7 +342,7 @@
         "slug": "31-08-2026-inner-circle-esports-fut-esports",
         "page": "/esports/31-08-2026-inner-circle-esports-fut-esports",
         "pick": "Ф1 (+1.5) по картам",
-        "odd": 1.66
+        "odd": 1.65
       },
       {
         "home": "Vitality",
@@ -278,8 +352,19 @@
         "game": "CS2",
         "slug": "31-08-2026-vitality-legacy",
         "page": "/esports/31-08-2026-vitality-legacy",
-        "pick": "Рассмотреть победу Legacy с форой (+1.5) по картам",
-        "odd": 1.66
+        "pick": "Ф2 (+1.5) по картам",
+        "odd": 1.61
+      },
+      {
+        "home": "DYNASTY",
+        "away": "Klim Sani4",
+        "kickoff": "21:00",
+        "league": "EPL Masters",
+        "game": "Dota 2",
+        "slug": "30-08-2026-dynasty-klim-sani4",
+        "page": "/esports/30-08-2026-dynasty-klim-sani4",
+        "pick": "Тотал меньше (2.5) по картам",
+        "odd": 1.65
       }
     ]
   }

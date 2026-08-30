@@ -196,6 +196,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/30-08-2026-freiburg-werder-bremen</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/30-08-2026-leeds-united-brentford</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -336,7 +341,17 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/30-08-2026-avangard-omsk-neftekhimik-nizhnekamsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/30-08-2026-barys-astana-admiral-vladivostok</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/30-08-2026-lokomotiv-yaroslavl-severstal-cherepovets</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -362,6 +377,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/lm-29-08-2026-hc-spartak-moscow-ak-bars-kazan</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/lm-30-08-2026-ak-bars-kazan-red-star-kunlun</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/lm-30-08-2026-cska-moscow-avtomobilist-yekaterinburg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/lm-30-08-2026-hc-dinamo-minsk-hc-dynamo-moscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/lm-30-08-2026-hc-spartak-moscow-torpedo-n-novgorod</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -471,12 +506,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/esports/30-08-2026-dynasty-klim-sani4</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/esports/30-08-2026-g2-natus-vincere</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://foothub.ru/esports/30-08-2026-m80-aurora-gaming</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/30-08-2026-team-lynx-re-arise</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
