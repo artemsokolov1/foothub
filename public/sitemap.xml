@@ -236,6 +236,46 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/31-08-2026-amed-sportif-faaliyetler-trabzonspor</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-08-2026-aston-villa-arsenal</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-08-2026-atalanta-bologna</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-08-2026-barcelona-rayo-vallecano</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-08-2026-ik-sirius-malmo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-08-2026-lecce-roma</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-08-2026-osasuna-getafe</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-08-2026-spartak-kostroma-rotor-volgograd</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/express-27-08-2026-1</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -282,6 +322,21 @@
   </url>
   <url>
     <loc>https://foothub.ru/football/express-30-08-2026-3</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-31-08-2026-1</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-31-08-2026-2</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/express-31-08-2026-3</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -356,6 +411,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/31-08-2026-sibir-novosibirsk-severstal-cherepovec</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/express-27-08-2026-1</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -397,6 +457,11 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/lm-30-08-2026-hc-spartak-moscow-torpedo-n-novgorod</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/01-09-2026-walczaki-bet-m-33-</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -511,6 +576,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/esports/30-08-2026-g2-aurora-gaming</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/esports/30-08-2026-g2-natus-vincere</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -521,12 +591,42 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/esports/30-08-2026-spirit-furia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/esports/30-08-2026-team-lynx-re-arise</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/esports/31-08-2026-3dmax-butterfly</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/31-08-2026-echo-black-phoenix</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/31-08-2026-fut-esports-vitality</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/31-08-2026-hotu-upgrade</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/esports/31-08-2026-inner-circle-esports-fut-esports</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/esports/31-08-2026-mouz-team-falcons</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
