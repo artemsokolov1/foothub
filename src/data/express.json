@@ -211,9 +211,7 @@
         "league": "NODWIN Clutch Series",
         "game": "CS2",
         "slug": "31-08-2026-echo-black-phoenix",
-        "page": "/esports/31-08-2026-echo-black-phoenix",
-        "pick": "Победа BBL со счетом 2:0",
-        "odd": 2.12
+        "page": "/esports/31-08-2026-echo-black-phoenix"
       },
       {
         "home": "Spirit",
@@ -266,8 +264,7 @@
         "league": "NODWIN Clutch Series",
         "game": "CS2",
         "slug": "31-08-2026-hotu-upgrade",
-        "page": "/esports/31-08-2026-hotu-upgrade",
-        "pick": "Победа HOTU"
+        "page": "/esports/31-08-2026-hotu-upgrade"
       },
       {
         "home": "FUT Esports",
@@ -277,7 +274,7 @@
         "game": "CS2",
         "slug": "31-08-2026-fut-esports-vitality",
         "page": "/esports/31-08-2026-fut-esports-vitality",
-        "pick": "Тотале больше (2.5) по картам",
+        "pick": "Тотал больше (2.5) по картам",
         "odd": 2.07
       },
       {
@@ -287,8 +284,7 @@
         "league": "NODWIN Clutch Series",
         "game": "CS2",
         "slug": "01-09-2026-walczaki-bet-m-33-",
-        "page": "/esports/01-09-2026-walczaki-bet-m-33-",
-        "pick": "Победа Walczaki"
+        "page": "/esports/01-09-2026-walczaki-bet-m-33-"
       }
     ]
   }
