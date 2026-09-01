@@ -148,8 +148,7 @@
         "game": "Футбол",
         "slug": "01-09-2026-hebc-hamburg-borussia-dortmund",
         "page": "/football/01-09-2026-hebc-hamburg-borussia-dortmund",
-        "pick": "Победа Боруссии Дортмунд с форой (-5.5)",
-        "odd": 0.0
+        "pick": "Победа Боруссии Дортмунд с форой (-5.5)"
       },
       {
         "home": "Вест Хэм",
@@ -159,8 +158,7 @@
         "game": "Футбол",
         "slug": "01-09-2026-west-ham-united-wolverhampton-wanderers",
         "page": "/football/01-09-2026-west-ham-united-wolverhampton-wanderers",
-        "pick": "Обе забьют — да",
-        "odd": 0.0
+        "pick": "Обе забьют — да"
       },
       {
         "home": "Торино",
@@ -268,6 +266,14 @@
         "page": "/esports/01-09-2026-nuclear-tigeres-color",
         "pick": "Победу Nuclear TigeRES",
         "odd": 1.55
+      },
+      {
+        "home": "Zero Tenacity",
+        "away": "Spirit Academy",
+        "kickoff": "21:00",
+        "league": "EPL Masters",
+        "game": "Dota 2",
+        "slug": "01-09-2026-zero-tenacity-spirit-academy"
       }
     ]
   }
