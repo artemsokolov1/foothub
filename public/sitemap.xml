@@ -146,6 +146,46 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/04-09-2026-basaksehir-galatasaray</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/04-09-2026-genoa-como</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/04-09-2026-ipswich-liverpool</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/04-09-2026-lyon-auxerre</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/04-09-2026-parissaintgermain-monaco</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/04-09-2026-realbetis-realmadrid</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/04-09-2026-spartarotterdam-peczwolle</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/04-09-2026-vfbstuttgart-1fckoln</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
