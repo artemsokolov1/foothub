@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "football": {
-    "date": "2026-09-04",
+    "date": "2026-09-05",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,105 +9,105 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Лион",
-        "away": "Осер",
-        "kickoff": "20:00",
+        "home": "Зенит",
+        "away": "ЦСКА",
+        "kickoff": "16:30",
+        "league": "Российская Премьер-лига",
+        "game": "Футбол",
+        "slug": "05-09-2026-zenit-cskamoscow",
+        "page": "/football/05-09-2026-zenit-cskamoscow",
+        "pick": "Зенит победит",
+        "odd": 1.62
+      },
+      {
+        "home": "Ланс",
+        "away": "Лорьян",
+        "kickoff": "18:15",
         "league": "Лига 1",
         "game": "Футбол",
-        "slug": "04-09-2026-lyon-auxerre",
-        "page": "/football/04-09-2026-lyon-auxerre",
-        "pick": "Победа Лиона",
+        "slug": "05-09-2026-lens-lorient",
+        "page": "/football/05-09-2026-lens-lorient",
+        "pick": "Ланс победит",
         "odd": 1.46
       },
       {
-        "home": "Башакшехир",
-        "away": "Галатасарай",
-        "kickoff": "20:00",
-        "league": "Турецкая Суперлига",
+        "home": "Интер",
+        "away": "Наполи",
+        "kickoff": "19:00",
+        "league": "Серия А",
         "game": "Футбол",
-        "slug": "04-09-2026-basaksehir-galatasaray",
-        "page": "/football/04-09-2026-basaksehir-galatasaray",
-        "pick": "Галатасарай победит",
-        "odd": 1.6
+        "slug": "05-09-2026-inter-napoli",
+        "page": "/football/05-09-2026-inter-napoli",
+        "pick": "Интер победит",
+        "odd": 1.69
       },
       {
-        "home": "Спарта",
-        "away": "Зволле",
-        "kickoff": "21:00",
-        "league": "Эредивизи",
+        "home": "Ростов",
+        "away": "Факел",
+        "kickoff": "19:00",
+        "league": "Российская Премьер-лига",
         "game": "Футбол",
-        "slug": "04-09-2026-spartarotterdam-peczwolle",
-        "page": "/football/04-09-2026-spartarotterdam-peczwolle",
-        "pick": "Зволле не проиграет",
-        "odd": 1.83
+        "slug": "05-09-2026-fcrostov-fakel",
+        "page": "/football/05-09-2026-fcrostov-fakel",
+        "pick": "Ростов не проиграет",
+        "odd": 1.23
       },
       {
-        "home": "Штутгарт",
-        "away": "Кёльн",
-        "kickoff": "21:30",
+        "home": "Халл Сити",
+        "away": "Астон Вилла",
+        "kickoff": "19:30",
+        "league": "Английская Премьер-лига",
+        "game": "Футбол",
+        "slug": "05-09-2026-hullcity-astonvilla",
+        "page": "/football/05-09-2026-hullcity-astonvilla",
+        "pick": "Халл Сити победит",
+        "odd": 4.14
+      },
+      {
+        "home": "Райо Вальекано",
+        "away": "Расинг",
+        "kickoff": "19:30",
+        "league": "Ла Лига",
+        "game": "Футбол",
+        "slug": "05-09-2026-rayovallecano-racingsantander",
+        "page": "/football/05-09-2026-rayovallecano-racingsantander",
+        "pick": "Райо Вальекано не проиграет",
+        "odd": 1.36
+      },
+      {
+        "home": "Шальке 04",
+        "away": "Бавария",
+        "kickoff": "19:30",
         "league": "Бундеслига",
         "game": "Футбол",
-        "slug": "04-09-2026-vfbstuttgart-1fckoln",
-        "page": "/football/04-09-2026-vfbstuttgart-1fckoln",
-        "pick": "Кёльн победит",
-        "odd": 5.5
+        "slug": "05-09-2026-fcschalke04-bayernmunchen"
       },
       {
-        "home": "Дженоа",
-        "away": "Комо",
+        "home": "Рома",
+        "away": "Аталанта",
         "kickoff": "21:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "04-09-2026-genoa-como",
-        "page": "/football/04-09-2026-genoa-como",
-        "pick": "Комо победит",
-        "odd": 1.79
+        "slug": "05-09-2026-asroma-atalanta",
+        "page": "/football/05-09-2026-asroma-atalanta",
+        "pick": "Рома победит",
+        "odd": 1.73
       },
       {
-        "home": "Ипсвич",
-        "away": "Ливерпуль",
-        "kickoff": "22:00",
-        "league": "Английская Премьер-лига",
-        "game": "Футбол",
-        "slug": "04-09-2026-ipswich-liverpool",
-        "page": "/football/04-09-2026-ipswich-liverpool",
-        "pick": "Ливерпуль победит",
-        "odd": 1.47
-      },
-      {
-        "home": "Реал Бетис",
-        "away": "Реал Мадрид",
-        "kickoff": "22:00",
-        "league": "Ла Лига",
-        "game": "Футбол",
-        "slug": "04-09-2026-realbetis-realmadrid",
-        "page": "/football/04-09-2026-realbetis-realmadrid",
-        "pick": "Реал Мадрид победит",
-        "odd": 1.4
-      },
-      {
-        "home": "ПСЖ",
-        "away": "Монако",
-        "kickoff": "22:05",
+        "home": "Гавр",
+        "away": "Брест",
+        "kickoff": "21:45",
         "league": "Лига 1",
         "game": "Футбол",
-        "slug": "04-09-2026-parissaintgermain-monaco",
-        "page": "/football/04-09-2026-parissaintgermain-monaco",
-        "pick": "Монако не проиграет",
-        "odd": 3.25
-      },
-      {
-        "home": "Порту",
-        "away": "Морейренсе",
-        "kickoff": "22:15",
-        "league": "Примейра-лига",
-        "game": "Футбол",
-        "slug": "04-09-2026-fcporto-moreirense"
+        "slug": "05-09-2026-lehavre-stadebrestois29",
+        "page": "/football/05-09-2026-lehavre-stadebrestois29",
+        "pick": "Брест не проиграет",
+        "odd": 1.44
       }
     ]
   },
   "hockey": {
-    "date": "2026-09-04",
+    "date": "2026-09-05",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -116,7 +116,7 @@
     "matches": []
   },
   "esports": {
-    "date": "2026-09-04",
+    "date": "2026-09-05",
     "kind": "esports",
     "slug": "",
     "source": "api-football",
