@@ -1,36 +1,36 @@
 {
   "date": "2026-09-06",
-  "source": "Чемпионат",
+  "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Генич отреагировал на победу «Динамо» над «Спартаком» в матче 7-го тура РПЛ",
-      "url": "https://www.championat.com/football/news-6610492-genich-otreagiroval-na-pobedu-dinamo-nad-spartakom-v-matche-7-go-tura-rpl.html",
-      "source": "Чемпионат",
+      "title": "Пруцев: «Не сказал бы, что «Динамо» удивило. Им просто больше повезло»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/poluzaschitnik-spartaka-danil-prucev-zayavil-chto-dinamo-bolshe-povezlo-v-matche-7-tura-rpl-2453084/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.0
+    },
+    {
+      "title": "Агент Тюкавина об удалении в игре со «Спартаком»: «Мое мнение, что данное нарушение тянуло на желтую карточку»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/agent-tyukavina-ob-udalenii-v-igre-so-spartakom-moe-mnenie-chto-dannoe-narushenie-tyanulo-na-zheltuyu-kartochku-2453081/",
+      "source": "Спорт-Экспресс",
       "hours": 0.1
     },
     {
-      "title": "В «Динамо» прокомментировали удаление Тюкавина в матче со «Спартаком»",
-      "url": "https://www.championat.com/football/news-6610498-v-dinamo-prokommentirovali-udalenie-tyukavina-v-matche-so-spartakom.html",
-      "source": "Чемпионат",
+      "title": "Тюкавин об удалении: «Судья решил показать красную, значит красная. Допустил ошибку, буду учиться»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/stepashin-zayavil-chto-dinamo-budet-borotsya-za-chempionstvo-posle-pobedy-nad-spartakom-v-7-ture-rpl-2453080/",
+      "source": "Спорт-Экспресс",
       "hours": 0.1
     },
     {
-      "title": "Результаты матчей 3-го тура английской Премьер-лиги сезона-2026/2027",
-      "url": "https://www.championat.com/football/news-6610482-rezultaty-matchej-3-go-tura-anglijskoj-premer-ligi-sezona-2026-2027.html",
-      "source": "Чемпионат",
-      "hours": 0.1
-    },
-    {
-      "title": "«Ювентус» — «Милан»: стартовые составы команд на матч 3-го тура Серии А",
-      "url": "https://www.championat.com/football/news-6610484-yuventus-milan-startovye-sostavy-komand-na-match-3-go-tura-serii-a-6-sentyabrya-2026.html",
-      "source": "Чемпионат",
+      "title": "Карседо о поражении от «Динамо»: «Спартак» играл с желанием, но нам не хватило терпения»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/karsedo-obyasnil-pochemu-spartak-proigral-dinamo-v-matche-7-gotura-rpl-2453083/",
+      "source": "Спорт-Экспресс",
       "hours": 0.2
     },
     {
-      "title": "Фото: офсайд, из-за которого был отменён гол «Спартака» на 89-й минуте матча с «Динамо»",
-      "url": "https://www.championat.com/football/news-6610474-foto-ofsajd-iz-za-kotorogo-byl-otmenyon-gol-spartaka-na-89-j-minute-matcha-s-dinamo.html",
-      "source": "Чемпионат",
-      "hours": 0.4
+      "title": "Карседо о поражении «Спартака» от «Динамо»: «Хорошо начали матч, но не смогли удержать преимущество»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/huan-karlos-karsedo-prokommentiroval-porazhenie-spartaka-ot-dinamo-v-7-ture-rpl-2453078/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.3
     }
   ]
 }

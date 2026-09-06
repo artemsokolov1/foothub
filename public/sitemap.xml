@@ -606,6 +606,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/07-09-2026-avangardomsk-salavatufa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/07-09-2026-barysastana-novosibirsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/07-09-2026-cherepovets-lada</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/07-09-2026-yekaterinburg-tractorchelyabinsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/25-08-2026-salavat-yulaev-ufa-amur-khabarovsk</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

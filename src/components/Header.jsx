@@ -92,6 +92,10 @@ function SportNav() {
       >
         Хоккей
       </NavLink>
+      {/* Кибер убран из меню: бесплатного источника матчей CS2 и Dota нет,
+          а прежний приходил со stavka, от которой ушли. Маршрут /esports
+          жив — старые ссылки не ломаются, — но вести в пустой раздел
+          посетителя незачем (ADR-160). Вернуть: раскомментировать.
       <NavLink
         to="/esports"
         className={navClass}
@@ -104,6 +108,7 @@ function SportNav() {
       >
         Кибер
       </NavLink>
+      */}
       <NavLink
         to="/games"
         className={navClass}
