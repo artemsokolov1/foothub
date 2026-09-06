@@ -226,6 +226,51 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/06-09-2026-alaves-osasuna</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/06-09-2026-angers-rennes</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/06-09-2026-arsenal-chelsea</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/06-09-2026-baltika-lokomotiv</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/06-09-2026-bologna-sassuolo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/06-09-2026-dynamo-spartakmoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/06-09-2026-eintrachtfrankfurt-fcaugsburg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/06-09-2026-juventus-acmilan</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/06-09-2026-malaga-levante</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
