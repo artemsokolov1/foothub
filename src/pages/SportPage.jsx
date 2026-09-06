@@ -5,6 +5,7 @@ import ExpressOfDay, { formatDate, sportBlock } from "../components/ExpressOfDay
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import MatchesOfDay from "../components/MatchesOfDay";
+import NewsOfDay from "../components/NewsOfDay";
 
 const COPY = {
   football: {
@@ -92,6 +93,8 @@ export default function SportPage({ kind }) {
         {parlays.length ? (
           <ExpressOfDay data={data} kicker="Экспресс" accent="дня" />
         ) : null}
+
+        {kind === "football" ? <NewsOfDay limit={4} /> : null}
 
         {empty ? (
           <section className="mx-auto max-w-6xl px-4 pb-16 sm:px-6">
