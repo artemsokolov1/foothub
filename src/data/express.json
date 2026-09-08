@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "football": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,105 +9,102 @@
     "parlays": [],
     "matches": [
       {
-        "home": "ТБ",
-        "away": "Викингур II",
+        "home": "Нымме Калью",
+        "away": "Нымме Юнайтед",
         "kickoff": "18:00",
-        "league": "Первый дивизион Фарерских островов",
+        "league": "Мейстрилига",
         "game": "Футбол",
-        "slug": "07-09-2026-tb-vikingurii"
+        "slug": "08-09-2026-kaljunomme-nommeunited",
+        "page": "/football/08-09-2026-kaljunomme-nommeunited",
+        "pick": "Нымме Калью победит",
+        "odd": 1.44
       },
       {
-        "home": "Кальяри",
-        "away": "Лечче",
-        "kickoff": "19:30",
-        "league": "Серия А",
+        "home": "Бананц-2",
+        "away": "Арарат-Армения-2",
+        "kickoff": "18:00",
+        "league": "Первая лига Армении",
         "game": "Футбол",
-        "slug": "07-09-2026-cagliari-lecce",
-        "page": "/football/07-09-2026-cagliari-lecce",
-        "pick": "Лечче не проиграет",
-        "odd": 1.8
+        "slug": "08-09-2026-banantsii-araratarmeniaii"
       },
       {
-        "home": "Рубин",
-        "away": "Ахмат",
-        "kickoff": "19:30",
-        "league": "Российская Премьер-лига",
+        "home": "АЕК",
+        "away": "ЛАСК",
+        "kickoff": "19:45",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "07-09-2026-rubin-akhmat",
-        "page": "/football/07-09-2026-rubin-akhmat",
-        "pick": "Рубин не проиграет",
-        "odd": 1.46
+        "slug": "08-09-2026-aekathensfc-lasklinz",
+        "page": "/football/08-09-2026-aekathensfc-lasklinz",
+        "pick": "АЕК победит",
+        "odd": 1.78
       },
       {
-        "home": "Хетафе",
-        "away": "Сельта",
-        "kickoff": "20:00",
-        "league": "Ла Лига",
+        "home": "Брюгге",
+        "away": "Астон Вилла",
+        "kickoff": "19:45",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "07-09-2026-getafe-celtavigo",
-        "page": "/football/07-09-2026-getafe-celtavigo",
-        "pick": "Хетафе не проиграет",
-        "odd": 1.3
+        "slug": "08-09-2026-clubbruggekv-astonvilla",
+        "page": "/football/08-09-2026-clubbruggekv-astonvilla",
+        "pick": "Астон Вилла не проиграет",
+        "odd": 1.5
       },
       {
-        "home": "Гёзтепе",
-        "away": "Газиантеп",
-        "kickoff": "20:00",
-        "league": "Турецкая Суперлига",
+        "home": "НЕК",
+        "away": "Эксельсиор",
+        "kickoff": "19:45",
+        "league": "Эредивизи",
         "game": "Футбол",
-        "slug": "07-09-2026-goztepe-gaziantepfk",
-        "page": "/football/07-09-2026-goztepe-gaziantepfk",
-        "pick": "Гёзтепе не проиграет",
-        "odd": 1.25
+        "slug": "08-09-2026-necnijmegen-excelsior",
+        "page": "/football/08-09-2026-necnijmegen-excelsior",
+        "pick": "Эксельсиор не проиграет",
+        "odd": 2.31
       },
       {
-        "home": "Ризеспор",
-        "away": "Аланьяспор",
-        "kickoff": "20:00",
-        "league": "Турецкая Суперлига",
+        "home": "Реал Мадрид",
+        "away": "Интер",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "07-09-2026-rizespor-alanyaspor",
-        "page": "/football/07-09-2026-rizespor-alanyaspor",
-        "pick": "Аланьяспор не проиграет",
-        "odd": 1.87
+        "slug": "08-09-2026-realmadrid-inter",
+        "page": "/football/08-09-2026-realmadrid-inter",
+        "pick": "Реал Мадрид победит",
+        "odd": 1.62
       },
       {
-        "home": "Удинезе",
-        "away": "Лацио",
-        "kickoff": "21:45",
-        "league": "Серия А",
+        "home": "Боруссия",
+        "away": "Вильярреал",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "07-09-2026-udinese-lazio",
-        "page": "/football/07-09-2026-udinese-lazio",
-        "pick": "Лацио не проиграет",
-        "odd": 1.4
+        "slug": "08-09-2026-borussiadortmund-villarreal",
+        "page": "/football/08-09-2026-borussiadortmund-villarreal",
+        "pick": "Боруссия не проиграет",
+        "odd": 1.24
       },
       {
-        "home": "Эшторил",
-        "away": "Арока",
-        "kickoff": "22:15",
-        "league": "Примейра-лига",
+        "home": "Порту",
+        "away": "Манчестер Сити",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "07-09-2026-estoril-arouca",
-        "page": "/football/07-09-2026-estoril-arouca",
-        "pick": "Арока не проиграет",
-        "odd": 1.57
+        "slug": "08-09-2026-fcporto-manchestercity",
+        "page": "/football/08-09-2026-fcporto-manchestercity",
+        "pick": "Манчестер Сити победит",
+        "odd": 1.7
       },
       {
-        "home": "Эльче",
-        "away": "Реал Сосьедад",
-        "kickoff": "22:30",
-        "league": "Ла Лига",
+        "home": "Лилль",
+        "away": "Реал Бетис",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "07-09-2026-elche-realsociedad",
-        "page": "/football/07-09-2026-elche-realsociedad",
-        "pick": "Реал Сосьедад не проиграет",
-        "odd": 1.36
+        "slug": "08-09-2026-lille-realbetis"
       }
     ]
   },
   "hockey": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -115,45 +112,36 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Авангард",
-        "away": "Салават Юлаев",
-        "kickoff": "16:30",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "07-09-2026-avangardomsk-salavatufa",
-        "page": "/hockey/07-09-2026-avangardomsk-salavatufa"
-      },
-      {
-        "home": "Автомобилист",
-        "away": "Трактор",
+        "home": "Магнитогорск",
+        "away": "Хабаровск",
         "kickoff": "17:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "07-09-2026-yekaterinburg-tractorchelyabinsk",
-        "page": "/hockey/07-09-2026-yekaterinburg-tractorchelyabinsk"
+        "slug": "08-09-2026-magnitogorsk-khabarovsk",
+        "page": "/hockey/08-09-2026-magnitogorsk-khabarovsk"
       },
       {
-        "home": "Барыс",
-        "away": "Новосибирск",
-        "kickoff": "17:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "07-09-2026-barysastana-novosibirsk",
-        "page": "/hockey/07-09-2026-barysastana-novosibirsk"
-      },
-      {
-        "home": "Череповец",
-        "away": "Лада",
+        "home": "Нижнекамск",
+        "away": "Сочи",
         "kickoff": "19:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "07-09-2026-cherepovets-lada",
-        "page": "/hockey/07-09-2026-cherepovets-lada"
+        "slug": "08-09-2026-niznekamsk-sochi",
+        "page": "/hockey/08-09-2026-niznekamsk-sochi"
+      },
+      {
+        "home": "Локомотив",
+        "away": "Шанхай",
+        "kickoff": "19:30",
+        "league": "KHL",
+        "game": "Хоккей",
+        "slug": "08-09-2026-lokomotivyaroslavl-shanghai",
+        "page": "/hockey/08-09-2026-lokomotivyaroslavl-shanghai"
       }
     ]
   },
   "esports": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "kind": "esports",
     "slug": "",
     "source": "api-football",

@@ -311,6 +311,41 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/08-09-2026-aekathensfc-lasklinz</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/08-09-2026-borussiadortmund-villarreal</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/08-09-2026-clubbruggekv-astonvilla</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/08-09-2026-fcporto-manchestercity</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/08-09-2026-kaljunomme-nommeunited</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/08-09-2026-necnijmegen-excelsior</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/08-09-2026-realmadrid-inter</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -662,6 +697,21 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/07-09-2026-yekaterinburg-tractorchelyabinsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/08-09-2026-lokomotivyaroslavl-shanghai</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/08-09-2026-magnitogorsk-khabarovsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/08-09-2026-niznekamsk-sochi</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
