@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Эмери — о матче с «Брюгге»: «Астон Вилла» должна быть предельно сконцентрирована»",
-      "url": "https://www.sport-express.ru/football/champions-league/news/trener-aston-villy-unai-emeri-kommentariy-o-matche-s-bryugge-v-lige-chempionov-2453509/",
+      "title": "Футболиста «Боруссии» Карецаса госпитализировали после матча Лиги чемпионов",
+      "url": "https://www.sport-express.ru/football/champions-league/news/futbolista-borussii-konstantinos-karecasa-gospitalizirovali-posle-matcha-ligi-chempionov-2453733/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.0
+    },
+    {
+      "title": "Слуцкий о пенальти в Воронеже: «Каждый раз думаешь: «Нет, этого не может быть»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/sluckiy-o-penalti-v-voronezhe-kazhdyy-raz-dumaesh-net-etogo-ne-mozhet-byt-2453730/",
       "source": "Спорт-Экспресс",
       "hours": 0.2
     },
     {
-      "title": "Артета, де ла Фуэнте, Эмери, Компани и Энрике будут претендовать на звание лучшего тренера 2026 года",
-      "url": "https://www.sport-express.ru/football/champions-league/news/arteta-de-la-fuente-emeri-kompani-i-enrike-budut-pretendovat-na-zvanie-luchshego-trenera-2026-goda-2453498/",
+      "title": "«Барселона» — «Фейеноорд»: во сколько начало матча Лиги чемпионов, где смотреть трансляцию",
+      "url": "https://www.sport-express.ru/football/champions-league/news/barselona-feyenoord-vo-skolko-nachalo-matcha-ligi-chempionov-gde-smotret-translyaciyu-9-sentyabrya-2026-2453487/",
       "source": "Спорт-Экспресс",
-      "hours": 0.8
+      "hours": 0.3
     },
     {
-      "title": "Матчи России с Ираном, Намибией и Нигерией пойдут в рейтинг ФИФА",
-      "url": "https://www.sport-express.ru/football/rusteam/news/matchi-rossii-s-iranom-namibiey-i-nigeriey-na-osennem-sbore-poydut-v-reyting-fifa-2453496/",
+      "title": "«Штутгарт» — «Викинг»: во сколько начало матча Лиги чемпионов, где смотреть трансляцию",
+      "url": "https://www.sport-express.ru/football/champions-league/news/shtutgart-viking-vo-skolko-nachalo-matcha-ligi-chempionov-gde-smotret-translyaciyu-9-sentyabrya-2026-2453484/",
       "source": "Спорт-Экспресс",
-      "hours": 0.9
+      "hours": 0.5
     },
     {
-      "title": "«ПСЖ», «Арсенал», «Бавария», «Фламенго» и «Буде-Глимт» номинированы на звание лучшей команды 2026 года",
-      "url": "https://www.sport-express.ru/football/france/news/pszh-arsenal-bavariya-flamengo-i-bude-glimt-nominirovany-na-zvanie-luchshey-komandy-2026-goda-2453492/",
+      "title": "Слуцкий: «Называют «медиа-тренером»? Пусть добьются похожих результатов КВНщика и медиа-тренера — тогда и поговорим»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/sluckiy-nazyvayut-media-trenerom-pust-dobyutsya-pohozhih-rezultatov-kvnschika-i-media-trenera-togda-i-pogovorim-2453726/",
       "source": "Спорт-Экспресс",
-      "hours": 1.2
-    },
-    {
-      "title": "В Федерации футбола Таджикистана оценили товарищеский матч против сборной России по медиафутболу",
-      "url": "https://www.sport-express.ru/football/media-football-league/news/v-federacii-futbola-tadzhikistana-ocenili-tovarischeskiy-match-protiv-sbornoy-rossii-po-mediafutbolu-2453491/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.2
+      "hours": 0.5
     }
   ]
 }

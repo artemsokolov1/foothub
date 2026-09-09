@@ -346,6 +346,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/09-09-2026-liverpool-atleticomadrid</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/09-09-2026-napoli-arsenal</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/09-09-2026-rangers-stmirren</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/09-09-2026-stjohnstone-celtic</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/09-09-2026-twente-telstar</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -712,6 +737,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/08-09-2026-niznekamsk-sochi</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/09-09-2026-barskazan-tractorchelyabinsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/09-09-2026-barysastana-salavatufa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/09-09-2026-cskamoscow-nizhnynovgorod</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/09-09-2026-dynamomoscow-vladivostok</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
