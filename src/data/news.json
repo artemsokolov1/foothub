@@ -3,34 +3,34 @@
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Иньяки Уильямс объявил о завершении карьеры в сборной Ганы",
-      "url": "https://www.sport-express.ru/football/spain/news/inyaki-uilyams-obyavil-o-zavershenii-karery-v-sbornoy-gany-2454534/",
+      "title": "«Факел» — «Балтика»: Нетфуллин вывел воронежцев вперед",
+      "url": "https://www.sport-express.ru/football/rfpl/news/fakel-baltika-netfullin-vyvel-voronezhcev-vpered-2454602/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.1
+    },
+    {
+      "title": "Агкацев, Кисляк, Умяров, Нино и еще 8 игроков номинированы на премию «Джентльмен года»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/dzhentlmen-goda-polnyy-spisok-nominantov-futbolnoy-premii-ot-komsomolskoy-pravdy-2454601/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.1
+    },
+    {
+      "title": "Инфантино о выборах президента ФИФА: «Мой слоган прост — футбол принадлежит всем, везде в мире»",
+      "url": "https://www.sport-express.ru/football/news/dzhanni-infantino-obyavil-svoy-slogan-pered-vyborami-prezidenta-fifa-2454599/",
       "source": "Спорт-Экспресс",
       "hours": 0.3
     },
     {
-      "title": "Никите Симоняну установят памятник на домашнем стадионе «Спартака»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/nikite-simonyanu-ustanovyat-pamyatnik-na-domashnem-stadione-spartaka-2454530/",
+      "title": "Тренер «Баварии» Компани — о матче с «Эльверсбергом»: «Мы серьезно относимся к каждой игре»",
+      "url": "https://www.sport-express.ru/football/germany/news/trener-bavarii-kompani-rasskazal-o-nastroe-komandy-na-match-s-elversbergom-2454598/",
       "source": "Спорт-Экспресс",
-      "hours": 0.7
+      "hours": 0.5
     },
     {
-      "title": "РПЛ, 8-й тур, расписание и результаты: «Зенит» — «Локомотив», «Спартак» — «Ростов» и другие матчи",
-      "url": "https://www.sport-express.ru/football/rfpl/news/rpl-8-tur-raspisanie-i-rezultaty-zenit-lokomotiv-spartak-rostov-krasnodar-akron-i-drugie-matchi-11-13-sentyabrya-2026-2454278/",
+      "title": "«Зенит» — «Локомотив»: счет и результат матча 8-го тура РПЛ",
+      "url": "https://www.sport-express.ru/football/rfpl/news/zenit-lokomotiv-schet-i-rezultat-matcha-8-go-tura-rpl-12-sentyabrya-2026-2454577/",
       "source": "Спорт-Экспресс",
-      "hours": 1.5
-    },
-    {
-      "title": "Деку: «Приход Родри никак не связан с тем фактом, что де Йонг был травмирован»",
-      "url": "https://www.sport-express.ru/football/spain/news/deku-kommentariy-po-travme-poluzaschitnika-barselony-frenki-de-yonga-2454526/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.6
-    },
-    {
-      "title": "Хедира завершил карьеру в сборной Туниса после 6 матчей и ЧМ-2026",
-      "url": "https://www.sport-express.ru/football/world/chempionat-mira-2026/news/hedira-zavershil-kareru-v-sbornoy-tunisa-posle-6-matchey-i-chm-2026-2454525/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.8
+      "hours": 0.6
     }
   ]
 }
