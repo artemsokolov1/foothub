@@ -118,26 +118,8 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Новосибирск",
-        "away": "Екатеринбург",
-        "kickoff": "13:30",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "13-09-2026-novosibirsk-yekaterinburg",
-        "page": "/hockey/13-09-2026-novosibirsk-yekaterinburg"
-      },
-      {
-        "home": "Авангард",
-        "away": "Магнитогорск",
-        "kickoff": "14:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "13-09-2026-avangardomsk-magnitogorsk",
-        "page": "/hockey/13-09-2026-avangardomsk-magnitogorsk"
-      },
-      {
-        "home": "Фрибур",
-        "away": "Адлер",
+        "home": "Фрибур-Готтерон",
+        "away": "Адлер Маннгейм",
         "kickoff": "15:00",
         "league": "Champions League",
         "game": "Хоккей",
@@ -152,6 +134,24 @@
         "game": "Хоккей",
         "slug": "13-09-2026-rogle-tappara",
         "page": "/hockey/13-09-2026-rogle-tappara"
+      },
+      {
+        "home": "Векшё",
+        "away": "Зальцбург",
+        "kickoff": "16:00",
+        "league": "Champions League",
+        "game": "Хоккей",
+        "slug": "13-09-2026-vaxjo-salzburg",
+        "page": "/hockey/13-09-2026-vaxjo-salzburg"
+      },
+      {
+        "home": "Либерец",
+        "away": "Грац 99ers",
+        "kickoff": "17:00",
+        "league": "Champions League",
+        "game": "Хоккей",
+        "slug": "13-09-2026-liberec-graz99ers",
+        "page": "/hockey/13-09-2026-liberec-graz99ers"
       }
     ]
   },

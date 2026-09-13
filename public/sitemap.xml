@@ -916,12 +916,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/13-09-2026-liberec-graz99ers</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/13-09-2026-novosibirsk-yekaterinburg</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://foothub.ru/hockey/13-09-2026-rogle-tappara</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/13-09-2026-vaxjo-salzburg</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
