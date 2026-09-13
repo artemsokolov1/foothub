@@ -431,6 +431,51 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/13-09-2026-fckrasnodar-akron</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/13-09-2026-getafe-deportivolacoruna</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/13-09-2026-lemans-lens</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/13-09-2026-manchesterunited-manchestercity</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/13-09-2026-napoli-bologna</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/13-09-2026-realsociedad-atleticomadrid</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/13-09-2026-sassuolo-juventus</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/13-09-2026-stadebrestois29-parissaintgermain</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/13-09-2026-svelversberg-bayernmunchen</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -857,6 +902,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/12-09-2026-skelleftea-davos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/13-09-2026-avangardomsk-magnitogorsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/13-09-2026-fribourg-adlermannheim</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/13-09-2026-novosibirsk-yekaterinburg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/13-09-2026-rogle-tappara</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-12",
+  "date": "2026-09-13",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "«Факел» — «Балтика»: Нетфуллин вывел воронежцев вперед",
-      "url": "https://www.sport-express.ru/football/rfpl/news/fakel-baltika-netfullin-vyvel-voronezhcev-vpered-2454602/",
+      "title": "Игдисамов назвал действия «Рубина» в ситуации с Олейниковым элементом давления",
+      "url": "https://www.sport-express.ru/football/rfpl/news/trener-cska-igdisamov-schitaet-chto-rubin-okazyval-davlenie-na-poluzaschitnika-oleynikova-iz-za-sryva-transfera-2454772/",
       "source": "Спорт-Экспресс",
-      "hours": 0.1
+      "hours": 0.4
     },
     {
-      "title": "Агкацев, Кисляк, Умяров, Нино и еще 8 игроков номинированы на премию «Джентльмен года»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/dzhentlmen-goda-polnyy-spisok-nominantov-futbolnoy-premii-ot-komsomolskoy-pravdy-2454601/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.1
-    },
-    {
-      "title": "Инфантино о выборах президента ФИФА: «Мой слоган прост — футбол принадлежит всем, везде в мире»",
-      "url": "https://www.sport-express.ru/football/news/dzhanni-infantino-obyavil-svoy-slogan-pered-vyborami-prezidenta-fifa-2454599/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.3
-    },
-    {
-      "title": "Тренер «Баварии» Компани — о матче с «Эльверсбергом»: «Мы серьезно относимся к каждой игре»",
-      "url": "https://www.sport-express.ru/football/germany/news/trener-bavarii-kompani-rasskazal-o-nastroe-komandy-na-match-s-elversbergom-2454598/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.5
-    },
-    {
-      "title": "«Зенит» — «Локомотив»: счет и результат матча 8-го тура РПЛ",
-      "url": "https://www.sport-express.ru/football/rfpl/news/zenit-lokomotiv-schet-i-rezultat-matcha-8-go-tura-rpl-12-sentyabrya-2026-2454577/",
+      "title": "Артига: «Индивидуальное мастерство игроков ЦСКА создало проблемы «Рубину»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/trener-rubina-frank-artiga-kommentariy-o-nichey-s-cska-v-matche-8-tura-rpl-2454768/",
       "source": "Спорт-Экспресс",
       "hours": 0.6
+    },
+    {
+      "title": "Игдисамов назвал удаление Рейса случайным несчастьем в матче ЦСКА — «Рубин»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/trener-cska-dmitriy-igdisamov-kommentariy-ob-udalenii-mateusa-reysa-v-matche-s-rubinom-v-8-ture-rpl-2454767/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.8
+    },
+    {
+      "title": "Матч чемпионата Нидерландов прервали после нападения на футболиста в подтрибунном помещении",
+      "url": "https://www.sport-express.ru/football/gollandiya/news/match-chempionata-niderlandov-prervali-posle-napadeniya-na-futbolista-v-podtribunnom-pomeschenii-2454765/",
+      "source": "Спорт-Экспресс",
+      "hours": 1.3
+    },
+    {
+      "title": "РПЛ, 8-й тур, расписание и результаты: «Зенит» победил «Локомотив», «Спартак» против «Ростова» и другие матчи",
+      "url": "https://www.sport-express.ru/football/rfpl/news/rpl-8-tur-raspisanie-i-rezultaty-zenit-lokomotiv-spartak-rostov-krasnodar-akron-i-drugie-matchi-11-13-sentyabrya-2026-2454278/",
+      "source": "Спорт-Экспресс",
+      "hours": 1.6
     }
   ]
 }
