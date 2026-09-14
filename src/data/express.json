@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "football": {
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,108 +9,108 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Ле-Ман",
-        "away": "Ланс",
-        "kickoff": "18:15",
-        "league": "Лига 1",
-        "game": "Футбол",
-        "slug": "13-09-2026-lemans-lens",
-        "page": "/football/13-09-2026-lemans-lens",
-        "pick": "Ле-Ман не проиграет",
-        "odd": 2.19
-      },
-      {
-        "home": "Манчестер Юнайтед",
-        "away": "Манчестер Сити",
-        "kickoff": "18:30",
-        "league": "Английская Премьер-лига",
-        "game": "Футбол",
-        "slug": "13-09-2026-manchesterunited-manchestercity",
-        "page": "/football/13-09-2026-manchesterunited-manchestercity",
-        "pick": "Манчестер Сити победит",
-        "odd": 2.1
-      },
-      {
-        "home": "Эльферсберг",
-        "away": "Бавария",
-        "kickoff": "18:30",
-        "league": "Бундеслига",
-        "game": "Футбол",
-        "slug": "13-09-2026-svelversberg-bayernmunchen",
-        "page": "/football/13-09-2026-svelversberg-bayernmunchen",
-        "pick": "Эльферсберг не проиграет",
-        "odd": 5.45
-      },
-      {
-        "home": "Наполи",
-        "away": "Болонья",
-        "kickoff": "19:00",
+        "home": "Комо",
+        "away": "Парма",
+        "kickoff": "19:30",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "13-09-2026-napoli-bologna",
-        "page": "/football/13-09-2026-napoli-bologna",
-        "pick": "Наполи не проиграет",
-        "odd": 1.2
+        "slug": "14-09-2026-como-parma",
+        "page": "/football/14-09-2026-como-parma",
+        "pick": "Комо победит",
+        "odd": 1.22
       },
       {
-        "home": "Краснодар",
-        "away": "Акрон",
+        "home": "Торино",
+        "away": "Рома",
         "kickoff": "19:30",
-        "league": "Российская Премьер-лига",
+        "league": "Серия А",
         "game": "Футбол",
-        "slug": "13-09-2026-fckrasnodar-akron",
-        "page": "/football/13-09-2026-fckrasnodar-akron",
-        "pick": "Краснодар победит",
-        "odd": 1.26
+        "slug": "14-09-2026-torino-asroma",
+        "page": "/football/14-09-2026-torino-asroma",
+        "pick": "Рома победит",
+        "odd": 1.55
       },
       {
-        "home": "Хетафе",
-        "away": "Депортиво",
-        "kickoff": "19:30",
-        "league": "Ла Лига",
+        "home": "Газиантеп",
+        "away": "Фенербахче",
+        "kickoff": "20:00",
+        "league": "Турецкая Суперлига",
         "game": "Футбол",
-        "slug": "13-09-2026-getafe-deportivolacoruna",
-        "page": "/football/13-09-2026-getafe-deportivolacoruna",
-        "pick": "Хетафе не проиграет",
-        "odd": 1.3
+        "slug": "14-09-2026-gaziantepfk-fenerbahce",
+        "page": "/football/14-09-2026-gaziantepfk-fenerbahce",
+        "pick": "Фенербахче победит",
+        "odd": 1.53
       },
       {
-        "home": "Сассуоло",
-        "away": "Ювентус",
+        "home": "Риу Аве",
+        "away": "Эштрела",
+        "kickoff": "20:45",
+        "league": "Примейра-лига",
+        "game": "Футбол",
+        "slug": "14-09-2026-rioave-estrela",
+        "page": "/football/14-09-2026-rioave-estrela",
+        "pick": "Эштрела победит",
+        "odd": 2.7
+      },
+      {
+        "home": "Интер",
+        "away": "Удинезе",
         "kickoff": "21:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "13-09-2026-sassuolo-juventus",
-        "page": "/football/13-09-2026-sassuolo-juventus",
-        "pick": "Ювентус победит",
-        "odd": 1.67
-      },
-      {
-        "home": "Брест",
-        "away": "ПСЖ",
-        "kickoff": "21:45",
-        "league": "Лига 1",
-        "game": "Футбол",
-        "slug": "13-09-2026-stadebrestois29-parissaintgermain",
-        "page": "/football/13-09-2026-stadebrestois29-parissaintgermain",
-        "pick": "ПСЖ победит",
+        "slug": "14-09-2026-inter-udinese",
+        "page": "/football/14-09-2026-inter-udinese",
+        "pick": "Интер победит",
         "odd": 1.25
       },
       {
-        "home": "Реал Сосьедад",
-        "away": "Атлетико",
+        "home": "Лидс",
+        "away": "Ньюкасл",
+        "kickoff": "22:00",
+        "league": "Английская Премьер-лига",
+        "game": "Футбол",
+        "slug": "14-09-2026-leeds-newcastle",
+        "page": "/football/14-09-2026-leeds-newcastle",
+        "pick": "Ньюкасл не проиграет",
+        "odd": 1.58
+      },
+      {
+        "home": "Вильярреал",
+        "away": "Реал Бетис",
         "kickoff": "22:00",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "13-09-2026-realsociedad-atleticomadrid",
-        "page": "/football/13-09-2026-realsociedad-atleticomadrid",
-        "pick": "Атлетико не проиграет",
-        "odd": 1.4
+        "slug": "14-09-2026-villarreal-realbetis",
+        "page": "/football/14-09-2026-villarreal-realbetis",
+        "pick": "Реал Бетис не проиграет",
+        "odd": 1.88
+      },
+      {
+        "home": "Морейренсе",
+        "away": "Маритиму",
+        "kickoff": "22:15",
+        "league": "Примейра-лига",
+        "game": "Футбол",
+        "slug": "14-09-2026-moreirense-maritimo",
+        "page": "/football/14-09-2026-moreirense-maritimo",
+        "pick": "Маритиму победит",
+        "odd": 2.9
+      },
+      {
+        "home": "Брага",
+        "away": "Эшторил",
+        "kickoff": "22:45",
+        "league": "Примейра-лига",
+        "game": "Футбол",
+        "slug": "14-09-2026-scbraga-estoril",
+        "page": "/football/14-09-2026-scbraga-estoril",
+        "pick": "Брага победит",
+        "odd": 1.43
       }
     ]
   },
   "hockey": {
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -118,45 +118,36 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Фрибур-Готтерон",
-        "away": "Адлер Маннгейм",
-        "kickoff": "15:00",
-        "league": "Champions League",
+        "home": "Лада",
+        "away": "Динамо",
+        "kickoff": "18:00",
+        "league": "KHL",
         "game": "Хоккей",
-        "slug": "13-09-2026-fribourg-adlermannheim",
-        "page": "/hockey/13-09-2026-fribourg-adlermannheim"
+        "slug": "14-09-2026-lada-dinamominsk",
+        "page": "/hockey/14-09-2026-lada-dinamominsk"
       },
       {
-        "home": "Рёгле",
-        "away": "Таппара",
-        "kickoff": "16:00",
-        "league": "Champions League",
+        "home": "Череповец",
+        "away": "Динамо",
+        "kickoff": "19:00",
+        "league": "KHL",
         "game": "Хоккей",
-        "slug": "13-09-2026-rogle-tappara",
-        "page": "/hockey/13-09-2026-rogle-tappara"
+        "slug": "14-09-2026-cherepovets-dynamomoscow",
+        "page": "/hockey/14-09-2026-cherepovets-dynamomoscow"
       },
       {
-        "home": "Векшё",
-        "away": "Зальцбург",
-        "kickoff": "16:00",
-        "league": "Champions League",
+        "home": "Нижний Новгород",
+        "away": "Барс",
+        "kickoff": "19:35",
+        "league": "KHL",
         "game": "Хоккей",
-        "slug": "13-09-2026-vaxjo-salzburg",
-        "page": "/hockey/13-09-2026-vaxjo-salzburg"
-      },
-      {
-        "home": "Либерец",
-        "away": "Грац 99ers",
-        "kickoff": "17:00",
-        "league": "Champions League",
-        "game": "Хоккей",
-        "slug": "13-09-2026-liberec-graz99ers",
-        "page": "/hockey/13-09-2026-liberec-graz99ers"
+        "slug": "14-09-2026-nizhnynovgorod-barskazan",
+        "page": "/hockey/14-09-2026-nizhnynovgorod-barskazan"
       }
     ]
   },
   "esports": {
-    "date": "2026-09-13",
+    "date": "2026-09-14",
     "kind": "esports",
     "slug": "",
     "source": "api-football",
