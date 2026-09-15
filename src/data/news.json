@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Тренер «Зенита» Семак заявил, что Вендел пропустит матч против «Балтики»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/trener-zenita-semak-zayavil-chto-vendel-propustit-match-protiv-baltiki-2455078/",
+      "title": "Акинфеев — о завершении карьеры: «Ситуация с травмой спровоцировала картинку, которая у меня есть в голове»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/vratar-cska-igor-akinfeev-obyasnil-kak-travma-pomogla-emu-predstavit-kartinku-proschalnogo-matcha-2455223/",
       "source": "Спорт-Экспресс",
-      "hours": 0.2
+      "hours": 0.6
     },
     {
-      "title": "Бундеслига поздравила Зверева с победой на US Open",
-      "url": "https://www.sport-express.ru/tennis/grand-slam/news/futbolnaya-bundesliga-pozdravila-aleksandra-zvereva-s-pobedoy-na-us-open-2026-2455075/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.5
-    },
-    {
-      "title": "Смородская — о проблемах «Зенита» в этом сезоне: «Бразильцы перестали выкладываться»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/eks-prezident-lokomotiva-smorodskaya-schitaet-chto-zenitu-budet-slozhno-borotsya-za-chempionstvo-2455070/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.0
-    },
-    {
-      "title": "Воробьев о голах в «Краснодаре»: «Планки нет. Главное — чемпионами стать»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/dmitriy-vorobev-nazval-chempionstvo-svoey-glavnoy-celyu-v-krasnodare-v-etom-sezone-2455069/",
+      "title": "Акинфеев — о восстановлении: «Хочется уже выйти на футбольное поле»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/vratar-cska-igor-akinfeev-zayavil-o-zhelanii-skoree-vernutsya-na-pole-posle-travmy-2455220/",
       "source": "Спорт-Экспресс",
       "hours": 1.1
     },
     {
-      "title": "В Перми планируют к 2031 году построить футбольный стадион за 15 миллиардов рублей",
-      "url": "https://www.sport-express.ru/football/rus_d2/news/v-permi-planiruyut-k-2031-godu-postroit-futbolnyy-stadion-za-15-milliardov-rubley-2455066/",
+      "title": "«Байер» опроверг слухи о переговорах с Бензема",
+      "url": "https://www.sport-express.ru/football/transfers/news/bayer-oproverg-sluhi-o-peregovorah-s-benzema-2455218/",
       "source": "Спорт-Экспресс",
-      "hours": 1.3
+      "hours": 1.5
+    },
+    {
+      "title": "Полузащитник «Интера» Барелла — о конкуренции за место в составе: «Это помогает каждому становиться лучше»",
+      "url": "https://www.sport-express.ru/football/italy/news/poluzaschitnik-intera-barella-o-konkurencii-za-mesto-v-sostave-eto-pomogaet-kazhdomu-stanovitsya-luchshe-2455216/",
+      "source": "Спорт-Экспресс",
+      "hours": 1.7
+    },
+    {
+      "title": "Teamtalk: «Ливерпуль», «Бавария» и «Реал» хотят подписать Ваннера из ПСВ",
+      "url": "https://www.sport-express.ru/football/transfers/news/teamtalk-liverpul-bavariya-i-real-hotyat-podpisat-vannera-iz-psv-2455215/",
+      "source": "Спорт-Экспресс",
+      "hours": 2.1
     }
   ]
 }
