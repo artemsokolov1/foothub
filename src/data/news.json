@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Гендиректор «Динамо» Пивоваров: «Трансферное окно было сложным, очень многое сорвалось»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/gendirektor-dinamo-pivovarov-transfernoe-okno-bylo-slozhnym-ochen-mnogoe-sorvalos-2455311/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.3
-    },
-    {
-      "title": "Россия — Иран: где пройдет товарищеский матч, дата и время",
-      "url": "https://www.sport-express.ru/football/rusteam/news/rossiya-iran-29-sentyabrya-2026-gde-proydet-tovarischeskiy-match-data-vremya-i-mesto-2455275/",
+      "title": "Расписание матчей и трансляций 9-го тура РПЛ сезона-2026/27",
+      "url": "https://www.sport-express.ru/football/rfpl/news/raspisanie-matchey-i-translyaciy-9-go-tura-rpl-sezona-2026-27-2455233/",
       "source": "Спорт-Экспресс",
       "hours": 0.4
     },
     {
-      "title": "В «Сочи» рассчитывают на снятие трансферного бана ФИФА в ближайшие дни",
-      "url": "https://www.sport-express.ru/football/rus_d1/news/sochi-pogasil-zadolzhennost-pered-makkabi-transfernyy-ban-ot-fifa-mogut-snyat-v-blizhayshie-dni-2455306/",
+      "title": "РПЛ, 9-й тур, расписание и результаты: «Спартак» — «Факел», «Балтика» — «Зенит» и другие матчи",
+      "url": "https://www.sport-express.ru/football/rfpl/news/rpl-9-tur-raspisanie-i-rezultaty-spartak-fakel-baltika-zenit-orenburg-krasnodar-i-drugie-matchi-16-17-sentyabrya-2026-2455458/",
       "source": "Спорт-Экспресс",
-      "hours": 0.5
+      "hours": 0.9
     },
     {
-      "title": "Аленичев вернулся на пост главного тренера тульского «Арсенала»",
-      "url": "https://www.sport-express.ru/football/rus_d1/news/dmitriy-alenichev-vernulsya-na-post-glavnogo-trenera-tulskogo-arsenala-2455302/",
+      "title": "Луис Диас: «Никогда не забуду тот момент, когда впервые оказался в одной форме с Хамесом»",
+      "url": "https://www.sport-express.ru/football/foreign/news/luis-dias-poblagodaril-hamesa-rodrigesa-za-kareru-v-sbornoy-kolumbii-2455455/",
       "source": "Спорт-Экспресс",
-      "hours": 0.7
+      "hours": 1.7
     },
     {
-      "title": "Астана примет матч за Суперкубок УЕФА в 2028 году",
-      "url": "https://www.sport-express.ru/football/uefa-supercup/news/astana-primet-match-za-superkubok-uefa-v-2028-godu-2455285/",
+      "title": "Анри — о «Золотом мяче»: «Я думал о победе на чемпионате мира, Евро и других турнирах»",
+      "url": "https://www.sport-express.ru/football/france/news/terri-anri-ne-stavil-pered-soboy-cel-vyigrat-zolotoy-myach-2455454/",
       "source": "Спорт-Экспресс",
-      "hours": 1.6
+      "hours": 2.0
+    },
+    {
+      "title": "Вратарь Хендерсон станет самым высокооплачиваемым игроком «Кристал Пэлас»",
+      "url": "https://www.sport-express.ru/football/england/news/vratar-henderson-stanet-samym-vysokooplachivaemym-igrokom-kristal-pelas-2455453/",
+      "source": "Спорт-Экспресс",
+      "hours": 2.2
     }
   ]
 }

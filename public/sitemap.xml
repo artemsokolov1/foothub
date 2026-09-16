@@ -561,6 +561,41 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/16-09-2026-acmilan-benfica</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/16-09-2026-araratarmenia-spartapraha</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/16-09-2026-atleticomadrid-osasuna</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/16-09-2026-baltika-zenit</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/16-09-2026-deportivolacoruna-sevilla</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/16-09-2026-rodinamoskva-rubin</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/16-09-2026-spartakmoscow-fakel</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1047,6 +1082,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/15-09-2026-tractorchelyabinsk-lokomotivyaroslavl</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/16-09-2026-lada-barysastana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/16-09-2026-magnitogorsk-spartakmoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/16-09-2026-novosibirsk-niznekamsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/16-09-2026-salavatufa-barskazan</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
