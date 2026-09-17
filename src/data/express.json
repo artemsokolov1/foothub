@@ -104,17 +104,7 @@
     "source": "api-football",
     "source_url": "",
     "parlays": [],
-    "matches": [
-      {
-        "home": "Владивосток",
-        "away": "Динамо Москва",
-        "kickoff": "12:30",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "17-09-2026-vladivostok-dynamomoscow",
-        "page": "/hockey/17-09-2026-vladivostok-dynamomoscow"
-      }
-    ]
+    "matches": []
   },
   "esports": {
     "date": "2026-09-17",
