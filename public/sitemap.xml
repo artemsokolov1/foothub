@@ -596,6 +596,31 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/17-09-2026-akron-akhmat</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/17-09-2026-celtic-ferencvarositc</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/17-09-2026-dinamomakhachkala-cskamoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/17-09-2026-fcrostov-dynamo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/17-09-2026-realbetis-getafe</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1102,6 +1127,11 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/16-09-2026-salavatufa-barskazan</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/17-09-2026-vladivostok-dynamomoscow</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

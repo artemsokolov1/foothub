@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "football": {
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,102 +9,96 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Спартак",
-        "away": "Факел",
+        "home": "Акрон",
+        "away": "Ахмат",
         "kickoff": "18:30",
         "league": "Российская Премьер-лига",
         "game": "Футбол",
-        "slug": "16-09-2026-spartakmoscow-fakel",
-        "page": "/football/16-09-2026-spartakmoscow-fakel",
-        "pick": "Спартак победит",
+        "slug": "17-09-2026-akron-akhmat",
+        "page": "/football/17-09-2026-akron-akhmat",
+        "pick": "Ахмат не проиграет",
         "odd": 1.38
       },
       {
-        "home": "Родина",
-        "away": "Рубин",
+        "home": "Ростов",
+        "away": "Динамо",
         "kickoff": "18:30",
         "league": "Российская Премьер-лига",
         "game": "Футбол",
-        "slug": "16-09-2026-rodinamoskva-rubin",
-        "page": "/football/16-09-2026-rodinamoskva-rubin",
-        "pick": "Рубин не проиграет",
-        "odd": 1.39
+        "slug": "17-09-2026-fcrostov-dynamo",
+        "page": "/football/17-09-2026-fcrostov-dynamo",
+        "pick": "Динамо не проиграет",
+        "odd": 1.41
       },
       {
-        "home": "Арарат-Армения",
-        "away": "Спарта",
+        "home": "Левски",
+        "away": "Ред Булл Зальцбург",
         "kickoff": "19:45",
         "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "16-09-2026-araratarmenia-spartapraha",
-        "page": "/football/16-09-2026-araratarmenia-spartapraha",
-        "pick": "Спарта победит",
-        "odd": 1.62
+        "slug": "17-09-2026-levskisofia-redbullsalzburg"
       },
       {
-        "home": "Омония",
-        "away": "Сельта",
+        "home": "ОФИ",
+        "away": "Хоффенхайм",
         "kickoff": "19:45",
         "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "16-09-2026-omonianicosia-celtavigo"
+        "slug": "17-09-2026-ofi-1899hoffenheim"
       },
       {
-        "home": "Атлетико",
-        "away": "Осасуна",
+        "home": "Реал Бетис",
+        "away": "Хетафе",
         "kickoff": "20:00",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "16-09-2026-atleticomadrid-osasuna",
-        "page": "/football/16-09-2026-atleticomadrid-osasuna",
-        "pick": "Атлетико победит",
-        "odd": 1.4
+        "slug": "17-09-2026-realbetis-getafe",
+        "page": "/football/17-09-2026-realbetis-getafe",
+        "pick": "Реал Бетис победит",
+        "odd": 1.67
       },
       {
-        "home": "Депортиво",
-        "away": "Севилья",
-        "kickoff": "20:00",
-        "league": "Ла Лига",
-        "game": "Футбол",
-        "slug": "16-09-2026-deportivolacoruna-sevilla",
-        "page": "/football/16-09-2026-deportivolacoruna-sevilla",
-        "pick": "Севилья не проиграет",
-        "odd": 1.54
-      },
-      {
-        "home": "Балтика",
-        "away": "Зенит",
+        "home": "Динамо Махачкала",
+        "away": "ЦСКА",
         "kickoff": "20:45",
         "league": "Российская Премьер-лига",
         "game": "Футбол",
-        "slug": "16-09-2026-baltika-zenit",
-        "page": "/football/16-09-2026-baltika-zenit",
-        "pick": "Зенит не проиграет",
-        "odd": 1.25
+        "slug": "17-09-2026-dinamomakhachkala-cskamoscow",
+        "page": "/football/17-09-2026-dinamomakhachkala-cskamoscow",
+        "pick": "ЦСКА не проиграет",
+        "odd": 1.35
       },
       {
-        "home": "Милан",
-        "away": "Бенфика",
+        "home": "Ювентус",
+        "away": "НЕК",
         "kickoff": "22:00",
         "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "16-09-2026-acmilan-benfica",
-        "page": "/football/16-09-2026-acmilan-benfica",
-        "pick": "Бенфика победит",
-        "odd": 3.3
+        "slug": "17-09-2026-juventus-necnijmegen"
       },
       {
-        "home": "Барселона",
-        "away": "Расинг",
-        "kickoff": "22:30",
-        "league": "Ла Лига",
+        "home": "Бешикташ",
+        "away": "Марсель",
+        "kickoff": "22:00",
+        "league": "Лига Европы",
         "game": "Футбол",
-        "slug": "16-09-2026-barcelona-racingsantander"
+        "slug": "17-09-2026-besiktas-marseille"
+      },
+      {
+        "home": "Селтик",
+        "away": "Ференцварош",
+        "kickoff": "22:00",
+        "league": "Лига Европы",
+        "game": "Футбол",
+        "slug": "17-09-2026-celtic-ferencvarositc",
+        "page": "/football/17-09-2026-celtic-ferencvarositc",
+        "pick": "Селтик не проиграет",
+        "odd": 1.21
       }
     ]
   },
   "hockey": {
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -112,45 +106,18 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Новосибирск",
-        "away": "Нефтехимик",
-        "kickoff": "15:30",
+        "home": "Владивосток",
+        "away": "Динамо Москва",
+        "kickoff": "12:30",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "16-09-2026-novosibirsk-niznekamsk",
-        "page": "/hockey/16-09-2026-novosibirsk-niznekamsk"
-      },
-      {
-        "home": "Металлург",
-        "away": "Спартак",
-        "kickoff": "17:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "16-09-2026-magnitogorsk-spartakmoscow",
-        "page": "/hockey/16-09-2026-magnitogorsk-spartakmoscow"
-      },
-      {
-        "home": "Салават Юлаев",
-        "away": "Ак Барс",
-        "kickoff": "17:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "16-09-2026-salavatufa-barskazan",
-        "page": "/hockey/16-09-2026-salavatufa-barskazan"
-      },
-      {
-        "home": "Лада",
-        "away": "Барыс",
-        "kickoff": "18:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "16-09-2026-lada-barysastana",
-        "page": "/hockey/16-09-2026-lada-barysastana"
+        "slug": "17-09-2026-vladivostok-dynamomoscow",
+        "page": "/hockey/17-09-2026-vladivostok-dynamomoscow"
       }
     ]
   },
   "esports": {
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "kind": "esports",
     "slug": "",
     "source": "api-football",
