@@ -621,6 +621,41 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/18-09-2026-aktobe-ulytau</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/18-09-2026-brentford-chelsea</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/18-09-2026-espanyol-elche</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/18-09-2026-groningen-peczwolle</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/18-09-2026-kas-mpasa-konyaspor</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/18-09-2026-monaco-lens</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/18-09-2026-monza-sassuolo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1132,6 +1167,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/17-09-2026-vladivostok-dynamomoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/18-09-2026-dinamominsk-novosibirsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/18-09-2026-magnitogorsk-barysastana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/18-09-2026-salavatufa-niznekamsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/18-09-2026-tractorchelyabinsk-spartakmoscow</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

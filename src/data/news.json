@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Ещенко считает, что Угальде мотивировал приход Даку: «Стал больше забивать»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/eschenko-schitaet-chto-ugalde-motiviroval-prihod-daku-stal-bolshe-zabivat-2455846/",
+      "title": "Вице-президент ФИФА Хьюитт потребовала от Инфантино объяснить причины отмены дисквалификации Балогуна на ЧМ",
+      "url": "https://www.sport-express.ru/football/world/news/vice-prezident-fifa-hyuitt-potrebovala-ot-infantino-obyasnit-prichiny-otmeny-diskvalifikacii-baloguna-na-chm-2456072/",
       "source": "Спорт-Экспресс",
-      "hours": 0.8
+      "hours": 0.2
     },
     {
-      "title": "«Динамо» Махачкала — ЦСКА: прогноз Константина Генича на матч РПЛ",
-      "url": "https://www.sport-express.ru/stavki-na-sport/prognozy/news/dinamo-mahachkala-cska-prognoz-konstantina-genicha-na-match-rpl-17-sentyabrya-2026-goda-2455842/",
+      "title": "Тедеев: «Я родился 2 марта, а не 18 сентября, как указано во многих источниках»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/eks-glavnyy-trener-akrona-tedeev-rasskazal-o-putanice-s-datoy-svoego-rozhdeniya-2456066/",
       "source": "Спорт-Экспресс",
-      "hours": 0.9
+      "hours": 0.5
     },
     {
-      "title": "Дегтярев — о жалобах на ужесточение лимита на легионеров: «Это бред просто полный»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/degtyarev-o-zhalobah-na-uzhestochenie-limita-na-legionerov-eto-bred-prosto-polnyy-2455844/",
+      "title": "Тедеев — о Беншимоле: «На поле абсолютно непредсказуем — иногда даже для самого себя»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/tedeev-nazval-absolyutno-nepredskazuemoy-igru-napadayuschego-akrona-benshimola-2456063/",
       "source": "Спорт-Экспресс",
-      "hours": 0.9
+      "hours": 1.0
     },
     {
-      "title": "Le Parisien: «Ницца» арендует защитника «Ренна» Сейду",
-      "url": "https://www.sport-express.ru/football/transfers/news/le-parisien-nicca-arenduet-zaschitnika-renna-seydu-2455836/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.2
-    },
-    {
-      "title": "«Ростов» — «Динамо» Москва: прогноз Романа Павлюченко на матч РПЛ",
-      "url": "https://www.sport-express.ru/stavki-na-sport/prognozy/news/rostov-dinamo-moskva-prognoz-romana-pavlyuchenko-na-match-rpl-17-sentyabrya-2026-goda-2455833/",
+      "title": "Тедеев: «...И Дзюба орет: «Эдуардыч, ты ошибся! Не тому подсказываешь!»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/tedeev-rasskazal-kak-pereputal-legionerov-akrona-i-kak-na-eto-otreagiroval-artem-dzyuba-2456062/",
       "source": "Спорт-Экспресс",
       "hours": 1.3
+    },
+    {
+      "title": "Определились полуфиналисты Кубка Либертадорес",
+      "url": "https://www.sport-express.ru/football/copa-libertadores/news/opredelilis-polufinalisty-kubka-libertadores-2456059/",
+      "source": "Спорт-Экспресс",
+      "hours": 1.9
     }
   ]
 }
