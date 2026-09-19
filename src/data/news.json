@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-19",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Криштиану Роналду вызван в сборную Португалии на матчи Лиги наций",
-      "url": "https://www.sport-express.ru/football/nation-league/news/krishtianu-ronaldu-vyzvan-v-sbornuyu-portugalii-na-matchi-ligi-naciy-2456165/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.2
-    },
-    {
-      "title": "Матеу Лаос: «Судейство — это секта»",
-      "url": "https://www.sport-express.ru/football/spain/news/mateu-laos-sudeystvo-eto-sekta-2456162/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.2
-    },
-    {
-      "title": "Осимхен и Лукман не вошли в заявку сборной Нигерии на матч с Россией",
-      "url": "https://www.sport-express.ru/football/rusteam/news/rossiya-nigeriya-zayavka-sbornoy-nigerii-na-tovarischeskiy-match-18-sentyabrya-2026-2456160/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.3
-    },
-    {
-      "title": "Комличенко — об уходе из «Локомотива» Батракова, Карпукаса и других игроков: «Ничего не сделать»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/komlichenko-ob-uhode-iz-lokomotiva-batrakova-karpukasa-i-drugih-igrokov-nichego-ne-sdelat-2456158/",
+      "title": "Рафинья надеется завершить карьеру в «Барселоне»: «Уйду, только если тренер скажет»",
+      "url": "https://www.sport-express.ru/football/spain/news/napadayuschiy-rafinya-priznalsya-chto-hochet-zavershit-kareru-v-barselone-2456350/",
       "source": "Спорт-Экспресс",
       "hours": 0.4
     },
     {
-      "title": "«Челябинск» — «Уфа»: во сколько начало матча Первой лиги",
-      "url": "https://www.sport-express.ru/football/rus_d1/news/chelyabinsk-ufa-vo-skolko-nachalo-matcha-pervoy-ligi-gde-smotret-translyaciyu-18-sentyabrya-2026-2455899/",
+      "title": "«Трабзонспор» — «Галатасарай»: во сколько начало матча Суперлиги",
+      "url": "https://www.sport-express.ru/football/turkey/news/trabzonspor-galatasaray-vo-skolko-nachalo-matcha-superligi-gde-smotret-translyaciyu-19-sentyabrya-2026-2456085/",
       "source": "Спорт-Экспресс",
       "hours": 0.5
+    },
+    {
+      "title": "Дембеле: «Кварацхелия заслуживает «Золотой мяч». Он лучший игрок мира»",
+      "url": "https://www.sport-express.ru/football/france/news/napadayuschiy-pszh-usman-dembele-kommentariy-o-favorite-na-poluchenie-zolotogo-myacha-2456349/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.7
+    },
+    {
+      "title": "Ямаль о Месси на ЧМ-2026: «Никто не ожидал от него такого легендарного турнира»",
+      "url": "https://www.sport-express.ru/football/world/chempionat-mira-2026/news/napadayuschiy-sbornoy-ispanii-lamin-yamal-voshitilsya-igroy-argentinca-lionelya-messi-na-chempionate-mira-2026-2456344/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.9
+    },
+    {
+      "title": "Экс-полузащитник ЦСКА Хонда в 40 лет дебютировал в чемпионате Сингапура",
+      "url": "https://www.sport-express.ru/football/foreign/news/eks-poluzaschitnik-cska-honda-v-40-let-debyutiroval-v-chempionate-singapura-2456338/",
+      "source": "Спорт-Экспресс",
+      "hours": 2.1
     }
   ]
 }
