@@ -118,8 +118,8 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Монреаль",
-        "away": "Торонто",
+        "home": "Монреаль Канадиенс",
+        "away": "Торонто Мейпл Лифс",
         "kickoff": "02:00",
         "league": "NHL",
         "game": "Хоккей",
@@ -127,8 +127,8 @@
         "page": "/hockey/19-09-2026-montrealcanadiens-torontomapleleafs"
       },
       {
-        "home": "Сент-Луис",
-        "away": "Даллас",
+        "home": "Сент-Луис Блюз",
+        "away": "Даллас Старз",
         "kickoff": "02:00",
         "league": "NHL",
         "game": "Хоккей",
@@ -136,22 +136,13 @@
         "page": "/hockey/19-09-2026-stlouisblues-dallasstars"
       },
       {
-        "home": "СКА-Хабаровск",
-        "away": "Динамо",
-        "kickoff": "10:00",
-        "league": "KHL",
+        "home": "Торонто Мейпл Лифс",
+        "away": "Монреаль Канадиенс",
+        "kickoff": "02:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "19-09-2026-khabarovsk-dynamomoscow",
-        "page": "/hockey/19-09-2026-khabarovsk-dynamomoscow"
-      },
-      {
-        "home": "Луч",
-        "away": "Череповец",
-        "kickoff": "10:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "19-09-2026-vladivostok-cherepovets",
-        "page": "/hockey/19-09-2026-vladivostok-cherepovets"
+        "slug": "19-09-2026-torontomapleleafs-montrealcanadiens",
+        "page": "/hockey/19-09-2026-torontomapleleafs-montrealcanadiens"
       }
     ]
   },

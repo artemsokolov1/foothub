@@ -3,34 +3,34 @@
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Рафинья надеется завершить карьеру в «Барселоне»: «Уйду, только если тренер скажет»",
-      "url": "https://www.sport-express.ru/football/spain/news/napadayuschiy-rafinya-priznalsya-chto-hochet-zavershit-kareru-v-barselone-2456350/",
+      "title": "«Рома» — «Интер»: во сколько начало матча Серии А",
+      "url": "https://www.sport-express.ru/football/italy/news/roma-inter-vo-skolko-nachalo-matcha-serii-a-gde-smotret-translyaciyu-19-sentyabrya-2026-2456082/",
       "source": "Спорт-Экспресс",
       "hours": 0.4
     },
     {
-      "title": "«Трабзонспор» — «Галатасарай»: во сколько начало матча Суперлиги",
-      "url": "https://www.sport-express.ru/football/turkey/news/trabzonspor-galatasaray-vo-skolko-nachalo-matcha-superligi-gde-smotret-translyaciyu-19-sentyabrya-2026-2456085/",
+      "title": "«Трабзонспор» — «Галатасарай»: счет и результат матча Суперлиги",
+      "url": "https://www.sport-express.ru/football/turkey/news/trabzonspor-galatasaray-schet-rezultat-i-itog-matcha-superligi-19-sentyabrya-2026-2456087/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.4
+    },
+    {
+      "title": "Россия одержала победу над Казахстаном на турнире развития УЕФА U-14",
+      "url": "https://www.sport-express.ru/football/rusteam/news/rossiya-kazahstan-schet-i-rezultat-matcha-na-turnire-razvitiya-uefa-u-14-19-sentyabrya-2026-2456416/",
       "source": "Спорт-Экспресс",
       "hours": 0.5
     },
     {
-      "title": "Дембеле: «Кварацхелия заслуживает «Золотой мяч». Он лучший игрок мира»",
-      "url": "https://www.sport-express.ru/football/france/news/napadayuschiy-pszh-usman-dembele-kommentariy-o-favorite-na-poluchenie-zolotogo-myacha-2456349/",
+      "title": "Президент РПЛ Алаев: «Мы планируем совместно с РФС работать над улучшением качества судейства»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/prezident-rpl-alaev-my-planiruem-sovmestno-s-rfs-rabotat-nad-uluchsheniem-kachestva-raboty-arbitrov-2456410/",
       "source": "Спорт-Экспресс",
-      "hours": 0.7
+      "hours": 1.1
     },
     {
-      "title": "Ямаль о Месси на ЧМ-2026: «Никто не ожидал от него такого легендарного турнира»",
-      "url": "https://www.sport-express.ru/football/world/chempionat-mira-2026/news/napadayuschiy-sbornoy-ispanii-lamin-yamal-voshitilsya-igroy-argentinca-lionelya-messi-na-chempionate-mira-2026-2456344/",
+      "title": "Компани заявил, что «Бавария» ведет переговоры о продлении контракта с Кейном",
+      "url": "https://www.sport-express.ru/football/germany/news/glavnyy-trener-bavarii-vinsent-kompani-zayavil-chto-klub-vedet-peregovory-o-prodlenii-kontrakta-s-garri-keynom-2456405/",
       "source": "Спорт-Экспресс",
-      "hours": 0.9
-    },
-    {
-      "title": "Экс-полузащитник ЦСКА Хонда в 40 лет дебютировал в чемпионате Сингапура",
-      "url": "https://www.sport-express.ru/football/foreign/news/eks-poluzaschitnik-cska-honda-v-40-let-debyutiroval-v-chempionate-singapura-2456338/",
-      "source": "Спорт-Экспресс",
-      "hours": 2.1
+      "hours": 1.4
     }
   ]
 }

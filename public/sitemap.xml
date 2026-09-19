@@ -1251,6 +1251,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/19-09-2026-torontomapleleafs-montrealcanadiens</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/19-09-2026-vladivostok-cherepovets</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
