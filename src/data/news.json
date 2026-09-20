@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "«Рома» — «Интер»: во сколько начало матча Серии А",
-      "url": "https://www.sport-express.ru/football/italy/news/roma-inter-vo-skolko-nachalo-matcha-serii-a-gde-smotret-translyaciyu-19-sentyabrya-2026-2456082/",
+      "title": "Тренер вратарей ЦСКА Крамаренко считает, что до восстановления Акинфеева осталось два месяца",
+      "url": "https://www.sport-express.ru/football/rfpl/news/trener-vratarey-cska-dmitriy-kramarenko-schitaet-chto-do-vosstanovleniya-igorya-akinfeeva-ostalos-dva-mesyaca-2456564/",
       "source": "Спорт-Экспресс",
-      "hours": 0.4
+      "hours": 0.3
     },
     {
-      "title": "«Трабзонспор» — «Галатасарай»: счет и результат матча Суперлиги",
-      "url": "https://www.sport-express.ru/football/turkey/news/trabzonspor-galatasaray-schet-rezultat-i-itog-matcha-superligi-19-sentyabrya-2026-2456087/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.4
-    },
-    {
-      "title": "Россия одержала победу над Казахстаном на турнире развития УЕФА U-14",
-      "url": "https://www.sport-express.ru/football/rusteam/news/rossiya-kazahstan-schet-i-rezultat-matcha-na-turnire-razvitiya-uefa-u-14-19-sentyabrya-2026-2456416/",
+      "title": "Флик: «Меня не удивляет то, что делает Рафинья. Он лидер и отдает все на поле»",
+      "url": "https://www.sport-express.ru/football/spain/news/glavnyy-trener-barselony-hansi-flik-kommentariy-ob-igre-rafini-2456563/",
       "source": "Спорт-Экспресс",
       "hours": 0.5
     },
     {
-      "title": "Президент РПЛ Алаев: «Мы планируем совместно с РФС работать над улучшением качества судейства»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/prezident-rpl-alaev-my-planiruem-sovmestno-s-rfs-rabotat-nad-uluchsheniem-kachestva-raboty-arbitrov-2456410/",
+      "title": "Батраков стал единственным игроком «Галатасарая», кто поблагодарил болельщиков после поражения",
+      "url": "https://www.sport-express.ru/football/turkey/news/poluzaschitnik-aleksey-batrakov-edinstvennyy-iz-igrokov-galatasaraya-poblagodaril-bolelschikov-posle-porazheniya-2456558/",
       "source": "Спорт-Экспресс",
-      "hours": 1.1
+      "hours": 1.2
     },
     {
-      "title": "Компани заявил, что «Бавария» ведет переговоры о продлении контракта с Кейном",
-      "url": "https://www.sport-express.ru/football/germany/news/glavnyy-trener-bavarii-vinsent-kompani-zayavil-chto-klub-vedet-peregovory-o-prodlenii-kontrakta-s-garri-keynom-2456405/",
+      "title": "«Атлетико» — «Реал»: во сколько начало матча Ла Лиги",
+      "url": "https://www.sport-express.ru/football/spain/news/atletiko-real-vo-skolko-nachalo-matcha-la-ligi-gde-smotret-translyaciyu-20-sentyabrya-2026-2456399/",
       "source": "Спорт-Экспресс",
-      "hours": 1.4
+      "hours": 1.5
+    },
+    {
+      "title": "Гол Миранчука принес «Атланте» победу над «Портлендом»",
+      "url": "https://www.sport-express.ru/football/mls/news/portlend-timbers-atlanta-schet-i-rezultat-matcha-mls-20-sentyabrya-2026-2456555/",
+      "source": "Спорт-Экспресс",
+      "hours": 1.8
     }
   ]
 }

@@ -701,6 +701,51 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/20-09-2026-acmilan-lecce</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/20-09-2026-atleticomadrid-realmadrid</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/20-09-2026-deportivolacoruna-realbetis</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/20-09-2026-fcschalke04-svelversberg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/20-09-2026-fulham-manchesterunited</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/20-09-2026-juventus-atalanta</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/20-09-2026-marseille-parissaintgermain</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/20-09-2026-nice-lille</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/20-09-2026-villarreal-levante</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1257,6 +1302,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/19-09-2026-vladivostok-cherepovets</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/20-09-2026-magnitogorsk-niznekamsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/20-09-2026-salavatufa-spartakmoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/20-09-2026-sochi-novosibirsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/20-09-2026-tractorchelyabinsk-avangardomsk</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
