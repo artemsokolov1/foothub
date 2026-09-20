@@ -118,15 +118,6 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Трактор",
-        "away": "Авангард",
-        "kickoff": "14:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "20-09-2026-tractorchelyabinsk-avangardomsk",
-        "page": "/hockey/20-09-2026-tractorchelyabinsk-avangardomsk"
-      },
-      {
         "home": "Салават Юлаев",
         "away": "Спартак",
         "kickoff": "14:30",
@@ -152,6 +143,15 @@
         "game": "Хоккей",
         "slug": "20-09-2026-sochi-novosibirsk",
         "page": "/hockey/20-09-2026-sochi-novosibirsk"
+      },
+      {
+        "home": "Локомотив",
+        "away": "Барыс",
+        "kickoff": "17:00",
+        "league": "KHL",
+        "game": "Хоккей",
+        "slug": "20-09-2026-lokomotivyaroslavl-barysastana",
+        "page": "/hockey/20-09-2026-lokomotivyaroslavl-barysastana"
       }
     ]
   },
