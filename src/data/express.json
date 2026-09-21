@@ -115,22 +115,22 @@
         "page": "/hockey/21-09-2026-washingtoncapitals-philadelphiaflyers"
       },
       {
-        "home": "СКА-Хабаровск",
-        "away": "Череповец",
-        "kickoff": "12:00",
-        "league": "KHL",
+        "home": "Питтсбург Пингвинз",
+        "away": "Баффало Сейбрз",
+        "kickoff": "02:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "21-09-2026-khabarovsk-cherepovets",
-        "page": "/hockey/21-09-2026-khabarovsk-cherepovets"
+        "slug": "21-09-2026-pittsburghpenguins-buffalosabres",
+        "page": "/hockey/21-09-2026-pittsburghpenguins-buffalosabres"
       },
       {
-        "home": "Динамо-Владивосток",
-        "away": "ЦСКА",
-        "kickoff": "12:30",
-        "league": "KHL",
+        "home": "Коламбус Блю Джакетс",
+        "away": "Детройт Ред Уингз",
+        "kickoff": "02:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "21-09-2026-vladivostok-cskamoscow",
-        "page": "/hockey/21-09-2026-vladivostok-cskamoscow"
+        "slug": "21-09-2026-columbusbluejackets-detroitredwings",
+        "page": "/hockey/21-09-2026-columbusbluejackets-detroitredwings"
       },
       {
         "home": "Барс",

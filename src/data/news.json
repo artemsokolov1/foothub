@@ -3,34 +3,34 @@
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Энрике — о победе «ПСЖ» над «Марселем»: «Ничего не дается легко»",
-      "url": "https://www.sport-express.ru/football/france/news/glavnyy-trener-pszh-luis-enrike-kommentariy-o-pobede-nad-marselem-v-matche-ligi-1-2456767/",
+      "title": "Главный тренер сборной Испании де ла Фуэнте продлил контракт до 2032 года",
+      "url": "https://www.sport-express.ru/football/spain/news/glavnyy-trener-sbornoy-ispanii-luis-de-la-fuente-prodlil-kontrakt-do-2032-goda-2456825/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.2
+    },
+    {
+      "title": "Спортивный директор «Балтики» Маргарян — о трансфере Андраде: «Продали одного, купили трех»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/sportivnyy-direktor-baltiki-armen-margaryan-kommentariy-o-prodazhe-zaschitnika-kevina-andrade-2456822/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.5
+    },
+    {
+      "title": "Спортивный директор «Балтики» Маргарян: «Истерия из-за ухода Бориско абсолютно необоснованна»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/sportivnyy-direktor-baltiki-armen-margaryan-kommentariy-o-transfere-vratarya-maksima-borisko-v-cska-2456818/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.9
+    },
+    {
+      "title": "Тедеев об игре «Спартака»: «Карседо постоянно что-то ищет. Но нужно действовать прямо здесь и сейчас»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/tedeev-ob-igre-spartaka-karsedo-postoyanno-chto-to-ischet-no-nuzhno-deystvovat-pryamo-zdes-i-seychas-2456817/",
       "source": "Спорт-Экспресс",
       "hours": 1.0
     },
     {
-      "title": "Аморим о «Милане»: «Мы команда, которая опасна»",
-      "url": "https://www.sport-express.ru/football/italy/news/amorim-o-milane-my-komanda-kotoraya-opasna-2456761/",
+      "title": "«Анортосис» потребовал иностранных видеоарбитров",
+      "url": "https://www.sport-express.ru/football/foreign/news/anortosis-potreboval-inostrannyh-videoarbitrov-2456815/",
       "source": "Спорт-Экспресс",
-      "hours": 1.7
-    },
-    {
-      "title": "Вратарь Бюте заменил Риссера в составе сборной Франции на матчи Лиги наций",
-      "url": "https://www.sport-express.ru/football/nation-league/news/vratar-byute-zamenil-rissera-v-sostave-sbornoy-francii-na-matchi-ligi-naciy-2456763/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.9
-    },
-    {
-      "title": "Мален не сыграет за сборную Нидерландов в ближайших матчах Лиги наций",
-      "url": "https://www.sport-express.ru/football/nation-league/news/malen-ne-sygraet-za-sbornuyu-niderlandov-v-blizhayshih-matchah-ligi-naciy-2456760/",
-      "source": "Спорт-Экспресс",
-      "hours": 2.3
-    },
-    {
-      "title": "«Интернасьонал» уволил главного тренера Пеццолано",
-      "url": "https://www.sport-express.ru/football/braziliya/news/internasonal-uvolil-glavnogo-trenera-peccolano-2456759/",
-      "source": "Спорт-Экспресс",
-      "hours": 2.6
+      "hours": 1.2
     }
   ]
 }
