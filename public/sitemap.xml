@@ -771,7 +771,27 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://foothub.ru/football/22-08-2026-wolfsberger-lask</loc>
+    <loc>https://foothub.ru/football/22-09-2026-academicoviseuu23-estorilu23</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/22-09-2026-dcpowerw-fortlauderdaleunitedw</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/22-09-2026-havadar-besatkermanshah</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/22-09-2026-skjetten-skjerv-y</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/22-09-2026-usbiskra-jssaoura</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1382,6 +1402,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/21-09-2026-washingtoncapitals-philadelphiaflyers</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/22-09-2026-bostonbruins-philadelphiaflyers</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/22-09-2026-dynamomoscow-barysastana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/22-09-2026-nizhnynovgorod-avangardomsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/22-09-2026-shanghai-yekaterinburg</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
