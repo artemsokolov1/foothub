@@ -103,26 +103,26 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Хабаровск",
-        "away": "ЦСКА",
-        "kickoff": "12:00",
-        "league": "KHL",
+        "home": "Оттава Сенаторз",
+        "away": "Торонто Мейпл Лифс",
+        "kickoff": "02:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "23-09-2026-khabarovsk-cskamoscow",
-        "page": "/hockey/23-09-2026-khabarovsk-cskamoscow"
+        "slug": "23-09-2026-ottawasenators-torontomapleleafs",
+        "page": "/hockey/23-09-2026-ottawasenators-torontomapleleafs"
       },
       {
-        "home": "Владивосток",
-        "away": "Локомотив",
-        "kickoff": "12:30",
-        "league": "KHL",
+        "home": "Торонто Мейпл Лифс",
+        "away": "Оттава Сенаторз",
+        "kickoff": "02:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "23-09-2026-vladivostok-lokomotivyaroslavl",
-        "page": "/hockey/23-09-2026-vladivostok-lokomotivyaroslavl"
+        "slug": "23-09-2026-torontomapleleafs-ottawasenators",
+        "page": "/hockey/23-09-2026-torontomapleleafs-ottawasenators"
       },
       {
         "home": "Салават Юлаев",
-        "away": "Магнитогорск",
+        "away": "Металлург",
         "kickoff": "17:00",
         "league": "KHL",
         "game": "Хоккей",
@@ -130,7 +130,7 @@
         "page": "/hockey/23-09-2026-salavatufa-magnitogorsk"
       },
       {
-        "home": "Нижнекамск",
+        "home": "Нефтехимик",
         "away": "Лада",
         "kickoff": "19:30",
         "league": "KHL",

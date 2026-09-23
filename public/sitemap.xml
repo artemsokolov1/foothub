@@ -1456,7 +1456,17 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/hockey/23-09-2026-ottawasenators-torontomapleleafs</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/23-09-2026-salavatufa-magnitogorsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/23-09-2026-torontomapleleafs-ottawasenators</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
