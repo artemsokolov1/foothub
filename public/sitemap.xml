@@ -796,6 +796,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/23-09-2026-baraufc-abiawarriors</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/23-09-2026-dreams-medeama</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/23-09-2026-enyimba-sportinglagos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/23-09-2026-interlagos-kanopillars</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/27-08-2026-ararat-armenia-craiova</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1422,6 +1442,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/22-09-2026-shanghai-yekaterinburg</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/23-09-2026-khabarovsk-cskamoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/23-09-2026-niznekamsk-lada</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/23-09-2026-salavatufa-magnitogorsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/23-09-2026-vladivostok-lokomotivyaroslavl</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

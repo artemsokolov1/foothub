@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Вальверде диагностировали растяжение связок лодыжки — он может пропустить от двух недель до трех месяцев",
-      "url": "https://www.sport-express.ru/football/spain/news/poluzaschitnik-reala-fede-valverde-poluchil-rastyazhenie-svyazok-lodyzhki-v-matche-s-atletiko-2457028/",
+      "title": "The Athletic: Джулиан Уорд вернется на пост спортивного директора «Ливерпуля»",
+      "url": "https://www.sport-express.ru/football/england/news/the-athletic-dzhulian-uord-vernetsya-na-post-sportivnogo-direktora-liverpulya-2457171/",
       "source": "Спорт-Экспресс",
-      "hours": 0.3
+      "hours": 0.1
     },
     {
-      "title": "ЦСКА опубликовал фото Вагнера Лав с Красной площади",
-      "url": "https://www.sport-express.ru/football/rfpl/news/cska-opublikoval-foto-vagnera-lav-s-krasnoy-ploschadi-2457023/",
+      "title": "«Барселона» временно переедет с «Камп Ноу» и вернется в январе 2028 года",
+      "url": "https://www.sport-express.ru/football/spain/news/barselona-vremenno-pereedet-s-kamp-nou-i-vernetsya-v-yanvare-2028-goda-2457170/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.1
+    },
+    {
+      "title": "Полузащитник Макаллистер выразил надежду остаться в «Ливерпуле» после окончания контракта",
+      "url": "https://www.sport-express.ru/football/england/news/poluzaschitnik-makallister-vyrazil-nadezhdu-ostatsya-v-liverpule-posle-okonchaniya-kontrakta-2457169/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.4
+    },
+    {
+      "title": "Teamtalk: на защитника «Кристал Пэлас» Митчелла претендуют 3 клуба АПЛ",
+      "url": "https://www.sport-express.ru/football/transfers/news/teamtalk-na-zaschitnika-kristal-pelas-mitchella-pretenduyut-3-kluba-apl-2457167/",
       "source": "Спорт-Экспресс",
       "hours": 0.7
     },
     {
-      "title": "Тедеев: «Удивляет, что Дзюба до сих пор находится без клуба»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/tedeev-udivlyaet-chto-dzyuba-do-sih-por-nahoditsya-bez-kluba-2457022/",
+      "title": "«Арсенал» намерен подписать новый долгосрочный контракт с Райсом",
+      "url": "https://www.sport-express.ru/football/england/news/arsenal-nameren-podpisat-novyy-dolgosrochnyy-kontrakt-s-raysom-2457166/",
       "source": "Спорт-Экспресс",
-      "hours": 0.8
-    },
-    {
-      "title": "Мбаппе о «Золотом мяче»: «Я стал лучшим бомбардиром всех крупнейших турниров. У меня хорошее предчувствие»",
-      "url": "https://www.sport-express.ru/football/spain/news/zolotoy-myach-2026-kilian-mbappe-obyasnil-pochemu-verit-v-pobedu-2457020/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.0
-    },
-    {
-      "title": "Источник: «Ливерпуль» готов рассмотреть предложения по Вирцу в январе",
-      "url": "https://www.sport-express.ru/football/england/news/istochnik-liverpul-gotov-rassmotret-predlozheniya-po-vircu-v-yanvare-2457018/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.2
+      "hours": 0.7
     }
   ]
 }

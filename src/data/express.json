@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "football": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,96 +9,93 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Ди-Си Пауэр",
-        "away": "Форт-Лодердейл Юнайтед",
+        "home": "Видем",
+        "away": "Хайдина",
         "kickoff": "18:00",
-        "league": "Суперлига USL",
+        "league": "Третья лига Словении (Восток)",
         "game": "Футбол",
-        "slug": "22-09-2026-dcpowerw-fortlauderdaleunitedw",
-        "page": "/football/22-09-2026-dcpowerw-fortlauderdaleunitedw",
-        "pick": "Ди-Си Пауэр победит",
-        "odd": 1.46
+        "slug": "23-09-2026-videm-hajdina"
       },
       {
-        "home": "Бенковски",
-        "away": "Септември",
+        "home": "Дримс",
+        "away": "Медеама",
         "kickoff": "18:00",
-        "league": "Третья лига Болгарии (Северо-Восток)",
+        "league": "Премьер-лига Ганы",
         "game": "Футбол",
-        "slug": "22-09-2026-benkovskiisperih-septemvritervel"
+        "slug": "23-09-2026-dreams-medeama",
+        "page": "/football/23-09-2026-dreams-medeama",
+        "pick": "Медеама не проиграет",
+        "odd": 1.73
       },
       {
-        "home": "Хавадар",
-        "away": "Бесат Керманшах",
+        "home": "Хапоэль Ирони Кармиэль",
+        "away": "Ирони Нешер",
         "kickoff": "18:00",
-        "league": "Лига Азадеган",
+        "league": "Лига Алеф",
         "game": "Футбол",
-        "slug": "22-09-2026-havadar-besatkermanshah",
-        "page": "/football/22-09-2026-havadar-besatkermanshah",
-        "pick": "Хавадар не проиграет",
-        "odd": 1.32
+        "slug": "23-09-2026-hapoelironikarmiel-ironinesher"
       },
       {
-        "home": "Аль-Бидда",
-        "away": "Аль-Шамаль",
+        "home": "Барау",
+        "away": "Абиа Уорриорз",
         "kickoff": "18:00",
-        "league": "Кубок Звёздной лиги Катара",
+        "league": "Премьер-лига Нигерии",
         "game": "Футбол",
-        "slug": "22-09-2026-albiddasc-alshamal"
+        "slug": "23-09-2026-baraufc-abiawarriors",
+        "page": "/football/23-09-2026-baraufc-abiawarriors",
+        "pick": "Барау победит",
+        "odd": 1.45
       },
       {
-        "home": "Танзания U20",
-        "away": "Бурунди U20",
+        "home": "Бендел Иншуранс",
+        "away": "Икороду Сити",
         "kickoff": "18:00",
-        "league": "Чемпионат КЕСАФА U20",
+        "league": "Премьер-лига Нигерии",
         "game": "Футбол",
-        "slug": "22-09-2026-tanzaniau20-burundiu20"
+        "slug": "23-09-2026-bendelinsurance-ikoroducity"
       },
       {
-        "home": "Мес Сунгун",
-        "away": "Мес Рафсанджан",
-        "kickoff": "18:15",
-        "league": "Лига Азадеган",
+        "home": "Дома Юнайтед",
+        "away": "Плато Юнайтед",
+        "kickoff": "18:00",
+        "league": "Премьер-лига Нигерии",
         "game": "Футбол",
-        "slug": "22-09-2026-messoongoun-mesrafsanjan"
+        "slug": "23-09-2026-domaunited-plateauunited"
       },
       {
-        "home": "Шеттен",
-        "away": "Шкьервёй",
-        "kickoff": "18:30",
-        "league": "Третий дивизион Норвегии (Группа 5)",
+        "home": "Энимба",
+        "away": "Спортинг Лагос",
+        "kickoff": "18:00",
+        "league": "Премьер-лига Нигерии",
         "game": "Футбол",
-        "slug": "22-09-2026-skjetten-skjerv-y",
-        "page": "/football/22-09-2026-skjetten-skjerv-y",
-        "pick": "Шеттен победит",
-        "odd": 1.37
+        "slug": "23-09-2026-enyimba-sportinglagos",
+        "page": "/football/23-09-2026-enyimba-sportinglagos",
+        "pick": "Спортинг Лагос не проиграет",
+        "odd": 1.73
       },
       {
-        "home": "Академику Визеу U23",
-        "away": "Эшторил U23",
-        "kickoff": "19:00",
-        "league": "Лига Ревеласан U23",
+        "home": "Интер Лагос",
+        "away": "Кано Пилларс",
+        "kickoff": "18:00",
+        "league": "Премьер-лига Нигерии",
         "game": "Футбол",
-        "slug": "22-09-2026-academicoviseuu23-estorilu23",
-        "page": "/football/22-09-2026-academicoviseuu23-estorilu23",
-        "pick": "Эшторил U23 не проиграет",
-        "odd": 1.7
+        "slug": "23-09-2026-interlagos-kanopillars",
+        "page": "/football/23-09-2026-interlagos-kanopillars",
+        "pick": "Кано Пилларс победит",
+        "odd": 5.4
       },
       {
-        "home": "Бискра",
-        "away": "Саура",
-        "kickoff": "19:00",
-        "league": "Лига 1 Алжира",
+        "home": "Квара Юнайтед",
+        "away": "Насарава Юнайтед",
+        "kickoff": "18:00",
+        "league": "Премьер-лига Нигерии",
         "game": "Футбол",
-        "slug": "22-09-2026-usbiskra-jssaoura",
-        "page": "/football/22-09-2026-usbiskra-jssaoura",
-        "pick": "Бискра не проиграет",
-        "odd": 1.33
+        "slug": "23-09-2026-kwaraunited-nasarawaunited"
       }
     ]
   },
   "hockey": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -106,45 +103,45 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Бостон Брюинз",
-        "away": "Филадельфия Флайерз",
-        "kickoff": "02:00",
-        "league": "NHL",
+        "home": "Хабаровск",
+        "away": "ЦСКА",
+        "kickoff": "12:00",
+        "league": "KHL",
         "game": "Хоккей",
-        "slug": "22-09-2026-bostonbruins-philadelphiaflyers",
-        "page": "/hockey/22-09-2026-bostonbruins-philadelphiaflyers"
+        "slug": "23-09-2026-khabarovsk-cskamoscow",
+        "page": "/hockey/23-09-2026-khabarovsk-cskamoscow"
       },
       {
-        "home": "Динамо Москва",
-        "away": "Барыс",
+        "home": "Владивосток",
+        "away": "Локомотив",
+        "kickoff": "12:30",
+        "league": "KHL",
+        "game": "Хоккей",
+        "slug": "23-09-2026-vladivostok-lokomotivyaroslavl",
+        "page": "/hockey/23-09-2026-vladivostok-lokomotivyaroslavl"
+      },
+      {
+        "home": "Салават Юлаев",
+        "away": "Магнитогорск",
+        "kickoff": "17:00",
+        "league": "KHL",
+        "game": "Хоккей",
+        "slug": "23-09-2026-salavatufa-magnitogorsk",
+        "page": "/hockey/23-09-2026-salavatufa-magnitogorsk"
+      },
+      {
+        "home": "Нижнекамск",
+        "away": "Лада",
         "kickoff": "19:30",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "22-09-2026-dynamomoscow-barysastana",
-        "page": "/hockey/22-09-2026-dynamomoscow-barysastana"
-      },
-      {
-        "home": "Нижний Новгород",
-        "away": "Авангард",
-        "kickoff": "19:30",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "22-09-2026-nizhnynovgorod-avangardomsk",
-        "page": "/hockey/22-09-2026-nizhnynovgorod-avangardomsk"
-      },
-      {
-        "home": "Шанхай",
-        "away": "Екатеринбург",
-        "kickoff": "19:30",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "22-09-2026-shanghai-yekaterinburg",
-        "page": "/hockey/22-09-2026-shanghai-yekaterinburg"
+        "slug": "23-09-2026-niznekamsk-lada",
+        "page": "/hockey/23-09-2026-niznekamsk-lada"
       }
     ]
   },
   "esports": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "kind": "esports",
     "slug": "",
     "source": "api-football",
