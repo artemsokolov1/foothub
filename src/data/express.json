@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-10-21",
   "football": {
-    "date": "2026-09-23",
+    "date": "2026-10-21",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,93 +9,81 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Видем",
-        "away": "Хайдина",
-        "kickoff": "18:00",
-        "league": "Третья лига Словении (Восток)",
+        "home": "Комо",
+        "away": "Манчестер Юнайтед",
+        "kickoff": "19:45",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-videm-hajdina"
+        "slug": "21-10-2026-como-manchesterunited"
       },
       {
-        "home": "Дримс",
-        "away": "Медеама",
-        "kickoff": "18:00",
-        "league": "Премьер-лига Ганы",
+        "home": "Лилль",
+        "away": "Галатасарай",
+        "kickoff": "19:45",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-dreams-medeama",
-        "page": "/football/23-09-2026-dreams-medeama",
-        "pick": "Медеама не проиграет",
-        "odd": 1.73
+        "slug": "21-10-2026-lille-galatasaray"
       },
       {
-        "home": "Хапоэль Ирони Кармиэль",
-        "away": "Ирони Нешер",
-        "kickoff": "18:00",
-        "league": "Лига Алеф",
+        "home": "Бавария",
+        "away": "Арсенал",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-hapoelironikarmiel-ironinesher"
+        "slug": "21-10-2026-bayernmunchen-arsenal"
       },
       {
-        "home": "Барау",
-        "away": "Абиа Уорриорз",
-        "kickoff": "18:00",
-        "league": "Премьер-лига Нигерии",
+        "home": "Интер",
+        "away": "Шахтёр",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-baraufc-abiawarriors",
-        "page": "/football/23-09-2026-baraufc-abiawarriors",
-        "pick": "Барау победит",
-        "odd": 1.45
+        "slug": "21-10-2026-inter-shakhtardonetsk"
       },
       {
-        "home": "Бендел Иншуранс",
-        "away": "Икороду Сити",
-        "kickoff": "18:00",
-        "league": "Премьер-лига Нигерии",
+        "home": "Реал Мадрид",
+        "away": "РБ Лейпциг",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-bendelinsurance-ikoroducity"
+        "slug": "21-10-2026-realmadrid-rbleipzig"
       },
       {
-        "home": "Дома Юнайтед",
-        "away": "Плато Юнайтед",
-        "kickoff": "18:00",
-        "league": "Премьер-лига Нигерии",
+        "home": "Астон Вилла",
+        "away": "Викинг",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-domaunited-plateauunited"
+        "slug": "21-10-2026-astonvilla-viking"
       },
       {
-        "home": "Энимба",
-        "away": "Спортинг Лагос",
-        "kickoff": "18:00",
-        "league": "Премьер-лига Нигерии",
+        "home": "Реал Бетис",
+        "away": "Фейеноорд",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-enyimba-sportinglagos",
-        "page": "/football/23-09-2026-enyimba-sportinglagos",
-        "pick": "Спортинг Лагос не проиграет",
-        "odd": 1.73
+        "slug": "21-10-2026-realbetis-feyenoord"
       },
       {
-        "home": "Интер Лагос",
-        "away": "Кано Пилларс",
-        "kickoff": "18:00",
-        "league": "Премьер-лига Нигерии",
+        "home": "Брюгге",
+        "away": "Ланс",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-interlagos-kanopillars",
-        "page": "/football/23-09-2026-interlagos-kanopillars",
-        "pick": "Кано Пилларс победит",
-        "odd": 5.4
+        "slug": "21-10-2026-clubbruggekv-lens"
       },
       {
-        "home": "Квара Юнайтед",
-        "away": "Насарава Юнайтед",
-        "kickoff": "18:00",
-        "league": "Премьер-лига Нигерии",
+        "home": "Спортинг",
+        "away": "ЛАСК",
+        "kickoff": "22:00",
+        "league": "Лига чемпионов",
         "game": "Футбол",
-        "slug": "23-09-2026-kwaraunited-nasarawaunited"
+        "slug": "21-10-2026-sportingcp-lasklinz"
       }
     ]
   },
   "hockey": {
-    "date": "2026-09-23",
+    "date": "2026-10-21",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -103,45 +91,25 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Оттава Сенаторз",
-        "away": "Торонто Мейпл Лифс",
-        "kickoff": "02:00",
+        "home": "Buffalo Sabres",
+        "away": "Philadelphia Flyers",
+        "kickoff": "02:30",
         "league": "NHL",
         "game": "Хоккей",
-        "slug": "23-09-2026-ottawasenators-torontomapleleafs",
-        "page": "/hockey/23-09-2026-ottawasenators-torontomapleleafs"
+        "slug": "21-10-2026-buffalosabres-philadelphiaflyers"
       },
       {
-        "home": "Торонто Мейпл Лифс",
-        "away": "Оттава Сенаторз",
-        "kickoff": "02:00",
+        "home": "Ottawa Senators",
+        "away": "Florida Panthers",
+        "kickoff": "02:30",
         "league": "NHL",
         "game": "Хоккей",
-        "slug": "23-09-2026-torontomapleleafs-ottawasenators",
-        "page": "/hockey/23-09-2026-torontomapleleafs-ottawasenators"
-      },
-      {
-        "home": "Салават Юлаев",
-        "away": "Металлург",
-        "kickoff": "17:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "23-09-2026-salavatufa-magnitogorsk",
-        "page": "/hockey/23-09-2026-salavatufa-magnitogorsk"
-      },
-      {
-        "home": "Нефтехимик",
-        "away": "Лада",
-        "kickoff": "19:30",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "23-09-2026-niznekamsk-lada",
-        "page": "/hockey/23-09-2026-niznekamsk-lada"
+        "slug": "21-10-2026-ottawasenators-floridapanthers"
       }
     ]
   },
   "esports": {
-    "date": "2026-09-23",
+    "date": "2026-10-21",
     "kind": "esports",
     "slug": "",
     "source": "api-football",

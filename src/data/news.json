@@ -1,36 +1,36 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-10-21",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Сафонов назвал неуместным сравнение с Акинфеевым",
-      "url": "https://www.sport-express.ru/football/france/news/safonov-nazval-neumestnym-sravnenie-s-akinfeevym-2457239/",
+      "title": "Тренер «Галатасарая» Бурук: «Батраков голоден до успеха. Чем больше он будет играть, тем лучше станет»",
+      "url": "https://www.sport-express.ru/football/champions-league/news/trener-galatasaraya-okan-buruk-pohvalil-batrakova-posle-pobedy-nad-lillem-v-lige-chempionov-2465693/",
       "source": "Спорт-Экспресс",
-      "hours": 0.2
+      "hours": 0.6
     },
     {
-      "title": "Вратарь «ПСЖ» Сафонов: «Смотрю обзоры матчей, слежу за РПЛ. Где-то подписан»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/vratar-pszh-safonov-smotryu-obzory-matchey-slezhu-za-rpl-gde-to-podpisan-2457237/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.2
-    },
-    {
-      "title": "Сафонов — о переход Батракова в «Галатасарай»: «Дайте ему спокойно понять свое место в команде»",
-      "url": "https://www.sport-express.ru/football/turkey/news/safonov-prizval-dat-batrakovu-vremya-chtoby-on-ponyal-svoe-mesto-v-galatasarae-2457235/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.4
-    },
-    {
-      "title": "Булатов: «Лозунг «Мы хотим чем-то отличаться от других» сработал, мы неплохо провели концовку сезона»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/bulatov-lozung-my-hotim-chem-to-otlichatsya-ot-drugih-srabotal-my-neploho-proveli-koncovku-sezona-2457234/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.5
-    },
-    {
-      "title": "Франция — фаворит Лиги наций, у Италии и Дании одинаковые шансы на успех",
-      "url": "https://www.sport-express.ru/stavki-na-sport/prognozy/news/liga-naciy-uefa-kto-favorit-rozygrysha-2026-27-2457229/",
+      "title": "«Бавария» — «Арсенал»: Кейн с пенальти вывел мюнхенскую команду вперед в матче Лиги чемпионов",
+      "url": "https://www.sport-express.ru/football/champions-league/news/bavariya-arsenal-keyn-s-penalti-vyvel-myunhenskuyu-komandu-vpered-v-matche-ligi-chempionov-2465691/",
       "source": "Спорт-Экспресс",
       "hours": 0.7
+    },
+    {
+      "title": "Батраков о победе «Галатасарая» над «Лиллем»: «Важный день для команды и для меня»",
+      "url": "https://www.sport-express.ru/football/champions-league/news/batrakov-prokommentiroval-pobedu-galatasaraya-nad-lillem-v-lige-chempionov-2465689/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.7
+    },
+    {
+      "title": "«Атлетик» вдесятером проиграл «Леванте» в перенесенном матче 6-го тура Ла лиги с четырьмя голами",
+      "url": "https://www.sport-express.ru/football/spain/news/levante-atletik-schet-i-rezultat-matcha-6-tura-chempionata-ispanii-21-oktyabrya-2026-2465688/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.9
+    },
+    {
+      "title": "Opta: полузащитник «Комо» Пас повторил достижение Дзагоева в матче против «Манчестер Юнайтед» в Лиге чемпионов",
+      "url": "https://www.sport-express.ru/football/champions-league/news/poluzaschitnik-komo-niko-paz-povtoril-dostizhenie-alana-dzagoeva-v-matche-protiv-manchester-yunayted-v-lige-chempionov-2465685/",
+      "source": "Спорт-Экспресс",
+      "hours": 1.3
     }
   ]
 }
