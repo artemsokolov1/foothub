@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "football": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,87 +9,108 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Астон Вилла",
-        "away": "Манчестер Сити",
-        "kickoff": "14:30",
-        "league": "Английская Премьер-лига",
+        "home": "ЦСКА",
+        "away": "Спартак",
+        "kickoff": "16:00",
+        "league": "Российская Премьер-лига",
         "game": "Футбол",
-        "slug": "24-10-2026-astonvilla-manchestercity"
+        "slug": "25-10-2026-cskamoscow-spartakmoscow",
+        "page": "/football/25-10-2026-cskamoscow-spartakmoscow",
+        "pick": "Спартак не проиграет",
+        "odd": 1.39
       },
       {
-        "home": "Наполи",
-        "away": "Рома",
-        "kickoff": "19:00",
-        "league": "Серия А",
+        "home": "Сельта",
+        "away": "Реал Бетис",
+        "kickoff": "18:15",
+        "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "24-10-2026-napoli-asroma",
-        "page": "/football/24-10-2026-napoli-asroma",
-        "pick": "Рома не проиграет",
+        "slug": "25-10-2026-celtavigo-realbetis",
+        "page": "/football/25-10-2026-celtavigo-realbetis",
+        "pick": "Сельта не проиграет",
+        "odd": 1.65
+      },
+      {
+        "home": "Зенит",
+        "away": "Динамо Махачкала",
+        "kickoff": "18:30",
+        "league": "Российская Премьер-лига",
+        "game": "Футбол",
+        "slug": "25-10-2026-zenit-dinamomakhachkala",
+        "page": "/football/25-10-2026-zenit-dinamomakhachkala",
+        "pick": "Зенит победит",
+        "odd": 1.27
+      },
+      {
+        "home": "Анже",
+        "away": "Лорьян",
+        "kickoff": "19:15",
+        "league": "Лига 1",
+        "game": "Футбол",
+        "slug": "25-10-2026-angers-lorient",
+        "page": "/football/25-10-2026-angers-lorient",
+        "pick": "Лорьян не проиграет",
         "odd": 1.4
       },
       {
-        "home": "Челси",
-        "away": "Тоттенхэм",
-        "kickoff": "19:30",
-        "league": "Английская Премьер-лига",
-        "game": "Футбол",
-        "slug": "24-10-2026-chelsea-tottenham",
-        "page": "/football/24-10-2026-chelsea-tottenham",
-        "pick": "Челси победит",
-        "odd": 1.8
-      },
-      {
-        "home": "Краснодар",
-        "away": "Балтика",
-        "kickoff": "19:30",
-        "league": "Российская Премьер-лига",
-        "game": "Футбол",
-        "slug": "24-10-2026-fckrasnodar-baltika"
-      },
-      {
-        "home": "Боруссия",
-        "away": "Айнтрахт",
-        "kickoff": "19:30",
-        "league": "Бундеслига",
-        "game": "Футбол",
-        "slug": "24-10-2026-borussiadortmund-eintrachtfrankfurt"
-      },
-      {
-        "home": "Валенсия",
-        "away": "Вильярреал",
-        "kickoff": "19:30",
-        "league": "Ла Лига",
-        "game": "Футбол",
-        "slug": "24-10-2026-valencia-villarreal"
-      },
-      {
-        "home": "Лацио",
-        "away": "Парма",
-        "kickoff": "21:45",
-        "league": "Серия А",
-        "game": "Футбол",
-        "slug": "24-10-2026-lazio-parma"
-      },
-      {
-        "home": "Ланс",
-        "away": "Париж",
-        "kickoff": "21:45",
+        "home": "Осер",
+        "away": "Ле-Ман",
+        "kickoff": "19:15",
         "league": "Лига 1",
         "game": "Футбол",
-        "slug": "24-10-2026-lens-parisfc"
+        "slug": "25-10-2026-auxerre-lemans",
+        "page": "/football/25-10-2026-auxerre-lemans",
+        "pick": "Осер не проиграет",
+        "odd": 1.3
       },
       {
-        "home": "Атлетико",
-        "away": "Депортиво",
-        "kickoff": "22:00",
+        "home": "Марсель",
+        "away": "Гавр",
+        "kickoff": "19:15",
+        "league": "Лига 1",
+        "game": "Футбол",
+        "slug": "25-10-2026-marseille-lehavre",
+        "page": "/football/25-10-2026-marseille-lehavre",
+        "pick": "Марсель победит",
+        "odd": 1.53
+      },
+      {
+        "home": "Лечче",
+        "away": "Ювентус",
+        "kickoff": "20:00",
+        "league": "Серия А",
+        "game": "Футбол",
+        "slug": "25-10-2026-lecce-juventus",
+        "page": "/football/25-10-2026-lecce-juventus",
+        "pick": "Ювентус победит",
+        "odd": 1.5
+      },
+      {
+        "home": "Удинезе",
+        "away": "Милан",
+        "kickoff": "22:45",
+        "league": "Серия А",
+        "game": "Футбол",
+        "slug": "25-10-2026-udinese-acmilan",
+        "page": "/football/25-10-2026-udinese-acmilan",
+        "pick": "Милан не проиграет",
+        "odd": 1.2
+      },
+      {
+        "home": "Барселона",
+        "away": "Реал Мадрид",
+        "kickoff": "23:00",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "24-10-2026-atleticomadrid-deportivolacoruna"
+        "slug": "25-10-2026-barcelona-realmadrid",
+        "page": "/football/25-10-2026-barcelona-realmadrid",
+        "pick": "Барселона победит",
+        "odd": 1.62
       }
     ]
   },
   "hockey": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -97,41 +118,45 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Магнитогорск",
-        "away": "Новосибирск",
+        "home": "Амур",
+        "away": "Адмирал",
+        "kickoff": "10:00",
+        "league": "KHL",
+        "game": "Хоккей",
+        "slug": "25-10-2026-khabarovsk-vladivostok",
+        "page": "/hockey/25-10-2026-khabarovsk-vladivostok"
+      },
+      {
+        "home": "Лада",
+        "away": "Сочи",
+        "kickoff": "14:00",
+        "league": "KHL",
+        "game": "Хоккей",
+        "slug": "25-10-2026-lada-sochi",
+        "page": "/hockey/25-10-2026-lada-sochi"
+      },
+      {
+        "home": "Салават Юлаев",
+        "away": "Ак Барс",
         "kickoff": "14:30",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "24-10-2026-magnitogorsk-novosibirsk"
+        "slug": "25-10-2026-salavatufa-barskazan",
+        "page": "/hockey/25-10-2026-salavatufa-barskazan"
       },
       {
-        "home": "Нижний Новгород",
-        "away": "Динамо",
+        "home": "Локомотив",
+        "away": "Череповец",
         "kickoff": "17:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "24-10-2026-nizhnynovgorod-dinamominsk"
-      },
-      {
-        "home": "Филадельфия Флайерз",
-        "away": "Анахайм Дакс",
-        "kickoff": "20:00",
-        "league": "NHL",
-        "game": "Хоккей",
-        "slug": "24-10-2026-philadelphiaflyers-anaheimducks"
-      },
-      {
-        "home": "Нью-Джерси Девилз",
-        "away": "Лос-Анджелес Кингз",
-        "kickoff": "22:30",
-        "league": "NHL",
-        "game": "Хоккей",
-        "slug": "24-10-2026-newjerseydevils-losangeleskings"
+        "slug": "25-10-2026-lokomotivyaroslavl-cherepovets",
+        "page": "/hockey/25-10-2026-lokomotivyaroslavl-cherepovets"
       }
     ]
   },
   "esports": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "kind": "esports",
     "slug": "",
     "source": "api-football",
