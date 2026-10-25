@@ -118,24 +118,6 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Амур",
-        "away": "Адмирал",
-        "kickoff": "10:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "25-10-2026-khabarovsk-vladivostok",
-        "page": "/hockey/25-10-2026-khabarovsk-vladivostok"
-      },
-      {
-        "home": "Лада",
-        "away": "Сочи",
-        "kickoff": "14:00",
-        "league": "KHL",
-        "game": "Хоккей",
-        "slug": "25-10-2026-lada-sochi",
-        "page": "/hockey/25-10-2026-lada-sochi"
-      },
-      {
         "home": "Салават Юлаев",
         "away": "Ак Барс",
         "kickoff": "14:30",
@@ -152,6 +134,22 @@
         "game": "Хоккей",
         "slug": "25-10-2026-lokomotivyaroslavl-cherepovets",
         "page": "/hockey/25-10-2026-lokomotivyaroslavl-cherepovets"
+      },
+      {
+        "home": "СКА",
+        "away": "ЦСКА",
+        "kickoff": "17:00",
+        "league": "KHL",
+        "game": "Хоккей",
+        "slug": "25-10-2026-skastpetersburg-cskamoscow"
+      },
+      {
+        "home": "Спартак",
+        "away": "Шанхай",
+        "kickoff": "17:00",
+        "league": "KHL",
+        "game": "Хоккей",
+        "slug": "25-10-2026-spartakmoscow-shanghai"
       }
     ]
   },
