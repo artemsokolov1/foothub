@@ -1,36 +1,36 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "ЦСКА впервые сыграет без Лусиано в этом сезоне РПЛ — нападающий пропустит дерби со «Спартаком»",
-      "url": "https://www.sport-express.ru/football/news/cska-vpervye-v-nyneshnem-chempionate-sygraet-bez-lusiano-napadayuschiy-propustit-derbi-so-spartakom-v-12-ture-rpl-2467034/",
+      "title": "Кварацхелия перенесет операцию на крестообразной связке в начале этой недели",
+      "url": "https://www.sport-express.ru/football/france/news/kvaracheliya-pereneset-operaciyu-na-krestoobraznoy-svyazke-v-nachale-etoy-nedeli-2467399/",
       "source": "Спорт-Экспресс",
-      "hours": 0.5
+      "hours": 0.2
     },
     {
-      "title": "Член правления «Баварии» Хенесс: «Олисе движется к тому, чтобы стать лучшим в мире, он превосходит Ямаля»",
-      "url": "https://www.sport-express.ru/football/germany/news/chlen-pravleniya-bavarii-heness-olise-dvizhetsya-k-tomu-chtoby-stat-luchshim-v-mire-on-prevoshodit-yamalya-2467092/",
+      "title": "Мбаппе: «5 побед «Реала» подряд ничего не значат. Хотим выигрывать каждый матч»",
+      "url": "https://www.sport-express.ru/football/spain/news/mbappe-otreagiroval-na-pobedu-reala-nad-barselonoy-v-klasiko-v-10-ture-la-ligi-2467387/",
       "source": "Спорт-Экспресс",
-      "hours": 0.5
+      "hours": 0.3
     },
     {
-      "title": "«Ростов» — «Локомотив»: Олусегун удвоил преимущество ростовчан",
-      "url": "https://www.sport-express.ru/football/rfpl/news/rostov-lokomotiv-olusegun-udvoil-preimuschestvo-rostovchan-2467091/",
+      "title": "Капитан «Реала» Вальверде: «Победа над «Барселоной» придаст нам невероятный импульс»",
+      "url": "https://www.sport-express.ru/football/spain/news/valverde-ocenil-pobedu-reala-nad-barselonoy-v-klasiko-10-tura-la-ligi-2467376/",
       "source": "Спорт-Экспресс",
-      "hours": 0.6
+      "hours": 1.3
     },
     {
-      "title": "«Барселона» — «Реал» Мадрид: счет и результат матча Ла Лиги",
-      "url": "https://www.sport-express.ru/football/spain/news/barselona-real-madrid-schet-i-rezultat-matcha-la-ligi-25-oktyabrya-2026-2467002/",
+      "title": "The Telegraph: Дайч может возглавить «Кристал Пэлас» в случае увольнения Сажа",
+      "url": "https://www.sport-express.ru/football/england/news/the-telegraph-daych-mozhet-vozglavit-kristal-pelas-v-sluchae-uvolneniya-sazha-2467367/",
       "source": "Спорт-Экспресс",
-      "hours": 0.8
+      "hours": 2.2
     },
     {
-      "title": "Максименко и Жедсон смогут сыграть за «Спартак» в дерби с ЦСКА после дисквалификаций",
-      "url": "https://www.sport-express.ru/football/news/maksimenko-i-zhedson-smogut-sygrat-za-spartak-v-derbi-s-cska-posle-diskvalifikaciy-2467035/",
+      "title": "Педри о поражении «Барселоны» в класико: «Это всего три очка. Чемпионат не выигрывается одной победой»",
+      "url": "https://www.sport-express.ru/football/spain/news/pedri-prokommentiroval-porazhenie-barselony-ot-reala-v-10-ture-la-ligi-2467369/",
       "source": "Спорт-Экспресс",
-      "hours": 0.8
+      "hours": 2.3
     }
   ]
 }
