@@ -96,6 +96,51 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/26-10-2026-besiktas-basaksehir</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/26-10-2026-fciberia1999-torpedokutaisi</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/26-10-2026-galatasaray-fenerbahce</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/26-10-2026-lokomotivplovdiv-slaviasofia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/26-10-2026-parissaintgermain-lyon</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/26-10-2026-rizespor-trabzonspor</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/26-10-2026-santaclara-benfica</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/26-10-2026-sevilla-osasuna</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/26-10-2026-tecnicouniversitario-mushucrunasc</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/25-10-2026-khabarovsk-vladivostok</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -112,6 +157,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/25-10-2026-salavatufa-barskazan</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/26-10-2026-dynamomoscow-avangardomsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/26-10-2026-newyorkrangers-losangeleskings</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/26-10-2026-tractorchelyabinsk-novosibirsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/26-10-2026-yekaterinburg-barysastana</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
