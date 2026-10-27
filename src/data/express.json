@@ -38,7 +38,10 @@
         "kickoff": "20:30",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "27-10-2026-sassuolo-lazio"
+        "slug": "27-10-2026-sassuolo-lazio",
+        "page": "/football/27-10-2026-sassuolo-lazio",
+        "pick": "Лацио победит",
+        "odd": 2.16
       },
       {
         "home": "Краснодар",
@@ -54,7 +57,10 @@
         "kickoff": "22:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "27-10-2026-asroma-cagliari"
+        "slug": "27-10-2026-asroma-cagliari",
+        "page": "/football/27-10-2026-asroma-cagliari",
+        "pick": "Рома победит",
+        "odd": 1.33
       },
       {
         "home": "Торино",
@@ -62,13 +68,16 @@
         "kickoff": "22:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "27-10-2026-torino-como"
+        "slug": "27-10-2026-torino-como",
+        "page": "/football/27-10-2026-torino-como",
+        "pick": "Комо победит",
+        "odd": 1.7
       },
       {
         "home": "Боруссия",
         "away": "Вердер",
         "kickoff": "22:45",
-        "league": "Germany/DFB Pokal",
+        "league": "Кубок Германии",
         "game": "Футбол",
         "slug": "27-10-2026-borussiadortmund-werderbremen"
       },
