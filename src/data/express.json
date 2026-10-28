@@ -14,7 +14,10 @@
         "kickoff": "20:30",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "28-10-2026-acmilan-bologna"
+        "slug": "28-10-2026-acmilan-bologna",
+        "page": "/football/28-10-2026-acmilan-bologna",
+        "pick": "Милан победит",
+        "odd": 1.71
       },
       {
         "home": "Венеция",
@@ -22,7 +25,10 @@
         "kickoff": "20:30",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "28-10-2026-venezia-inter"
+        "slug": "28-10-2026-venezia-inter",
+        "page": "/football/28-10-2026-venezia-inter",
+        "pick": "Интер победит",
+        "odd": 1.34
       },
       {
         "home": "Парма",
@@ -30,7 +36,10 @@
         "kickoff": "20:30",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "28-10-2026-parma-udinese"
+        "slug": "28-10-2026-parma-udinese",
+        "page": "/football/28-10-2026-parma-udinese",
+        "pick": "Удинезе не проиграет",
+        "odd": 1.4
       },
       {
         "home": "Дженоа",
@@ -38,7 +47,10 @@
         "kickoff": "22:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "28-10-2026-genoa-juventus"
+        "slug": "28-10-2026-genoa-juventus",
+        "page": "/football/28-10-2026-genoa-juventus",
+        "pick": "Ювентус победит",
+        "odd": 1.7
       },
       {
         "home": "Монца",
@@ -46,7 +58,10 @@
         "kickoff": "22:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "28-10-2026-monza-napoli"
+        "slug": "28-10-2026-monza-napoli",
+        "page": "/football/28-10-2026-monza-napoli",
+        "pick": "Наполи не проиграет",
+        "odd": 1.22
       },
       {
         "home": "Абердин",
@@ -54,7 +69,10 @@
         "kickoff": "22:45",
         "league": "Премьер-лига Шотландии",
         "game": "Футбол",
-        "slug": "28-10-2026-aberdeen-falkirk"
+        "slug": "28-10-2026-aberdeen-falkirk",
+        "page": "/football/28-10-2026-aberdeen-falkirk",
+        "pick": "Фолкерк не проиграет",
+        "odd": 1.73
       },
       {
         "home": "Селтик",
@@ -62,7 +80,10 @@
         "kickoff": "22:45",
         "league": "Премьер-лига Шотландии",
         "game": "Футбол",
-        "slug": "28-10-2026-celtic-dundeeutd"
+        "slug": "28-10-2026-celtic-dundeeutd",
+        "page": "/football/28-10-2026-celtic-dundeeutd",
+        "pick": "Селтик победит",
+        "odd": 1.25
       },
       {
         "home": "Данди",
@@ -70,7 +91,10 @@
         "kickoff": "22:45",
         "league": "Премьер-лига Шотландии",
         "game": "Футбол",
-        "slug": "28-10-2026-dundee-kilmarnock"
+        "slug": "28-10-2026-dundee-kilmarnock",
+        "page": "/football/28-10-2026-dundee-kilmarnock",
+        "pick": "Данди не проиграет",
+        "odd": 1.28
       },
       {
         "home": "Ливерпуль",
@@ -78,7 +102,10 @@
         "kickoff": "23:00",
         "league": "Кубок английской лиги",
         "game": "Футбол",
-        "slug": "28-10-2026-liverpool-chelsea"
+        "slug": "28-10-2026-liverpool-chelsea",
+        "page": "/football/28-10-2026-liverpool-chelsea",
+        "pick": "Челси не проиграет",
+        "odd": 1.69
       }
     ]
   },
@@ -96,7 +123,8 @@
         "kickoff": "19:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "28-10-2026-barskazan-avangardomsk"
+        "slug": "28-10-2026-barskazan-avangardomsk",
+        "page": "/hockey/28-10-2026-barskazan-avangardomsk"
       },
       {
         "home": "Динамо",
@@ -104,7 +132,8 @@
         "kickoff": "19:10",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "28-10-2026-dinamominsk-barysastana"
+        "slug": "28-10-2026-dinamominsk-barysastana",
+        "page": "/hockey/28-10-2026-dinamominsk-barysastana"
       },
       {
         "home": "ЦСКА",
@@ -112,7 +141,8 @@
         "kickoff": "19:30",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "28-10-2026-cskamoscow-tractorchelyabinsk"
+        "slug": "28-10-2026-cskamoscow-tractorchelyabinsk",
+        "page": "/hockey/28-10-2026-cskamoscow-tractorchelyabinsk"
       },
       {
         "home": "Динамо",
@@ -120,7 +150,8 @@
         "kickoff": "19:30",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "28-10-2026-dynamomoscow-khabarovsk"
+        "slug": "28-10-2026-dynamomoscow-khabarovsk",
+        "page": "/hockey/28-10-2026-dynamomoscow-khabarovsk"
       }
     ]
   },

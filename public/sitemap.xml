@@ -156,6 +156,51 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/28-10-2026-aberdeen-falkirk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-10-2026-acmilan-bologna</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-10-2026-celtic-dundeeutd</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-10-2026-dundee-kilmarnock</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-10-2026-genoa-juventus</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-10-2026-liverpool-chelsea</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-10-2026-monza-napoli</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-10-2026-parma-udinese</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/28-10-2026-venezia-inter</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/25-10-2026-khabarovsk-vladivostok</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -192,6 +237,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/26-10-2026-yekaterinburg-barysastana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/28-10-2026-barskazan-avangardomsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/28-10-2026-cskamoscow-tractorchelyabinsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/28-10-2026-dinamominsk-barysastana</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/28-10-2026-dynamomoscow-khabarovsk</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
