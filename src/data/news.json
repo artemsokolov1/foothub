@@ -1,36 +1,36 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Томский КДВ объявил о прекращении существования",
-      "url": "https://www.sport-express.ru/football/rus_d2/news/tomskiy-kdv-obyavil-o-prekraschenii-suschestvovaniya-2467884/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.4
-    },
-    {
-      "title": "На экс-руководителя российских судей написали анонимную жалобу",
-      "url": "https://www.sport-express.ru/football/foreign/news/na-eks-rukovoditelya-rossiyskih-sudey-napisali-anonimnuyu-zhalobu-2467881/",
+      "title": "TEAMtalk: «Челси» интересуется полузащитником «Брайтона» Айяри",
+      "url": "https://www.sport-express.ru/football/england/news/poluzaschitnik-braytona-ayyari-mozhet-pereyti-v-chelsi-2468172/",
       "source": "Спорт-Экспресс",
       "hours": 0.6
     },
     {
-      "title": "«Тоттенхэм» поздравил Кейна с получением «Золотого мяча» — 2026",
-      "url": "https://www.sport-express.ru/football/germany/news/tottenhem-pozdravil-keyna-s-polucheniem-zolotogo-myacha-2026-2467876/",
+      "title": "FONBET Кубок России, расписание и результаты 27-29 октября: ЦСКА — «Локомотив», «Краснодар» победил «Динамо»",
+      "url": "https://www.sport-express.ru/football/rus_cup/news/kubok-rossii-raspisanie-i-rezultaty-krasnodar-dinamo-cska-lokomotiv-spartak-rubin-i-drugie-matchi-27-29-oktyabrya-2026-video-golov-2467773/",
       "source": "Спорт-Экспресс",
-      "hours": 1.0
+      "hours": 1.6
     },
     {
-      "title": "AS: китайское телевидение приостановило показ Ла лиги из-за слов Мбаппе",
-      "url": "https://www.sport-express.ru/football/spain/news/as-kitayskoe-televidenie-priostanovilo-pokaz-la-ligi-iz-za-slov-mbappe-2467865/",
+      "title": "Карвахаль: «Мы с Кейном одного возраста, и он достоин «Золотого мяча»",
+      "url": "https://www.sport-express.ru/football/foreign/news/daniel-karvahal-kommentariy-po-zolotomu-myachu-harri-keyna-v-2026-godu-2468137/",
       "source": "Спорт-Экспресс",
-      "hours": 1.4
+      "hours": 1.6
     },
     {
-      "title": "Спортивный директор «Ньюкасла» Уилсон: «Амарал пользуется большим уважением в европейском футболе»",
-      "url": "https://www.sport-express.ru/football/england/news/v-nyukasle-obyasnili-naznachenie-tomasha-amarala-glavnym-skautom-2467866/",
+      "title": "Карвахаль: «Скоро снова увидим неудержимого Винисиуса Жуниора»",
+      "url": "https://www.sport-express.ru/football/spain/news/daniel-karvahal-kommentariy-po-igre-vinisiusa-zhuniora-za-real-2468138/",
       "source": "Спорт-Экспресс",
-      "hours": 1.5
+      "hours": 3.1
+    },
+    {
+      "title": "Карвахаль объяснил, почему Серхио Рамос не перейдет в «Хетафе»",
+      "url": "https://www.sport-express.ru/football/spain/news/karvahal-obyasnil-pochemu-serhio-ramos-ne-pereydet-v-hetafe-2468136/",
+      "source": "Спорт-Экспресс",
+      "hours": 4.5
     }
   ]
 }

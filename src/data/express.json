@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "football": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,90 +9,81 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Черно Море",
-        "away": "Септември",
-        "kickoff": "18:00",
-        "league": "Первая лига Болгарии",
-        "game": "Футбол",
-        "slug": "27-10-2026-chernomorevarna-septemvrisofia"
-      },
-      {
-        "home": "Факел",
-        "away": "Ахмат",
-        "kickoff": "18:00",
-        "league": "Кубок России",
-        "game": "Футбол",
-        "slug": "27-10-2026-fakel-akhmat"
-      },
-      {
-        "home": "Фамаликан U23",
-        "away": "Униан Лейрия U23",
-        "kickoff": "18:00",
-        "league": "Лига Ревеласан U23",
-        "game": "Футбол",
-        "slug": "27-10-2026-famalicaou23-uniaoleiriau23"
-      },
-      {
-        "home": "Сассуоло",
-        "away": "Лацио",
+        "home": "Милан",
+        "away": "Болонья",
         "kickoff": "20:30",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "27-10-2026-sassuolo-lazio",
-        "page": "/football/27-10-2026-sassuolo-lazio",
-        "pick": "Лацио победит",
-        "odd": 2.16
+        "slug": "28-10-2026-acmilan-bologna"
       },
       {
-        "home": "Краснодар",
-        "away": "Динамо",
+        "home": "Венеция",
+        "away": "Интер",
         "kickoff": "20:30",
-        "league": "Кубок России",
+        "league": "Серия А",
         "game": "Футбол",
-        "slug": "27-10-2026-fckrasnodar-dynamo"
+        "slug": "28-10-2026-venezia-inter"
       },
       {
-        "home": "Рома",
-        "away": "Кальяри",
+        "home": "Парма",
+        "away": "Удинезе",
+        "kickoff": "20:30",
+        "league": "Серия А",
+        "game": "Футбол",
+        "slug": "28-10-2026-parma-udinese"
+      },
+      {
+        "home": "Дженоа",
+        "away": "Ювентус",
         "kickoff": "22:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "27-10-2026-asroma-cagliari",
-        "page": "/football/27-10-2026-asroma-cagliari",
-        "pick": "Рома победит",
-        "odd": 1.33
+        "slug": "28-10-2026-genoa-juventus"
       },
       {
-        "home": "Торино",
-        "away": "Комо",
+        "home": "Монца",
+        "away": "Наполи",
         "kickoff": "22:45",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "27-10-2026-torino-como",
-        "page": "/football/27-10-2026-torino-como",
-        "pick": "Комо победит",
-        "odd": 1.7
+        "slug": "28-10-2026-monza-napoli"
       },
       {
-        "home": "Боруссия",
-        "away": "Вердер",
+        "home": "Абердин",
+        "away": "Фолкерк",
         "kickoff": "22:45",
-        "league": "Кубок Германии",
+        "league": "Премьер-лига Шотландии",
         "game": "Футбол",
-        "slug": "27-10-2026-borussiadortmund-werderbremen"
+        "slug": "28-10-2026-aberdeen-falkirk"
       },
       {
-        "home": "Флитвуд Таун",
-        "away": "Арсенал",
+        "home": "Селтик",
+        "away": "Данди Юнайтед",
+        "kickoff": "22:45",
+        "league": "Премьер-лига Шотландии",
+        "game": "Футбол",
+        "slug": "28-10-2026-celtic-dundeeutd"
+      },
+      {
+        "home": "Данди",
+        "away": "Килмарнок",
+        "kickoff": "22:45",
+        "league": "Премьер-лига Шотландии",
+        "game": "Футбол",
+        "slug": "28-10-2026-dundee-kilmarnock"
+      },
+      {
+        "home": "Ливерпуль",
+        "away": "Челси",
         "kickoff": "23:00",
         "league": "Кубок английской лиги",
         "game": "Футбол",
-        "slug": "27-10-2026-fleetwoodtown-arsenal"
+        "slug": "28-10-2026-liverpool-chelsea"
       }
     ]
   },
   "hockey": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -100,41 +91,41 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Салават Юлаев",
-        "away": "Сочи",
-        "kickoff": "17:00",
+        "home": "Ак Барс",
+        "away": "Авангард",
+        "kickoff": "19:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "27-10-2026-salavatufa-sochi"
+        "slug": "28-10-2026-barskazan-avangardomsk"
       },
       {
-        "home": "Лада",
-        "away": "Адмирал",
-        "kickoff": "18:00",
+        "home": "Динамо",
+        "away": "Барыс",
+        "kickoff": "19:10",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "27-10-2026-lada-vladivostok"
+        "slug": "28-10-2026-dinamominsk-barysastana"
       },
       {
-        "home": "СКА",
-        "away": "Нижний Новгород",
+        "home": "ЦСКА",
+        "away": "Трактор",
         "kickoff": "19:30",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "27-10-2026-skastpetersburg-nizhnynovgorod"
+        "slug": "28-10-2026-cskamoscow-tractorchelyabinsk"
       },
       {
-        "home": "Нефтехимик",
-        "away": "Металлург",
+        "home": "Динамо",
+        "away": "СКА-Хабаровск",
         "kickoff": "19:30",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "27-10-2026-niznekamsk-magnitogorsk"
+        "slug": "28-10-2026-dynamomoscow-khabarovsk"
       }
     ]
   },
   "esports": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "kind": "esports",
     "slug": "",
     "source": "api-football",
