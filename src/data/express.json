@@ -45,7 +45,7 @@
       },
       {
         "home": "Касымпаша",
-        "away": "Чорлуспор 1947",
+        "away": "Чорлуспор",
         "kickoff": "18:00",
         "league": "Кубок Турции",
         "game": "Футбол",
@@ -108,7 +108,8 @@
         "kickoff": "15:30",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "29-10-2026-novosibirsk-magnitogorsk"
+        "slug": "29-10-2026-novosibirsk-magnitogorsk",
+        "page": "/hockey/29-10-2026-novosibirsk-magnitogorsk"
       },
       {
         "home": "Екатеринбург",
@@ -116,8 +117,7 @@
         "kickoff": "17:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "29-10-2026-yekaterinburg-nizhnynovgorod",
-        "page": "/hockey/29-10-2026-yekaterinburg-nizhnynovgorod"
+        "slug": "29-10-2026-yekaterinburg-nizhnynovgorod"
       },
       {
         "home": "Череповец",
@@ -125,15 +125,17 @@
         "kickoff": "19:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "29-10-2026-cherepovets-spartakmoscow"
+        "slug": "29-10-2026-cherepovets-spartakmoscow",
+        "page": "/hockey/29-10-2026-cherepovets-spartakmoscow"
       },
       {
-        "home": "Локомотив Ярославль",
+        "home": "Локомотив",
         "away": "Сочи",
         "kickoff": "19:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "29-10-2026-lokomotivyaroslavl-sochi"
+        "slug": "29-10-2026-lokomotivyaroslavl-sochi",
+        "page": "/hockey/29-10-2026-lokomotivyaroslavl-sochi"
       }
     ]
   },
