@@ -201,6 +201,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/29-10-2026-alsalt-aljazeera</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-10-2026-baltika-zenit</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-10-2026-cskamoscow-lokomotiv</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/29-10-2026-frosinone-lecce</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/25-10-2026-khabarovsk-vladivostok</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -257,6 +277,11 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/28-10-2026-dynamomoscow-khabarovsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/29-10-2026-yekaterinburg-nizhnynovgorod</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
