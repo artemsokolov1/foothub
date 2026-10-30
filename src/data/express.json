@@ -25,7 +25,10 @@
         "kickoff": "18:00",
         "league": "Лига 3",
         "game": "Футбол",
-        "slug": "30-10-2026-gonio-meranitbilisi"
+        "slug": "30-10-2026-gonio-meranitbilisi",
+        "page": "/football/30-10-2026-gonio-meranitbilisi",
+        "pick": "Гонио не проиграет",
+        "odd": 1.31
       },
       {
         "home": "Коньяспор",
@@ -120,7 +123,8 @@
         "kickoff": "18:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "30-10-2026-lada-avangardomsk"
+        "slug": "30-10-2026-lada-avangardomsk",
+        "page": "/hockey/30-10-2026-lada-avangardomsk"
       },
       {
         "home": "Череповец",
@@ -131,12 +135,13 @@
         "slug": "30-10-2026-cherepovets-spartakmoscow"
       },
       {
-        "home": "Барс",
-        "away": "Хабаровск",
+        "home": "Ак Барс",
+        "away": "Амур",
         "kickoff": "19:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "30-10-2026-barskazan-khabarovsk"
+        "slug": "30-10-2026-barskazan-khabarovsk",
+        "page": "/hockey/30-10-2026-barskazan-khabarovsk"
       },
       {
         "home": "Динамо",
@@ -144,7 +149,8 @@
         "kickoff": "19:10",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "30-10-2026-dinamominsk-tractorchelyabinsk"
+        "slug": "30-10-2026-dinamominsk-tractorchelyabinsk",
+        "page": "/hockey/30-10-2026-dinamominsk-tractorchelyabinsk"
       }
     ]
   },
