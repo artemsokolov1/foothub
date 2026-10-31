@@ -3,34 +3,34 @@
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "Фернандес: «В Москве -30, а в Аргентине +40. Во втором тайме ног не чувствуешь»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/leandro-fernandes-kommentariy-byvshego-zaschitnika-dinamo-ob-igre-v-moskve-2469306/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.2
-    },
-    {
-      "title": "Источник: «Бешикташ» готов составить конкуренцию «Галатасараю» в борьбе за Кисляка",
-      "url": "https://www.sport-express.ru/football/rfpl/news/beshiktash-serezno-zainteresovan-v-poluzaschitnike-cska-matvee-kislyake-2469305/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.4
-    },
-    {
-      "title": "Фернандес рассказал, что футболисты «Динамо» не узнали его: «Я сильно изменился»",
-      "url": "https://www.sport-express.ru/football/rfpl/news/leandro-fernandes-rasskazal-chto-futbolisty-dinamo-ne-uznali-ego-2469291/",
+      "title": "«Рубин» и «Факел» объявили стартовые составы на матч 13-го тура РПЛ",
+      "url": "https://www.sport-express.ru/football/rfpl/news/rubin-fakel-startovye-sostavy-komand-na-match-13-tura-rpl-31-oktyabrya-2026-2469386/",
       "source": "Спорт-Экспресс",
       "hours": 0.5
     },
     {
-      "title": "«Милан» — «Интер»: во сколько начало матча Серии А",
-      "url": "https://www.sport-express.ru/football/news/milan-inter-vo-skolko-nachalo-matcha-serii-a-gde-smotret-translyaciyu-31-oktyabrya-2026-2469298/",
+      "title": "Прокуратура Брюсселя требует два года тюрьмы для экс-полузащитника сборной Бельгии Раджи Наингголана",
+      "url": "https://www.sport-express.ru/football/foreign/news/prokuratura-bryusselya-trebuet-dva-goda-tyurmy-dlya-eks-poluzaschitnika-sbornoy-belgii-radzhi-nainggolana-2469384/",
       "source": "Спорт-Экспресс",
-      "hours": 0.6
+      "hours": 0.9
     },
     {
-      "title": "Тренер сборной России U-15 Первушин: «То, что говорил Венгер, близко к тому, что мы говорим ребятам»",
-      "url": "https://www.sport-express.ru/football/juniors/news/denis-pervushin-kommentariy-starshego-trenera-sbornoy-rossii-do-15-let-ob-obschenii-s-arsenom-vengerom-v-baku-2469289/",
+      "title": "Семин — о дерби: «Этот матч для «Локомотива» даже важнее, чем для «Спартака»»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/yuriy-semin-podelilsya-ozhidaniyami-ot-derbi-lokomotiv-spartak-2469372/",
       "source": "Спорт-Экспресс",
-      "hours": 0.7
+      "hours": 1.3
+    },
+    {
+      "title": "Вратарь «ПСЖ» Сафонов — о победе на «Гавром»: «Очередная победа в копилку! Дальше — матч ЛЧ»",
+      "url": "https://www.sport-express.ru/football/france/news/vratar-pszh-matvey-safonov-podelilsya-vpechatleniyami-ot-proshedshego-matcha-9-tura-chempionata-francii-protiv-gavra-2469379/",
+      "source": "Спорт-Экспресс",
+      "hours": 1.3
+    },
+    {
+      "title": "Семин: «Желаю ли Батракову перейти в топ-клуб? Он уже в нем»",
+      "url": "https://www.sport-express.ru/football/turkey/news/yuriy-semin-kommentariy-o-tom-chto-skauty-liverpulya-nablyudali-za-alekseem-batrakovym-na-matche-ligi-chempionov-2469371/",
+      "source": "Спорт-Экспресс",
+      "hours": 1.5
     }
   ]
 }

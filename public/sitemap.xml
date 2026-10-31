@@ -266,7 +266,42 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/31-10-2026-acmilan-inter</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-10-2026-bayernmunchen-borussiadortmund</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-10-2026-bournemouth-leeds</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-10-2026-brentford-nottinghamforest</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-10-2026-chelsea-manchesterunited</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-10-2026-manchestercity-brighton</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/31-10-2026-rodinamoskva-fckrasnodar</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/31-10-2026-tottenham-crystalpalace</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -362,6 +397,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/30-10-2026-lada-avangardomsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/31-10-2026-bostonbruins-chicagoblackhawks</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/31-10-2026-detroitredwings-stlouisblues</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/31-10-2026-nashvillepredators-tampabaylightning</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/31-10-2026-yekaterinburg-magnitogorsk</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
