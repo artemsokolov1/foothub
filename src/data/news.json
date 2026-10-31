@@ -1,36 +1,36 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "«Коньяспор» — «Галатасарай»: прогноз и коэффициенты на матч",
-      "url": "https://www.sport-express.ru/football/turkey/news/konyaspor-galatasaray-prognoz-stavka-i-koefficient-na-match-chempionata-turcii-30-oktyabrya-2026-2468976/",
+      "title": "Фернандес: «В Москве -30, а в Аргентине +40. Во втором тайме ног не чувствуешь»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/leandro-fernandes-kommentariy-byvshego-zaschitnika-dinamo-ob-igre-v-moskve-2469306/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.2
+    },
+    {
+      "title": "Источник: «Бешикташ» готов составить конкуренцию «Галатасараю» в борьбе за Кисляка",
+      "url": "https://www.sport-express.ru/football/rfpl/news/beshiktash-serezno-zainteresovan-v-poluzaschitnike-cska-matvee-kislyake-2469305/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.4
+    },
+    {
+      "title": "Фернандес рассказал, что футболисты «Динамо» не узнали его: «Я сильно изменился»",
+      "url": "https://www.sport-express.ru/football/rfpl/news/leandro-fernandes-rasskazal-chto-futbolisty-dinamo-ne-uznali-ego-2469291/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.5
+    },
+    {
+      "title": "«Милан» — «Интер»: во сколько начало матча Серии А",
+      "url": "https://www.sport-express.ru/football/news/milan-inter-vo-skolko-nachalo-matcha-serii-a-gde-smotret-translyaciyu-31-oktyabrya-2026-2469298/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.6
+    },
+    {
+      "title": "Тренер сборной России U-15 Первушин: «То, что говорил Венгер, близко к тому, что мы говорим ребятам»",
+      "url": "https://www.sport-express.ru/football/juniors/news/denis-pervushin-kommentariy-starshego-trenera-sbornoy-rossii-do-15-let-ob-obschenii-s-arsenom-vengerom-v-baku-2469289/",
       "source": "Спорт-Экспресс",
       "hours": 0.7
-    },
-    {
-      "title": "Кардинале подтвердил информацию о переговорах о покупке доли в «Аль-Насре»",
-      "url": "https://www.sport-express.ru/football/italy/news/kardinale-podtverdil-informaciyu-o-peregovorah-o-pokupke-doli-v-al-nasre-2469033/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.0
-    },
-    {
-      "title": "Football Insider: «Арсенал» и «МЮ» поборются за Тресольди из «Брюгге»",
-      "url": "https://www.sport-express.ru/football/transfers/news/football-insider-arsenal-i-myu-poboryutsya-za-tresoldi-iz-bryugge-2469030/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.3
-    },
-    {
-      "title": "Камачо — о скандале вокруг Мбаппе: «Китайцы считают себя хозяевами мира во всех отношениях»",
-      "url": "https://www.sport-express.ru/football/spain/news/byvshiy-glavnyy-trener-sbornoy-kitaya-hose-antonio-kamacho-otreagiroval-na-skandal-vokrug-kiliana-mbappe-2469028/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.4
-    },
-    {
-      "title": "Организаторы «Золотого мяча» извинились перед Румменигге за ошибку в официальном видео",
-      "url": "https://www.sport-express.ru/football/foreign/news/organizatory-zolotogo-myacha-izvinilis-pered-rummenigge-za-oshibku-v-oficialnom-video-2469019/",
-      "source": "Спорт-Экспресс",
-      "hours": 1.9
     }
   ]
 }

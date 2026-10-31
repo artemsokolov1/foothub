@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "football": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "kind": "football",
     "slug": "",
     "source": "api-football",
@@ -9,108 +9,84 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Арсенал",
-        "away": "БАТЭ",
+        "home": "Челси",
+        "away": "Манчестер Юнайтед",
+        "kickoff": "15:30",
+        "league": "Английская Премьер-лига",
+        "game": "Футбол",
+        "slug": "31-10-2026-chelsea-manchesterunited"
+      },
+      {
+        "home": "Манчестер Сити",
+        "away": "Брайтон",
         "kickoff": "18:00",
-        "league": "Премьер-лига Беларуси",
+        "league": "Английская Премьер-лига",
         "game": "Футбол",
-        "slug": "30-10-2026-arsenal-bateborisov",
-        "page": "/football/30-10-2026-arsenal-bateborisov",
-        "pick": "БАТЭ не проиграет",
-        "odd": 1.33
+        "slug": "31-10-2026-manchestercity-brighton"
       },
       {
-        "home": "Гонио",
-        "away": "Мерани",
+        "home": "Борнмут",
+        "away": "Лидс",
         "kickoff": "18:00",
-        "league": "Лига 3",
+        "league": "Английская Премьер-лига",
         "game": "Футбол",
-        "slug": "30-10-2026-gonio-meranitbilisi",
-        "page": "/football/30-10-2026-gonio-meranitbilisi",
-        "pick": "Гонио не проиграет",
-        "odd": 1.31
+        "slug": "31-10-2026-bournemouth-leeds"
       },
       {
-        "home": "Коньяспор",
-        "away": "Галатасарай",
-        "kickoff": "20:00",
-        "league": "Турецкая Суперлига",
+        "home": "Брентфорд",
+        "away": "Ноттингем Форест",
+        "kickoff": "18:00",
+        "league": "Английская Премьер-лига",
         "game": "Футбол",
-        "slug": "30-10-2026-konyaspor-galatasaray",
-        "page": "/football/30-10-2026-konyaspor-galatasaray",
-        "pick": "Галатасарай победит",
-        "odd": 1.55
+        "slug": "31-10-2026-brentford-nottinghamforest"
       },
       {
-        "home": "Гавр",
-        "away": "ПСЖ",
-        "kickoff": "21:00",
-        "league": "Лига 1",
+        "home": "Родина",
+        "away": "Краснодар",
+        "kickoff": "19:45",
+        "league": "Российская Премьер-лига",
         "game": "Футбол",
-        "slug": "30-10-2026-lehavre-parissaintgermain",
-        "page": "/football/30-10-2026-lehavre-parissaintgermain",
-        "pick": "ПСЖ победит",
-        "odd": 1.25
+        "slug": "31-10-2026-rodinamoskva-fckrasnodar",
+        "page": "/football/31-10-2026-rodinamoskva-fckrasnodar",
+        "pick": "Краснодар не проиграет",
+        "odd": 1.2
       },
       {
-        "home": "Ницца",
-        "away": "Ренн",
-        "kickoff": "21:00",
-        "league": "Лига 1",
+        "home": "Тоттенхэм",
+        "away": "Кристал Пэлас",
+        "kickoff": "20:30",
+        "league": "Английская Премьер-лига",
         "game": "Футбол",
-        "slug": "30-10-2026-nice-rennes",
-        "page": "/football/30-10-2026-nice-rennes",
-        "pick": "Ренн не проиграет",
-        "odd": 1.44
+        "slug": "31-10-2026-tottenham-crystalpalace"
       },
       {
-        "home": "Эльферсберг",
-        "away": "Майнц",
-        "kickoff": "22:30",
+        "home": "Бавария",
+        "away": "Боруссия",
+        "kickoff": "20:30",
         "league": "Бундеслига",
         "game": "Футбол",
-        "slug": "30-10-2026-svelversberg-fsvmainz05",
-        "page": "/football/30-10-2026-svelversberg-fsvmainz05",
-        "pick": "Майнц победит",
-        "odd": 2.15
+        "slug": "31-10-2026-bayernmunchen-borussiadortmund"
       },
       {
-        "home": "Вильярреал",
-        "away": "Эспаньол",
+        "home": "Милан",
+        "away": "Интер",
+        "kickoff": "22:45",
+        "league": "Серия А",
+        "game": "Футбол",
+        "slug": "31-10-2026-acmilan-inter"
+      },
+      {
+        "home": "Барселона",
+        "away": "Алавес",
         "kickoff": "23:00",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "30-10-2026-villarreal-espanyol",
-        "page": "/football/30-10-2026-villarreal-espanyol",
-        "pick": "Вильярреал победит",
-        "odd": 1.42
-      },
-      {
-        "home": "Лилль",
-        "away": "Ланс",
-        "kickoff": "23:05",
-        "league": "Лига 1",
-        "game": "Футбол",
-        "slug": "30-10-2026-lille-lens",
-        "page": "/football/30-10-2026-lille-lens",
-        "pick": "Лилль не проиграет",
-        "odd": 1.46
-      },
-      {
-        "home": "Каза Пия",
-        "away": "Спортинг",
-        "kickoff": "23:15",
-        "league": "Примейра-лига",
-        "game": "Футбол",
-        "slug": "30-10-2026-casapia-sportingcp",
-        "page": "/football/30-10-2026-casapia-sportingcp",
-        "pick": "Спортинг победит",
-        "odd": 1.29
+        "slug": "31-10-2026-barcelona-alaves"
       }
     ]
   },
   "hockey": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "kind": "hockey",
     "slug": "",
     "source": "api-football",
@@ -118,44 +94,41 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Лада",
-        "away": "Авангард",
-        "kickoff": "18:00",
+        "home": "Екатеринбург",
+        "away": "Магнитогорск",
+        "kickoff": "15:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "30-10-2026-lada-avangardomsk",
-        "page": "/hockey/30-10-2026-lada-avangardomsk"
+        "slug": "31-10-2026-yekaterinburg-magnitogorsk"
       },
       {
-        "home": "Череповец",
-        "away": "Спартак",
-        "kickoff": "19:00",
-        "league": "KHL",
+        "home": "Бостон Брюинз",
+        "away": "Чикаго Блэкхокс",
+        "kickoff": "20:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "30-10-2026-cherepovets-spartakmoscow"
+        "slug": "31-10-2026-bostonbruins-chicagoblackhawks"
       },
       {
-        "home": "Ак Барс",
-        "away": "Амур",
-        "kickoff": "19:00",
-        "league": "KHL",
+        "home": "Детройт Ред Уингз",
+        "away": "Сент-Луис Блюз",
+        "kickoff": "20:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "30-10-2026-barskazan-khabarovsk",
-        "page": "/hockey/30-10-2026-barskazan-khabarovsk"
+        "slug": "31-10-2026-detroitredwings-stlouisblues"
       },
       {
-        "home": "Динамо",
-        "away": "Трактор",
-        "kickoff": "19:10",
-        "league": "KHL",
+        "home": "Нэшвилл Предаторз",
+        "away": "Тампа-Бэй Лайтнинг",
+        "kickoff": "21:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "30-10-2026-dinamominsk-tractorchelyabinsk",
-        "page": "/hockey/30-10-2026-dinamominsk-tractorchelyabinsk"
+        "slug": "31-10-2026-nashvillepredators-tampabaylightning"
       }
     ]
   },
   "esports": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "kind": "esports",
     "slug": "",
     "source": "api-football",

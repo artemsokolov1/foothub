@@ -266,6 +266,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/31-10-2026-rodinamoskva-fckrasnodar</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/hockey/25-10-2026-khabarovsk-vladivostok</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
