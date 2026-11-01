@@ -41,12 +41,47 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/01-11-2026-eintrachtfrankfurt-hamburgersv</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/01-11-2026-elche-valencia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/01-11-2026-juventus-napoli</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/01-11-2026-lecce-genoa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/01-11-2026-liverpool-arsenal</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/01-11-2026-lokomotiv-spartakmoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/01-11-2026-lyon-angers</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/01-11-2026-parisfc-monaco</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/01-11-2026-racingsantander-realmadrid</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -312,6 +347,26 @@
   </url>
   <url>
     <loc>https://foothub.ru/football/31-10-2026-tottenham-crystalpalace</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/01-11-2026-carolinahurricanes-winnipegjets</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/01-11-2026-dinamominsk-dynamomoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/01-11-2026-nizhnynovgorod-spartakmoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/01-11-2026-shanghai-salavatufa</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

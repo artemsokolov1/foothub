@@ -14,7 +14,10 @@
         "kickoff": "18:15",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "01-11-2026-racingsantander-realmadrid"
+        "slug": "01-11-2026-racingsantander-realmadrid",
+        "page": "/football/01-11-2026-racingsantander-realmadrid",
+        "pick": "Реал Мадрид победит",
+        "odd": 1.22
       },
       {
         "home": "Лион",
@@ -22,7 +25,10 @@
         "kickoff": "19:15",
         "league": "Лига 1",
         "game": "Футбол",
-        "slug": "01-11-2026-lyon-angers"
+        "slug": "01-11-2026-lyon-angers",
+        "page": "/football/01-11-2026-lyon-angers",
+        "pick": "Лион победит",
+        "odd": 1.4
       },
       {
         "home": "Париж",
@@ -30,7 +36,10 @@
         "kickoff": "19:15",
         "league": "Лига 1",
         "game": "Футбол",
-        "slug": "01-11-2026-parisfc-monaco"
+        "slug": "01-11-2026-parisfc-monaco",
+        "page": "/football/01-11-2026-parisfc-monaco",
+        "pick": "Париж не проиграет",
+        "odd": 1.4
       },
       {
         "home": "Ливерпуль",
@@ -49,7 +58,10 @@
         "kickoff": "19:30",
         "league": "Бундеслига",
         "game": "Футбол",
-        "slug": "01-11-2026-eintrachtfrankfurt-hamburgersv"
+        "slug": "01-11-2026-eintrachtfrankfurt-hamburgersv",
+        "page": "/football/01-11-2026-eintrachtfrankfurt-hamburgersv",
+        "pick": "Айнтрахт победит",
+        "odd": 1.56
       },
       {
         "home": "Локомотив",
@@ -57,7 +69,10 @@
         "kickoff": "19:45",
         "league": "Российская Премьер-лига",
         "game": "Футбол",
-        "slug": "01-11-2026-lokomotiv-spartakmoscow"
+        "slug": "01-11-2026-lokomotiv-spartakmoscow",
+        "page": "/football/01-11-2026-lokomotiv-spartakmoscow",
+        "pick": "Спартак не проиграет",
+        "odd": 1.25
       },
       {
         "home": "Лечче",
@@ -65,7 +80,10 @@
         "kickoff": "20:00",
         "league": "Серия А",
         "game": "Футбол",
-        "slug": "01-11-2026-lecce-genoa"
+        "slug": "01-11-2026-lecce-genoa",
+        "page": "/football/01-11-2026-lecce-genoa",
+        "pick": "Дженоа не проиграет",
+        "odd": 1.31
       },
       {
         "home": "Эльче",
@@ -73,7 +91,10 @@
         "kickoff": "20:30",
         "league": "Ла Лига",
         "game": "Футбол",
-        "slug": "01-11-2026-elche-valencia"
+        "slug": "01-11-2026-elche-valencia",
+        "page": "/football/01-11-2026-elche-valencia",
+        "pick": "Валенсия не проиграет",
+        "odd": 1.58
       },
       {
         "home": "Ювентус",
@@ -97,36 +118,40 @@
     "parlays": [],
     "matches": [
       {
-        "home": "Адмирал",
-        "away": "Амур",
-        "kickoff": "10:00",
+        "home": "Нижний Новгород",
+        "away": "Спартак",
+        "kickoff": "17:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "01-11-2026-vladivostok-khabarovsk"
+        "slug": "01-11-2026-nizhnynovgorod-spartakmoscow",
+        "page": "/hockey/01-11-2026-nizhnynovgorod-spartakmoscow"
       },
       {
-        "home": "Новосибирск",
-        "away": "Нефтехимик",
-        "kickoff": "13:30",
+        "home": "Шанхай",
+        "away": "Салават Юлаев",
+        "kickoff": "17:00",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "01-11-2026-novosibirsk-niznekamsk"
+        "slug": "01-11-2026-shanghai-salavatufa",
+        "page": "/hockey/01-11-2026-shanghai-salavatufa"
       },
       {
-        "home": "Сочи",
-        "away": "Авангард",
-        "kickoff": "14:00",
+        "home": "Динамо",
+        "away": "Динамо",
+        "kickoff": "17:10",
         "league": "KHL",
         "game": "Хоккей",
-        "slug": "01-11-2026-sochi-avangardomsk"
+        "slug": "01-11-2026-dinamominsk-dynamomoscow",
+        "page": "/hockey/01-11-2026-dinamominsk-dynamomoscow"
       },
       {
-        "home": "Трактор",
-        "away": "ЦСКА",
-        "kickoff": "14:00",
-        "league": "KHL",
+        "home": "Каролина",
+        "away": "Виннипег",
+        "kickoff": "21:00",
+        "league": "NHL",
         "game": "Хоккей",
-        "slug": "01-11-2026-tractorchelyabinsk-cskamoscow"
+        "slug": "01-11-2026-carolinahurricanes-winnipegjets",
+        "page": "/hockey/01-11-2026-carolinahurricanes-winnipegjets"
       }
     ]
   },
