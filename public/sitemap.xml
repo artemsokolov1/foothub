@@ -41,6 +41,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/01-11-2026-juventus-napoli</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/01-11-2026-liverpool-arsenal</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/24-10-2026-chelsea-tottenham</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
