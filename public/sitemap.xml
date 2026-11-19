@@ -86,6 +86,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://foothub.ru/football/19-11-2026-corinthians-botafogo</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/19-11-2026-gremio-bahia</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/football/19-11-2026-vascodagama-internacional</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://foothub.ru/football/24-10-2026-chelsea-tottenham</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -367,6 +382,21 @@
   </url>
   <url>
     <loc>https://foothub.ru/hockey/01-11-2026-shanghai-salavatufa</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/19-11-2026-barskazan-spartakmoscow</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/19-11-2026-magnitogorsk-tractorchelyabinsk</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://foothub.ru/hockey/19-11-2026-niznekamsk-skastpetersburg</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

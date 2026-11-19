@@ -1,36 +1,36 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-19",
   "source": "Спорт-Экспресс",
   "items": [
     {
-      "title": "«Динамо» Махачкала и «Ростов» назвали составы на матч 13-го тура РПЛ",
-      "url": "https://www.sport-express.ru/football/rfpl/news/dinamo-mahachkala-rostov-startovye-sostavy-na-match-13-tura-rpl-1-noyabrya-2026-2469666/",
+      "title": "ФИФА запустила систему анонимных сообщений судей и футболистов о договорных матчах",
+      "url": "https://www.sport-express.ru/football/foreign/news/fifa-zapustila-sistemu-anonimnyh-soobscheniy-sudey-i-futbolistov-o-dogovornyh-matchah-2476545/",
+      "source": "Спорт-Экспресс",
+      "hours": 0.3
+    },
+    {
+      "title": "Скородумов рассказал, зачем организовал встречу Соболева с арбитром Перезвой",
+      "url": "https://www.sport-express.ru/football/rus_d1/news/skorodumov-rasskazal-zachem-organizoval-vstrechu-soboleva-s-arbitrom-perezvoy-2476541/",
       "source": "Спорт-Экспресс",
       "hours": 0.4
     },
     {
-      "title": "«Оренбург» — ЦСКА: судья Капленков отменил гол Пуэблы после просмотра ВАР",
-      "url": "https://www.sport-express.ru/football/rfpl/news/orenburg-cska-sudya-kaplenkov-otmenil-gol-puebly-posle-prosmotra-var-2469663/",
+      "title": "Скородумов признал, что считал молчание арбитров согласием на получение денег",
+      "url": "https://www.sport-express.ru/football/rus_d1/news/skorodumov-priznal-chto-schital-molchanie-arbitrov-soglasiem-na-poluchenie-deneg-2476540/",
       "source": "Спорт-Экспресс",
-      "hours": 0.5
+      "hours": 0.6
     },
     {
-      "title": "«Сочи» — «Урал»: во сколько начало матча Первой лиги, где смотреть трансляцию",
-      "url": "https://www.sport-express.ru/football/rus_d1/news/sochi-ural-vo-skolko-nachalo-matcha-pervoy-ligi-gde-smotret-translyaciyu-1-noyabrya-2026-2469497/",
+      "title": "Алексей Миранчук: «Не понимаю хайпа вокруг GTA, хотя в детстве все рубились в нее»",
+      "url": "https://www.sport-express.ru/cybersport/esports/news/aleksey-miranchuk-ne-ponimayu-haypa-vokrug-gta-hotya-v-detstve-vse-rubilis-v-nee-2476535/",
       "source": "Спорт-Экспресс",
-      "hours": 0.7
+      "hours": 0.9
     },
     {
-      "title": "«Балтика» — «Акрон»: во сколько начало матча РПЛ, где смотреть трансляцию",
-      "url": "https://www.sport-express.ru/football/rfpl/news/baltika-akron-vo-skolko-nachalo-matcha-rpl-gde-smotret-translyaciyu-1-noyabrya-2026-2469487/",
+      "title": "Скородумов рассказал, как предлагал судье Танашеву два миллиона рублей за помощь «Торпедо»",
+      "url": "https://www.sport-express.ru/football/rus_d1/news/skorodumov-rasskazal-kak-predlagal-sude-tanashevu-dva-milliona-rubley-za-pomosch-torpedo-2476534/",
       "source": "Спорт-Экспресс",
-      "hours": 0.7
-    },
-    {
-      "title": "Министр спорта Оренбургской области надеется, что Ахметзянов останется в клубе до конца сезона",
-      "url": "https://www.sport-express.ru/football/rfpl/news/oleg-pankin-kommentariy-ministra-fizicheskoy-kultury-i-sporta-orenburgskoy-oblasti-o-buduschem-ahmetzyanova-v-orenburge-2469660/",
-      "source": "Спорт-Экспресс",
-      "hours": 0.8
+      "hours": 1.0
     }
   ]
 }
